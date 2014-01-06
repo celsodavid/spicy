@@ -1,0 +1,133 @@
+@CHARSET "UTF-8";
+
+
+html,body { margin:0px; padding:0px; font-family:'calibri'; font-size:12px;  }
+a{ text-decoration:none;}
+ul, li { padding:0px; margin:0px; list-style:none;}
+img { border:none;}
+p { line-height:18px;}
+h1, h2, h3, h4 { font-weight:500;}
+h3 { text-transform:uppercase; font-size:30px; text-align:center; color:#333;  }
+h4 { text-align:center; font-size:30px; text-transform:uppercase; color:#fff; background:#62aab8; width:442px; margin-left:300px;}
+/*---------------------------TOPO------------------------*/
+#header { height:168px; background-color: #ebebeb; padding:1px; position:relative;}
+.conteudo_header { width:1024px;  margin:0 auto;}
+h1.logo { background:url(../images/logo.png) no-repeat left; width:258px; height:94px; margin-top:60px; float:left;}
+h1.logo a { padding:30px 0; display:block; text-indent: -9999px;}
+
+/*-------------------------------- FIM DO TODO---------------------------*/
+
+/*-----------------------------------MENU--------------------------------*/
+
+#menu { position:relative;}
+
+.conteudo_menu {text-transform:uppercase; margin-top:66px; float:left;}
+
+#menu ul { margin-left:200px;}
+#menu ul li.menu_topo { display:inline-table;  padding-right:46px;}
+#menu ul li.menu_topo a { color:#999;  padding:77px 10px 20px 10px;}
+#menu ul li.menu_topo a.shItem:hover {background:#62aab8; color:#fff; }
+#menu ul li.menu_topo a.shMenu{background:#62aab8; color:#fff;}
+#menu ul li.menu_topo a.active{background:#62aab8; color:#fff;}
+#menu ul li.menu_topo ul { display:none; margin-left:0px;}
+#menu ul li:hover.menu_topo ul { display:block;}
+#menu ul li.menu_topo ul li.submenu { margin-top:30px;}
+#menu ul li.menu_topo ul li.submenu a {padding:12px 24px 10px 24px;text-align:center;}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+ #menu ul li.menu_topo ul li.submenu a {padding:10px 26px 10px 24px;text-align:center;}
+}
+#menu ul li.menu_topo ul li.submenu a:hover { color:#fff;  background-color:#545454;}
+ #menu ul li.menu_topo a:hover.subempreendimento { background:url(../images/seta_submenu.png) no-repeat bottom #62aab8;}
+
+/*#menu ul { float:left;  margin-left:219px;}
+
+#menu ul li.menu_topo { display:inline-table; padding-right:46px;}
+
+#menu ul li.menu_topo a { color:#999; padding:97px 10px 20px 10px;}
+
+#menu ul li.menu_topo a:hover { background:#62aab8; color:#fff; }*/
+
+/*---------------------------------FIM DO MENU-------------------------------*/
+
+/*----------------------------------CONTEUDO----------------------------------*/
+
+#conteudo { position:relative;}
+
+.conteudo_geral { width:1024px; margin:0 auto; background:url(../images/background_conteudo.png) no-repeat; margin-top:27px;} 
+
+.img_centralizada { margin-left:28px; margin-top:29px; }
+
+#esquerda { float:left; margin-left:28px; margin-top:68px;  width:437px;  padding:10px 0 40px 0;}
+
+#direita { float:right; margin-top:68px; margin-right:58px; width:437px; padding:10px 0 40px 0; padding-left:50px; border-left:1px #999 dashed;}
+
+h2.titulo { font-size:30px; color:#333333; text-transform:uppercase;}
+
+img.nossaExperiencia { float:left; margin-right:10px;}
+
+p{ color:#666;}
+
+p.sub_titulo { font-size:18px; color:#62aab8; text-transform:uppercase; margin-top:83px; }
+
+/*--------------------------------FIM DO CONTEÚDO--------------------------------*/
+
+
+/*----------BOTÃO------------*/
+
+.botao { margin-top:30px;}
+
+.botao a{ text-decoration:none; color:#FFF; background:#666; padding:7px 20px;}
+
+.botao a:hover { background: #62aab8; color:#FFF;}
+
+/*-------FIM DO BOTÃO---------*/
+
+
+/*--------RODAPÉ-------------*/
+#rodape {width:1024px; margin:0 auto;}
+
+.conteudo_rodape { float:left; margin-top:181px; width:1024px; margin-bottom:50px; padding-top:31px; border-top:1px #999 dashed;}
+
+img.logo_rodape { float:left;}
+
+p.text_rodape { float:right; color:#999;}
+
+/*-----FIM DO RODAPÉ-------*/
+
+/* ------SUB_CONTEUDO---------*/
+#sub_conteudo { position:relative;}
+
+.subconteudos_caixa { padding-top:24px; padding-left:30px;}
+
+h2.subconteudos_titulos { font-size:24px; color:#333; text-transform:uppercase; }
+
+p.text_subconteudo { margin-left:27px; width:898px; color:#333; font-size:14px;}
+
+#empreendimento { float:left; margin-left:28px; margin-top:40px;  width:479px; }
+
+p.sub_tituloempreendimento { background:url(../images/seta_empreendimento.png) no-repeat left; padding-left:15px; font-size:18px; float:left; color:#999;text-transform:uppercase; margin-top:30px;}
+
+.box_localizacao { background:#ebebeb;}
+p.text_small { text-align:center; font-size:20px; color:#333; padding-bottom:20px;}
+
+/*-----------CONTATO --------*/
+
+.email_contato { float:left; margin-right:20px }
+.form_contato{ margin-top:70px;}
+p.text_email {font-size:16px;}
+p.text_email a.link_email {color:#62aab8; margin-left:5px;}
+p.text_email a:hover.link_email {text-decoration:underline;}
+input { width:345px;}
+input, textarea { padding:7px; border:1px solid #ddd; background:#FFF; color:#999; margin-bottom:5px; font-family:'calibri'; font-size:13px}
+button { background:#666666; color:#FFF; border:none; cursor:pointer; padding:5px 20px;}
+
+button:hover { background:#62aab8;}
+
+
+/*p.text_localizacao { font-size:23px;  color:#333; text-transform:uppercase; text-align:center;}
+
+.localizacao { margin-left:28px; margin-top:60px; width:938px;}
+
+#background { background-color:#ebebeb;}
+
+p.text_ background{ width:100px; height:100px; background-color:#0CC;}*/

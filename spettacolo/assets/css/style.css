@@ -1,0 +1,182 @@
+body { margin:0px; padding:0px; font-family:"Times New Roman", Times, serif  font-size: 15px; line-height: 20px; letter-spacing: 2px; /*background: url(.././img/fundo_teste.png) no-repeat;*/ background: url(.././img/fundo_conteudo.jpg) no-repeat;}
+a { text-decoration: none; color: #FFF;}
+ul, li { display:list-item; list-style:none; }
+img{border:none;}
+h2 { color:#900d26;}
+h2.titulo{color:#900d26; text-transform:uppercase; font-size: 30px; font-weight: bold; text-align: center; line-height: 40px; letter-spacing: 1px; background: url(.././img/borda.png) repeat-x top; background: url(.././img/borda.png) repeat-x bottom;padding:25px 0;}
+h3{text-transform:uppercase; letter-spacing: 1px; font-weight: none; font-size:20px; text-align: center; font-weight: 200; background: url(.././img/borda.png) repeat-x center;}	
+h3 span{ padding: 0 15px;background: url(.././img/fundo.jpg)}
+h4 {text-transform:uppercase; letter-spacing: 1px; font-weight: none; font-size:20px; text-align: center; font-weight: 200; background: url(.././img/borda.png) repeat-x center;}	
+h4 span{ padding: 0 15px;background: url(.././img/fundo.jpg)}
+p {font-size: 14px; line-height: 20px; letter-spacing: 1px }
+p.text_loc { width: 800px; margin: 0 auto; text-align: justify;}
+a.btn_mapa img{ margin-top:46px; margin-bottom: 77px; margin-left: 40%}
+label[for="error"]{color: #C00E27; font-weight: bold; display: block; margin-left: 22px; line-height: 20px; font-size: 14px;}
+img {max-width: 100%; }
+a.btn_entrar{background: #000; -moz-opacity:0.88; opacity:0.88; filter:opacity(alpha=88); color:#fff;  position: absolute; margin-left:45%; margin-top: 35%; padding:10px 40px; text-decoration: none; text-transform: uppercase; text-align: center; letter-spacing: 2px; border-radius: 4px }
+/*------------------------------------------------------------------------------------*/
+
+/*TELA INICIAL*/
+section { width: 1024px; height: 533px; margin: 0 auto; }
+img.fundo { margin-left:300px; margin-top: 120px; }
+#entrar { width: 170px; height: 29px; font-size: 15px; color: #FFF; background: url(.././img/bt_entrar.png) repeat; margin-left: 430px; margin-top: 50px;}
+#entrar { border-radius: 5px; text-align: center; padding-top: 8px; }
+#spicy {  float: right; margin-top: 45px;}
+/*CSS GERAL*/
+#geral { width: 1024px; min-height: 860px; margin: 0 auto; background: url(.././img/fundo.jpg) repeat; }
+header {  height: 40px; background: #900d26; padding-top: 2px;}
+header h2 { text-align: center; color: #FFF; margin-top: 9px;  }
+.dt_txt { color: #FFF; text-align: center; padding-top: 17px;}
+.img_sub { width: 6px; position: absolute; margin-left: 107px; margin-top: -5px; }
+nav { width: 218px; margin: 0 auto; border-radius: 5px;}
+nav ul { padding:0px;  margin:0px; margin-top: 20px; position: relative;}
+nav ul li  { padding-bottom: 10px; text-align: center; }
+nav ul li.dt_menu { width: 169px; height: 80px; margin: 0 auto; margin-top: -20px; background: url(.././img/detalhe_menu.png) no-repeat;}
+nav ul li.dt_menu ul.menu {display:none; background: #000;  -moz-opacity:0.88; opacity:0.88; filter:opacity(alpha=88); border-radius: 7px 7px 7px 7px; margin-left: -27px; margin-top: 50px; width: 237px; z-index: 4;}
+nav ul li.dt_menu ul.menu .icon img { margin-left: -9px;}
+nav ul li.dt_menu:hover ul.menu { display:block; }
+nav li.inicio a { padding: 5px 86px; }
+nav li.inicio a:hover { background: #900d26;}
+nav li.projeto a { padding: 5px 81px;  }
+nav li.projeto a:hover { background: #900d26;}
+nav li.localizacao a { padding: 5px 64px;  }
+nav li.localizacao a:hover { background: #900d26;}
+nav li.lazer a { padding: 5px 89px;  }
+nav li.lazer a:hover { background: #900d26;}
+nav li.apartamento a { padding: 5px 45px;  }
+nav li.apartamento a:hover { background: #900d26;}
+nav li.diferenciais a { padding: 5px 28px;  }
+nav li.diferenciais a:hover { background: #900d26;}
+nav li.realizacoes a { padding: 5px 64.5px;  }
+nav li.realizacoes a:hover { background: #900d26;}
+nav ul li.contato { margin-bottom: -15px; }
+nav li.contato a { padding: 5px 80px; }
+nav li.contato a:hover { background: #900d26;}
+#conteudo_geral { width: 1024px; margin-top: -80px; }
+img.logo_geral { margin-left: 72px; margin-top: 32px;}
+img.visite { margin-left: 350px;}
+/*HOME*/
+#conteudo_home { width: 999px; height: 610px; margin:0 auto; margin-bottom: 50px;  margin-top: 30px; overflow-y: scroll;}
+#fachada { float: right; margin-top: -265px;}
+#popup_ap { width: 190px; height: 196px; margin: 35px 0 90px 150px; background: url(.././img/img_pp_home.png) no-repeat; display: block; cursor: pointer;}
+#popup_ap:hover { background: url(.././img/img_pp_home_hover.png) no-repeat;}
+.popup_home, .popup_localizacao, .popup_localizado { background: url(.././img/popup/px_pop.png); height:100%; width: 100%;  position:fixed; top: 0; left: 0;  }
+.img_popup_ap { width: 451px; height: 631px;  position: relative; left: 50%; margin-left: -225px; margin-top: 20px; }
+/*PROJETO*/
+#projeto{ width: 999px; height: 610px; margin:0 auto; margin-bottom: 50px;  margin-top: 30px; overflow-y: scroll;}
+.profissionais { background: url(.././img/borda.png) repeat-x bottom; }
+p.text_projeto { text-align: justify; width: 840px; margin-left: 5%}
+p.nome_profissional{ font-size: 18px; font-weight: bold; letter-spacing:2px;  }
+span.tipo_profissional{ font-size: 16px; font-weight: 200; padding-left: 15px; margin-left:10px; background: url(.././img/traco_projeto.jpg)no-repeat left}
+img.img_profissionais { float:left; margin-right: 15px; border-radius: 4px; border: solid 2px #6E071B;}
+#popup_pj  { width: 190px; height: 196px; margin: 20px 0 90px 180px; background: url(.././img/img_pp_home.png) no-repeat; display: block; cursor: pointer;}
+#popup_pj:hover { background: url(.././img/img_pp_home_hover.png) no-repeat;}
+/*CONTATO*/
+#contato{ width: 999px; height: 610px; margin:0 auto; margin-bottom: 50px;  margin-top: 30px; overflow-y: scroll; }
+#contato_esquerda{ margin-left: 57px; width: 342px; float: left; }
+#contato_direita { width: 190px; height: 189px; float: right; margin-right: 145px; margin-top: 90px; background: url(.././img/atendimento_online.png) no-repeat; }
+#contato_direita:hover { background: url(.././img/atendimento_online_hover.png) no-repeat;}
+input, textarea{ border-radius: 50px; border: 1px #ccc solid; width: 342px; padding:13px 20px; margin-bottom: 5px;  font-family:"Times New Roman", Times, serif; font-size: 14px}
+textarea {height: 158px; border-radius: 20px; margin-top: 3px;  font-family:"Times New Roman", Times, serif;}
+input.status_aviso {display: none}
+button {background: url(../img/btn_enviar.png) no-repeat ; width: 134px; height: 36px; cursor: pointer; border:none; text-indent: -9999px; margin-top: 14px }
+a.btn_atendimentoOnline img{ margin-top: 25%; }
+#contato_esquerda .alert{ border-radius: 4px 4px 4px 4px; height: 20px; margin-bottom: 15px; padding: 15px; width: 100%; }
+#contato_esquerda .alert-success{ background-color: #DFF0D8; border: 1px solid #467403; color: #468847;	}
+#contato_esquerda .alert-error{ background-color: #F2DEDE; border: 1px solid #7e021a; color: #B94A48; }
+#contato_esquerda .alert span.close{ color: #999999; cursor: pointer; padding-left: 91px; }
+/*LOCALIZAÇÃO*/  
+#localizacao { width: 999px; height: 610px; margin:0 auto; margin-bottom: 50px;  margin-top: 30px; overflow-y: scroll; }
+h3 { text-transform:uppercase; letter-spacing: 1px; font-weight: none; font-size:25px; text-align: center; font-weight: 200; background: url(.././img/borda.png) repeat-x center;}	
+h3 span { padding: 0 15px;background: url(.././img/fundo.jpg)}
+p { font-size: 14px; line-height: 20px; letter-spacing: 1px }
+p.text_loc { width: 800px; margin: 0 auto; text-align: justify;}
+#btn_mapa { width: 193px; height: 194px; margin-top:46px; margin-bottom: 77px; margin-left: 40%; background: url(.././img/bt_mapa.png) no-repeat; display: block; cursor: pointer;}
+#btn_mapa:hover { background: url(.././img/bt_mapa_hover.png) no-repeat;}
+.img_popup_lc { width: 950px; height: 530px; position: relative; left: 50%; margin-left: -475px; margin-top: 40px; }
+.img_popup_mapa { width: 765px; height: 635px; position: relative; left: 50%; margin-left: -382.5px; margin-top: 30px;  }
+/*LAZER*/ 
+#lazer { width: 999px; height: 610px; margin:0 auto; margin-bottom: 50px;  margin-top: 30px; overflow-y: scroll; }
+h5 { text-transform:uppercase; letter-spacing: 1px; font-weight: none; font-size:14px; text-align: center; font-weight: 200; background: url(.././img/borda.png) repeat-x center;}	
+h5 span { padding: 0 15px;background: url(.././img/fundo.jpg);}
+div.slide_geral { width:965px; height: 362px; margin:0 auto; }
+#slide { width:684px; height:362px; overflow: hidden; float: left; z-index: 3; }
+ul.lista_slide { position: relative; width:15548px; left:0px; margin-top: 0px; padding: 0px; }
+li.slide { width:684px; float: left;}
+li.slide_esquerda { width:684px; float: left;}
+#mask_esquerda { float: left; width: 140px; height: 362px; overflow: hidden; }
+#mask_direita { float: left; width: 140px; height: 362px; overflow: hidden; }
+img.esq { position: relative; float: left; z-index: 1; margin-top: -190px; margin-left: 103px;}
+img.diret { position: relative; float: right; z-index: 2; margin-top: -190px; margin-right: 104px;}
+.popup_lavandeira { background: url(.././img/popup/px_pop.png); height:100%; width: 100%;  position:fixed; top: 0; left: 0; z-index: 4;}
+.img_popup_slider { width: 950px; height: 625px; position: relative; left: 50%; margin-left: -475px; margin-top: 40px; }
+.popup_fitness { background: url(.././img/popup/px_pop.png); height:100%; width: 100%;  position:fixed; top: 0; left: 0; z-index: 4;}
+.popup_salaofestas { background: url(.././img/popup/px_pop.png); height:100%; width: 100%;  position:fixed; top: 0; left: 0; z-index: 4;}
+.popup_piscina { background: url(.././img/popup/px_pop.png); height:100%; width: 100%;  position:fixed; top: 0; left: 0; z-index: 4;}
+.popup_tenis { background: url(.././img/popup/px_pop.png); height:100%; width: 100%;  position:fixed; top: 0; left: 0; z-index: 4;}
+.popup_churrasqueira { background: url(.././img/popup/px_pop.png); height:100%; width: 100%;  position:fixed; top: 0; left: 0; z-index: 4;}
+.popup_hall { background: url(.././img/popup/px_pop.png); height:100%; width: 100%;  position:fixed; top: 0; left: 0; z-index: 4;}
+.popup_spa { background: url(.././img/popup/px_pop.png); height:100%; width: 100%;  position:fixed; top: 0; left: 0; z-index: 4;}
+/*REALIZAÇÔES*/
+#realizacoes { width: 999px; height: 610px; margin:0 auto; margin-bottom: 50px;  margin-top: 30px; overflow-y: scroll; }
+#historia { width: 965px; float: left;}
+img.logo_realizacoes { margin-left: 35%;}
+#conteudo_esq_um { width: 450px; height: 278px; float: left; margin-top: 10px;  }
+p.txt_real { color: #2c2c2b; font-size: 12px; text-align: justify; margin-top: 0px;}
+#conteudo_diret_dois { width: 453px; height: 278px; float: right; margin-top: 10px;   }
+#conteudo_esq_dois { width: 370px; height: 278px; float: left; margin-top: -15px; }
+#conteudo_meio { width: 205px; height: 268px; float: left;  margin: -10px 10px 0 10px;}
+#conteudo_diret_tres { width: 370px; height: 278px; float: left; margin-top: -15px; }
+p.titulos_obras { width: 965px; float: left; text-align: center; text-transform: uppercase; color: #900D26; font-size: 18px; padding-top: 25px;}
+#obras { width: 965px; height: 530px; float: left; margin-top: 20px;}
+#vertice { width: 450px; height: 255px; float: left; margin-bottom: 20px;}
+#vivere { width: 450px; height: 255px; float: right; margin-bottom: 20px;}
+#terrazze { width: 450px; height: 255px; float: left;}
+#mobilita { width: 450px; height: 255px; float: right;}
+#padrao_obras { width: 142px; float: left; text-align: center; font-size: 12px;}
+p.txt_obras { width: 298px; float: left; font-size: 12px; margin-top: 0px; padding: 5px; text-align: justify; }
+#construire { width: 965px;  float: left; margin-top: 20px;}
+.logo_construire { margin-left: 30%; margin-top: 20px;}
+.txt_construire { text-align: center; }
+p.TT_construire { width: 965px; float: left; text-align: center; text-transform: uppercase; color: #39797F; font-size: 18px; padding-top: 25px;}
+#container_obras { width: 750px; float: left; margin-left: 10%;  }
+#padrao_obras_construire { width: 142px; float: left; text-align: center; margin-left: 20px; font-size: 12px;}
+#registro { width: 750px; margin-left: 10%; float: left; text-align: center; font-size: 10px; margin-top: 20px; margin-bottom: 20px;}
+/*DIFERENCIAIS*/
+#diferenciais { width: 999px; height: 610px; margin:0 auto; margin-bottom: 50px;  margin-top: 30px; overflow-y: scroll;}
+li.text_diferenciais { list-style: none; letter-spacing: 2px; background: url(.././img/icon_diferenciais.png) no-repeat; padding-left: 35px; }
+#diferenciais_esq { width: 420px; float: left; }
+#diferenciais_dir { width: 420px; float: left;  height: 2012px; margin-left: 80px;}
+/*SEU APARTAMETO*/
+#apartamento { width: 999px; height: 610px; margin:0 auto; margin-bottom: 50px;  margin-top: 30px; overflow-y: scroll; }
+/*FOOTER*/
+#footer { width: 965px; margin:0 auto; margin-top: 35px;}
+#footer2 { width: 965px; float: left; margin-top: 50px; }
+#footer3 { width: 945px; float: left; margin-top: 50px;}
+p.text_footer { text-align: center; float: left; margin-left: 17px;  font-size:11px; line-height:15px}
+a.logo_rodape img { margin-top: 20px}
+/*popups sites*/
+.link_externo{ float: left;
+    height: 267px;
+    left: 105px;
+    margin-left: -121px;
+    position: relative;
+    width: 372px; }
+.popup_mob{ border: 8px solid #EDE070;
+    height: 267px;
+    left: 50%;
+    margin-left: -186px;
+    margin-top: -39px;
+    position: absolute;
+    top: 50%;
+    width: 372px; border-radius: 4px; }
+.closed{ background: url(".././img/ico_x.png") no-repeat scroll 0 0 transparent;
+    cursor: pointer;
+    display: block;
+    float: left;
+    height: 15px;
+    left: 354px;
+    position: relative;
+    top: 5px;
+    width: 16px;
+    z-index: 9999; }

@@ -1,0 +1,9 @@
+@CHARSET "UTF-8";
+#geral .main{height: 599px !important;}
+#geral .box{height: 673px !important;}
+#geral .box .content .list .iten2{width: 301px !important;height: 60px !important;}
+#geral .box .content .coluna{width:294px;}
+#geral .box .content .space{margin-right:35px}
+#geral .box .content .dir{float: none;}
+#geral .box .content .photo_texto{margin: -271px 217px 0;}
+#geral .box .content .esq{margin-top:-279px;}
