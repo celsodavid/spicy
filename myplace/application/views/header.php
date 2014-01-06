@@ -13,7 +13,7 @@
 	    		</a>
 	    	</figure>
 		     <ul>
-		     	<li><a href="<?php #echo base_url('realizacoes');?>#" title="Realizações" <?php echo ($menu == 'realizacao') ? 'class="active-realizacao"' : '';?>>realizações</a></li>
+		     	<li><a href="<?php echo base_url('realizacoes');?>" title="Realizações" <?php echo ($menu == 'realizacao') ? 'class="active-realizacao"' : '';?>>realizações</a></li>
 		     	<li><a href="<?php echo base_url('diferenciais-patriani');?>" title="Diferenciais" <?php echo ($menu == 'diferenciais') ? 'class="active-diferenciais"' : '';?>>diferenciais</a></li>
 		     	<li><a href="<?php echo base_url('apartamento');?>" title="Seu Apartamento" <?php echo ($menu == 'seuapartamento') ? 'class="active-seuapartamento"' : '';?>>seu apartamento</a></li>
 		     	<li><a href="<?php echo base_url('lazer');?>" title="Lazer" <?php echo ($menu == 'lazer') ? 'class="active-lazer"' : '';?>>lazer</a></li>
