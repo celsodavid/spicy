@@ -1,0 +1,332 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul, {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/***********************************/
+body { font-family:"kozuka Gothic Pr6N"; margin: 0px; padding: 0px; font-size: 10px; background: url(../img/brilho.jpg) no-repeat #b4272d;}
+section { position: relative;}
+aside { position: relative;}
+footer { position: relative;}
+header { position: relative;}
+#geral { width: 100%; min-width: 1366px; max-width: 1920px;}
+
+/*INDEX*/
+#index_geral { width: 100%; min-width: 1366px; float: left;}
+#index_conteudo { width: 100%; min-width: 1024px; margin: 0 auto;}
+#index_header { width: 100%; min-width: 1024px; height: 222px; background: #B4272D;}
+#index_container { width: 1024px; margin: 0 auto;}
+#index_container h1 { width: 219px; height: 97px; margin: 65px 0 0 65px; float: left; text-indent: -9999px; background:url(../img/happines_logo.png) no-repeat;}
+#index_container aside { float: right; margin: 40px 90px 0 0; color: #FFF; font-weight: 100; text-transform: uppercase; line-height: 50px; letter-spacing: 3px;}
+#index_container h2 { font-size: 4.0em; font-weight: bold;}
+#index_container span { font-size: 2.0em;}
+#index_conteudo { width: 100%; min-width: 1024px; float: left;}
+.box_conteudo { width: 33.330078125%; min-width:341.3px; float: left;}
+.box_conteudo img { max-width: 100%; float: left;}
+footer.index_rodape { width: 100%; min-width: 1024px; float: left; padding: 0; margin: 0; /*background: #153B5B;*/ position: absolute; bottom: 0px;}
+.index_logos_rodape ul { margin: 60px 0 60px 0;}
+.index_logos_rodape figcaption, .logos_rodape figcaption { letter-spacing: 1px;}
+.index_logo_spicy { position: absolute; right: 0; bottom: 0; padding: 15px;}
+
+/*MENU*/
+section.menu { width: 24.4140625%; min-width: 250px; position: absolute; float: left;}
+.menu h1 { width: 219px; height: 97px; margin: 0 auto; text-indent: -9999px; background:url(../img/happines_logo.png) no-repeat;}
+.menu nav { width: 250px; float: left; position: relative; left: 50%; margin: 60px 0 0 -125px;}
+.menu ul { margin-top: 80px; list-style: none; float: left;}
+.menu ul li a { font-size: 1.3em; color: #FFF; line-height: 22px; padding: 30px 0 0 30px; margin-left: 6px; text-decoration:none; float:left; background-position:0 44px;}	
+.menu ul li a:hover { background: url(../img/ico_lista.png) no-repeat; background-position:0 44px; color: #f6dd7a;}	
+.menu span { font-size: 1.8em; text-transform: uppercase; font-weight: bold;}
+.active-home { background: url(../img/ico_lista.png) no-repeat; background-position:0 44px; color: #f6dd7a !important; }
+.active-localizacao { background: url(../img/ico_lista.png) no-repeat; background-position:0 44px; color: #f6dd7a !important; }
+.active-projeto { background: url(../img/ico_lista.png) no-repeat; background-position:0 44px; color: #f6dd7a !important; }
+.active-seu_apartamento { background: url(../img/ico_lista.png) no-repeat; background-position:0 44px; color: #f6dd7a !important; }
+.active-lazer { background: url(../img/ico_lista.png) no-repeat; background-position:0 44px; color: #f6dd7a !important; }
+.active-diferenciais { background: url(../img/ico_lista.png) no-repeat; background-position:0 44px; color: #f6dd7a !important; }
+.active-realizacoes { background: url(../img/ico_lista.png) no-repeat; background-position:0 44px; color: #f6dd7a !important; }
+.active-fale_conosco { background: url(../img/ico_lista.png) no-repeat; background-position:0 44px; color: #f6dd7a !important; }
+
+/*SECTION CONTEUDO*/
+section.conteudo {  width: 75.5859375%; min-width: 774px; float: right; background: #FFF;}
+
+/*TOPO*/
+header.topo { width: 94%; min-width: 751px; margin: 0 3% 40px 3%; float: left;}
+.topo h2, .topo figcaption { color: #1e405e; text-transform: uppercase; letter-spacing: 2px; font-weight: 200;}
+.topo h2 { margin-top: 50px; font-size: 3.5em; line-height: 45px; font-weight: bold;}
+.topo h2.titulo_localizacao { margin-top: 50px; font-size: 2.2em; line-height: 45px; font-weight: bold;}
+.topo figcaption { margin-top: 70px; font-size: 1.8em; line-height: 25px; margin-left: 20px; float: left; color: #1e405e; }
+.topo figcaption a { text-decoration: none;}
+.topo span { font-weight: bold; color: #1e405e;}
+.topo img { margin-top: 30px; float: left;}
+
+/*SECTION DAS PAGINAS*/
+section#home, section#apartamento, section#lazer, section#localizacao, section#projeto, section#conteudo_projeto, section#realizacoes, section#diferenciais,
+ #box_carregando, section#contato, section#contato_sucesso { width: 94%; min-width: 728px; padding: 0 3%; float: left; font-weight: 200;}
+/*IMAGENS EM 100%*/
+#rodape_apartamento img, #rodape_lazer img, #rodape_localizacao img, #rodape_home img, section#home img, section#apartamento img,
+section#lazer img, .imagens_lazer img, .foto_localizacao img, section#projeto img, #rodape_projeto img, section#obras img, #fachada_realizacoes img, #rodape_realizacoes img, 
+ul#construire_lista img, section#foto_diferenciais img, #rodape_diferenciais img, #rodape_contato img  { max-width: 100%;}
+
+/*HOME / PROJETO*/
+section#home, section#projeto { margin-top: 45px;}
+section#home figure, section#projeto figure  { width: 50%; float: left;}
+section#home aside, section#projeto aside { width: 50%; float: right; margin-top: 21%;}
+section#home p, section#projeto p { text-align: center; font-size: 2.5em; color: #1e405e; text-transform: uppercase; line-height: 50px; letter-spacing: 2px;}
+section#home span, section#projeto span { font-weight: bold; color: #1e405e; font-size: 1.8em; line-height: 25px;}
+.foto_home { width: 100%; min-width: 728px; float: right;}
+.foto_home img { max-width: 70%; float: right;}
+#rodape_home { margin-top: -320px; position: relative; padding: 0;}
+
+/*SEU APARTAMENTO*/
+section#apartamento { padding-bottom: 260px;}
+section#apartamento p { font-size: 2.5em; color: #1e405e; text-transform: uppercase; line-height: 50px; letter-spacing: 2px;}
+#apartamento aside.texto_dois { margin: 40px 0 40px 0;}
+section#apartamento aside.texto_dois p { color: #7c1b1f; line-height: 30px; margin-bottom: 20px;}
+section#apartamento aside.texto_dois span { color: #000000; line-height: 20px; font-weight: 200;}
+section#apartamento span { font-size: 1.8em; font-weight: bold; color: #1e405e;}
+section#apartamento figure { margin-bottom: 20px;}
+#rodape_apartamento { margin-top: -320px; position: relative; padding: 0;}
+
+/*LAZER*/
+section#lazer p { font-size: 2.5em; color: #7c1b1f; text-transform: uppercase; line-height: 35px; letter-spacing: 2px; }
+section#lazer aside { margin-bottom: 25px;}
+section#lazer span { color: #000; font-size: 1.8em; line-height: 25px;}
+section#lazer figure { margin-bottom: 20px;}
+section#lazer #box_carregando {display: none;}
+section.fotos_lazer { width: 100%; min-width: 774px; float: left;}
+figure.imagens_lazer { width: 33.33333333333333%; min-width: 231px; float: left;  margin-bottom: -2px;}
+figure.imagens_lazer img.activeImg { display: block; }
+figure.imagens_lazer img.outImg { display: none; }
+figure.imagens_lazer a .activeImg { display: block; }
+figure.imagens_lazer a .outImg { display: none; }
+figure.imagens_lazer a#active .activeImg { display: none; }
+figure.imagens_lazer a#active .outImg { display: block; }
+#rodape_lazer { margin-top: -320px; position: relative; padding: 0;}
+#box_carregando { width: 88%; height: 100%; background: url(../img/fundo_popup.png) repeat; position: absolute; top: 0;}
+#box_carregando img { position: absolute; top: 50%; left: 47%;}
+
+/*LOCALIZAÇÃO*/
+section#localizacao p { color: #000; font-size: 1.8em; line-height: 25px; text-transform: none;}
+section#localizacao span { font-size: 2.5em; color: #7c1b1f; text-transform: uppercase; line-height: 35px; letter-spacing: 2px;}
+.mapa { width: 100%; height: 500px; min-width: 728px; float: left; margin: 10px 0 10px 0;}
+.foto_localizacao { width: 100%; min-width: 774px; float: left;}
+#rodape_localizacao { margin-top: -320px; position: relative; padding: 0;}
+
+/*PROJETO*/
+section#conteudo_projeto { padding-bottom: 100px;}
+section#conteudo_projeto aside p { font-size: 2.5em; color: #7c1b1f; padding: 40px 0 45px 0; text-transform: uppercase; line-height: 35px; letter-spacing: 2px;}
+article.info_arquitetos { float: left; margin-bottom: 45px;}
+article.info_arquitetos figure { font-size: 1.3em; color: #7c1b1f; float: left;}
+article.info_arquitetos figure span, figure p { color: #666666;}
+article.info_arquitetos p { width: 82%; max-width: 680px; line-height: 25px; margin-left: 2%; margin-top: -7px; float: left; font-size: 1.3em;}
+#rodape_projeto { margin-top: -320px; position: relative; padding: 0;}
+
+/*REALIZAÇÕES*/
+section#realizacoes { max-width: 728px; padding-bottom: 210px;}
+section#realizacoes p { font-size: 1.3em; color: #666666; line-height: 20px;}
+#texto_um, #texto_dois { width: 49%; margin-top: 20px; text-align: justify;}
+#texto_um { padding-right: 1%; float: left;}
+#texto_dois { padding-left: 1%; float: right;}
+#texto_tres, #texto_quatro { width: 33%; margin-top: 10px; text-align: justify;}
+#texto_tres { float: left; padding-right: 2%;}
+#texto_quatro { float: right; padding-left: 2%;}
+#fachada_realizacoes { width: 30%; margin-top: 16px; float: left;}
+section#obras { width: 728px; float: left; margin-top: 10px;}
+section#obras h3 { color: #B4272D; text-align: center; text-transform: uppercase; letter-spacing: 2px; font-size: 2.0em; line-height: 45px; font-weight: bold; margin: 20px 0 25px 0;}
+section#obras p { width: 58%; font-size: 1.1em; padding-left: 1%; padding-right: 1%; float: right; text-align: justify;}
+#obras_esquerda { width: 49%; float: left;}
+#obras_direita { width: 49%; float: right;}
+#obras_esquerda figure, #obras_direita figure { width: 40%; max-width: 143px; float: left; margin-top: 5px;}
+#obras_direita figcaption, #obras_esquerda figcaption, ul#construire_lista figcaption { text-transform: uppercase; line-height: 15px; text-align: center; font-size: 1.2em; padding-top: 10px; font-weight: 300;}
+.obras_realizadas { height: 277px; margin-bottom: 15px; position: relative; float: left;}
+section#construire { width: 728px; float: left; margin-top: 10px; border-top: solid 1px #CCC;}
+section#construire p { text-align: justify;}
+section#construire span { font-size: 1.1em; line-height: 15px; text-align: center; float: left;}
+section#construire h6 { color: #39797F; text-align: center; text-transform: uppercase; letter-spacing: 2px; font-size: 1.0em; line-height: 45px; font-weight: bold;}
+section#construire figure { text-align: center; margin: 20px 0;}
+section#construire ul { text-decoration: none; list-style: none;}
+ul#construire_lista li { float: left; margin: 0 15px; width: 150px;}
+#rodape_realizacoes { margin-top: -320px; position: relative; padding: 0;}
+
+/*DIFERENCIAIS*/
+section#diferenciais { max-width: 728px; height: 600px; padding-bottom: 50px; overflow-y: scroll; position: relative; float: left;}
+section#diferenciais h6 { width: 728px; margin: 20px 0 20px 0; float: left; font-size: 2.5em; text-transform: uppercase; color: #981b1e; text-align: center;}
+article#itens_esquerda { float:left;}
+article#itens_direita { float: right;}
+article#itens_esquerda, article#itens_direita { width: 354px; margin-top: 10px;}
+span.itens_esquerda, span.itens_direita { width: 364px; float: left; margin-bottom: 15px; display: block;}
+article#itens_esquerda p, article#itens_direita p { padding-top: 5px; width: 310px; font-size: 1.5em; color: #000; letter-spacing: 2px; float: right; line-height: 17px;}
+span.tt { text-transform: uppercase; color: #000; font-weight: bold;}
+span.st { text-transform: uppercase; color: #ba141a; font-weight: bold; font-size: 0.8em;}
+figure.financiamento, figure.coleta, figure.antena, figure.moto, figure.copa, figure.tomada, figure.vagas, figure.fachada, figure.guarita, figure.interfone,
+figure.alarme, figure.playground, figure.quadra, figure.equipada, figure.area, figure.arquitetura, figure.projeto, figure.torneira, figure.gas, figure.medidores, 
+figure.agua, figure.sensor, figure.elevadores, figure.hall, figure.festas, figure.piscina, figure.churrasqueira, figure.sauna, figure.fitness, figure.airplay, 
+figure.agilitydog, figure.descarga, figure.tubo, figure.madeira, figure.fechadura, figure.granitos, figure.detalhe, figure.pisos, figure.loucas, figure.janela, 
+figure.predio, figure.acess, figure.cozinha, figure.certificada, figure.iluminacao, figure.chuva , figure.chuveiros { height: 42px; width: 42px; float: left; background:url(../img/icons_diferenciais.png) no-repeat;}
+figure.financiamento { background-position: -6px -58px;}
+figure.fachada { background-position: -136px -58px;}
+figure.guarita { background-position: -90px -58px;}
+figure.interfone { background-position: -178px -58px;}
+figure.alarme { background-position: -92px -14px;}
+figure.vagas { background-position: -356px -61px;}
+figure.tomada { background-position: -441px -61px;}
+figure.copa { background-position: -399px -61px;}
+figure.moto { background-position: -135px -211px;}
+figure.antena { background-position: -135px -257px;}
+figure.coleta { background-position: -8px -15px;}
+figure.agua { background-position: -226px -107px;}
+figure.medidores { background-position: -50px -15px;}
+figure.gas { background-position: -315px -107px;}
+figure.torneira { background-position: -50px -15px;}
+figure.projeto { background-position: -50px -60px;}
+figure.arquitetura { background-position: -136px -58px;}
+figure.area { background-position: -401px -106px;}
+figure.equipada { background-position: -136px -106px;}
+figure.quadra { background-position: -181px -257px;}
+figure.playground { background-position: -6px -109px;}
+figure.agilitydog { background-position: -273px -209px;}
+figure.airplay { background-position: -136px -106px;}
+figure.fitness { background-position: -181px -106px;} 
+figure.sauna { background-position: -230px -257px;}
+figure.churrasqueira { background-position: -272px -109px;}
+figure.piscina { background-position: -356px -109px;}
+figure.festas { background-position: -8px -156px;}
+figure.hall { background-position: -50px -156px;}
+figure.elevadores { background-position: -94px -156px;}
+figure.sensor { background-position: -92px -14px;}
+figure.predio { background-position: -221px -158px;}
+figure.janela { background-position: -355px -12px;}
+figure.loucas { background-position: -313px -158px;}
+figure.pisos { background-position: -50px -211px;}
+figure.detalhe { background-position: -357px -158px;}
+figure.granitos { background-position: -399px -158px;}
+figure.fechadura { background-position: -134px -158px;}
+figure.madeira { background-position: -313px -12px;}
+figure.tubo { background-position: -268px -156px;}
+figure.descarga { background-position: -132px -10px;}
+figure.chuveiros { background-position: -5px -210px;}
+figure.chuva { background-position: -180px -14px;}
+figure.iluminacao { background-position: -270px -14px;}
+figure.certificada { background-position: -313px -16px;}
+figure.cozinha { background-position: -221px -15px;}
+figure.acess { background-position: -400px -16px;}
+section#foto_diferenciais { max-width: 728px; float: left; margin-top: 80px;}
+section#foto_diferenciais figure { width: 70%; margin: 0 auto;}
+#rodape_diferenciais { margin-top: -320px; position: relative; padding: 0;}
+
+/*CONTATO*/
+section#contato { max-width: 728px; padding-bottom: 500px; font-weight: 400;}
+form { float: left; margin-top: 50px; font-size: 1.6em; color:#000;}
+form h4 { color: #0e283e; text-transform: uppercase; letter-spacing: 1px; font-size: 2.5em; font-weight: bold; line-height: 50px; float: left; border-bottom: dashed 1px #0e283e; padding-bottom: 20px;}
+#container_01 { width: 728px; float: left; margin-top: 30px; letter-spacing: 1px;}
+
+#container_01 label.statusIdade, #container_01 label.statusEmail, 
+#container_01 label.statusFilhos, #container_01 label.statusTelefone, #container_01 label.statusNome{text-align:right; width: 80px; float: left; padding: 12px 10px}
+#container_01 label.EstadoCivil {text-align:right; width: 90px; margin-right: 5px}
+#container_01 input.statusIdade, #container_01 input.statusEmail, 
+#container_01 input.statusFilhos, #container_01 input.statusTelefone, #container_01 input.statusNome {width: 240px;font-family:"kozuka Gothic Pr6N"; border-radius: 2px; border: 1px solid #0e283e; padding: 6px; color:#0e283e;  }
+#container_01 input.statusIdade {}
+#container_01 select { width: 252px;font-family:"kozuka Gothic Pr6N"; border-radius: 2px; border: 1px solid #0e283e; padding: 5px; color:#0e283e; margin-top: 1px}
+
+
+span.col_esquerda, span.col_direita { width: 364px; display: block;}
+span.col_esquerda { float: left;}
+span.col_direita { float: right;}
+span.col_central { width: 728px; float: left;margin-top: 40px}
+span.box_checkbox { width: 242.6px; float: left; margin-top: 0px; letter-spacing:1px; font-weight: 400;}
+label.titulo_radio {float: left; margin-right: 10px; text-transform: uppercase; color:#7C1B1F;}
+label.titulo_checkbox { width: 728px; float: left; margin-top: -8px; text-transform: uppercase; color:#7C1B1F;}
+textarea { width: 695px; height: 100px; font-family:"kozuka Gothic Pr6N"; border-radius:4px; padding:7px 7px; color:#0e283e; border-bottom:1px solid #0e283e; border-right:1px solid #0e283e; border-top:1px solid #000; border-left:1px solid #000;}
+label.mensagem { margin: 25px 0 20px 0; float: left;}
+button { float: right; cursor: pointer; color: #FFF; padding:10px 30px; font-size: 1.2em; letter-spacing: 1px; border-radius:4px; background: #1a4b73; margin: -2px 16px 0 0; border-bottom:1px solid #000; border-right:1px solid #000; border-top:1px solid #185f99; border-left:1px solid #185f99;}
+button:hover { background: #185f99; border-bottom:1px solid #1a4b73; border-right:1px solid #1a4b73; border-top:1px solid #000; border-left:1px solid #000;}
+
+figure#atendimentonline, figure#atendimentonline img { float: left;}
+figure#atendimentonline span.texto_online { margin: 20px 0 0 20px; font-size: 1.6em; color: #0e283e; font-weight: 600; float: left;}
+figure#atendimentonline span a.texto_online_hover { margin: 5px 0 0 20px; font-size: 1.6em; font-weight: 600; text-decoration: none; color: #d42e35; float: left;}
+figure#atendimentonline span a.texto_online_hover:hover { text-decoration: underline;}
+span.txt_erro { font-size: 0.8em; padding-left: 85px; color: #ef0935; display: block;}
+span.txt_erro_email { font-size: 0.8em; padding-left: 50px; color: #ef0935; display: block;}
+span.txt_erro_patriani { font-size: 0.8em; padding-top: 15px; color: #ef0935; display: block;}
+#rodape_contato { margin-top: -320px; position: relative; padding: 0;}
+
+/*POPUPS*/
+section#popup { width:100%; min-height:100%; background: url(../img/fundo_popup.png) repeat; position:fixed; left:0px; top:0px; z-index: 9999; display: none;}
+.popup_estrura { width:1000px; height:570px; position:absolute; left:50%; top:10%; margin-left: -500px;}
+.popup_estrura img { max-width: 100%; margin-top: 0px;}
+.close_popup { width:50px; height:50px; position:absolute; top: -45px; right: 0px; color:#FFF; z-index:-9999;}
+.detalhe_popup { width:175px; height:166px; position:absolute; bottom: -35px; right: -60px; color:#FFF; z-index: 9999;}
+#popup_localizacao { width: 1000px; background: #FFF; height: 500px; overflow-y: scroll;}
+#popup_conteudo_localizacao { width: 983px; height: 1000px;}
+#popup_conteudo_localizacao img { float: left;}
+#popup_conteudo_localizacao h5 { font-size: 2.5em; color: #981b1e; line-height: 40px; text-transform: uppercase; text-align: center;}
+#popup_conteudo_localizacao p { font-size: 1.4em; text-align: center; letter-spacing: 1px; line-height: 20px;}
+
+/*AVISOS*/
+#contato_sucesso { height: 380px;}
+#contato_sucesso img { float: left; margin-top: 30px;}
+#contato_sucesso p.texto_sucesso { font-size: 3.0em; padding: 150px 120px 0 0; color: #46b04f; text-align: center;}
+#contato_sucesso p.direcionamento { width: 728px; line-height: 25px; margin-top: 30px; font-size: 1.3em; color: #0e283e; float: left; text-align: center;}
+#contato_fail { height: 380px;}
+#contato_fail img { float: left; margin-top: 100px;}
+#contato_fail p.texto_fail { width: 502px; font-size: 3.0em; line-height: 55px; padding: 100px 9px 0 0; color: #D42E35; text-align: center; float: left;}
+#contato_fail p.direcionamento { width: 728px; line-height: 25px; margin-top: 30px; font-size: 1.3em; color: #0e283e; float: left; text-align: center;}
+
+/*FOOTER*/
+footer.rodape { width: 100%; min-width: 1024px; float: left; padding: 0; margin: 0;}
+.logos_rodape { width: 100%; position: absolute; margin-top: -10%;}
+.logos_rodape ul, .index_logos_rodape ul { min-width: 1024px; list-style: none; float: left; position: relative; left: 50%; margin-left: -512px;}
+.logos_rodape ul li, .index_logos_rodape ul li { float: left; text-align: center; color: #FFF; padding: 0 21px;}
+.logo_spicy { position: absolute; right: 0; bottom: 0; padding: 15px;}
+
+/* Hack Chorme */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+ @font-face { font-family: 'kozuka Gothic Pr6N'; src: url('../fonts/KozGoPr6N-Light.otf'); src: url('../fonts/KozGoPr6N-Light.otf');}
+ .menu ul li a { padding: 30px 0 0 24px;}	
+
+ }
+
+/* hack ie10 */
+.ie10 figure.imagens_lazer { width: 33.33333333333333%; min-width: 231px; float: left;  margin-bottom: -6px !important;}
+.ie10 section#diferenciais span { margin-top: 20px; display: block !important;}
+.ie10 span.tt { margin-bottom: -30px; margin-left: 5px; display: block !important;}
+
+
