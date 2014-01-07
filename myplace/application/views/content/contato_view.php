@@ -1,6 +1,6 @@
 <section id="contato">
 	<figure>
-		<img src="<?php echo base_url('assets');?>/img/home.jpg">
+		<a href="" title="Atendimento online" alt="Atendimento online"><img src="<?php echo base_url('assets');?>/img/contato_topo.jpg"></a>
 	</figure>
 
 	<article class="faixa_amarela">

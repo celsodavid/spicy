@@ -115,7 +115,7 @@ class Site extends CI_Controller {
 		$data['description'] = "";
 		$data['keywords'] = "";
 		$data['menu'] = "realizacao";
-		$data['h3'] = "Aqui vai o texto <br> da realizacao";
+		$data['h3'] = "Grandes marcas unidas<br/> para você viver melhor.";
 		
 		$this->load->view('html_header', $data);
 		$this->load->view('header', $data);
@@ -179,7 +179,9 @@ class Site extends CI_Controller {
 			}
 		}
 		else {
-			$view = 'content/contato_view';
+			#$view = 'content/contato_view';
+			#$view = 'content/contato_falha_view';
+			$view = 'content/contato_sucesso_view';
 		}
 		
 		$this->load->view('html_header', $data);

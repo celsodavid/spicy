@@ -6,16 +6,17 @@
 		<title>Mensagem encaminhada pelo website</title>
 	</head>
 	<body>
-    	<?php 
-    		echo $nome,'<br>',
-    			 $telefone,'<br>',
-    			 $civil,'<br>',
-    			 $idade,'<br>',
-    			 $email,'<br>',
-    			 $filhos,'<br>',
-    			 $opcao1,'<br>',
-    			 $mensagem,'<br>',
-    			 '<pre>',print_r($items),'</pre>';
-    	?>
+
+    <p><strong>Nome:</strong> Aline Albrecht da Silva</p>
+    <p><strong>E-mail:</strong> alinealbrecht@hotmail.com</p>
+    <p><strong>Telefone:</strong> (11) 98557-7803</p>
+    <p><strong>Estado civil:</strong> solteira</p>
+    <p><strong>Idade:</strong> 27</p>
+    <p><strong>Filhos:</strong> 0</p>
+    <p><strong>Conhece a Incorporadora Patriani:</strong> Sim</p>
+    <p><strong>Como ficou sabendo sobre o empreendimento:</strong> Internet; Folheto; 
+    Indicação</p>
+    <p><strong>Mensagem:</strong> Gostaria de saber o preço do apartamento com 47m²</p>
+    
 	</body>
 </html>

@@ -51,13 +51,13 @@ nav ul li a:hover { color: #FFF; background: #000; filter:alpha(opacity=20); opa
 .active-seuapartamento { color: #FFF; background: #000; filter:alpha(opacity=20); opacity:.2;}
 
 /*ESTRUTURAS BASES*/
-section#home, section#localizacao, section#projeto, section#contato, section#lazer, section#apartamento, section#diferenciais { width: 100%; min-width: 1345px; float: left;}
+section#home, section#localizacao, section#projeto, section#contato, section#lazer, section#apartamento, section#diferenciais, section#realizacao, section#contatoErro, section#contatoOk { width: 100%; min-width: 1345px; float: left;}
 
 /*IMAGEM EXPANSIVA BASE*/
-section#home img, section#localizacao img, section#projeto img, section#contato img, section#apartamento img, section#diferenciais img { max-width: 100%; padding: 0; margin: 0;}
+section#home img, section#localizacao img, section#projeto img, section#contato img, section#apartamento img, section#diferenciais img, section#realizacao img { max-width: 100%; padding: 0; margin: 0;}
 
 /*ASIDE BASE DAS PAGINAS*/
-section#home aside, section#localizacao aside, section#projeto aside, section#contato aside, section#lazer aside, section#apartamento aside { width: 850px; float: left; position: relative; left: 50%; margin-left: -425px}
+section#home aside, section#localizacao aside, section#projeto aside, section#contato aside, section#lazer aside, section#apartamento aside, section#realizacao aside, section#contatoErro aside, section#contatoOk aside { width: 850px; float: left; position: relative; left: 50%; margin-left: -425px}
 
 /*H4 DO ASIDE*/
 section#home aside h4, section#localizacao aside h4, section#projeto aside h4, section#contato aside h4, section#lazer aside h4 { font-size: 1.8em; letter-spacing: 1px; color:#993333;}
@@ -125,9 +125,35 @@ article#conteudo_diferenciais { width: 1320px; position: relative; left: 50%; ma
 p#titulo_patriani_diferenciais { margin-left: 200px !important; font-size: 3.0em; color: #65be8a; text-align: center; float: left;}
 span.titulo_patriani { font-weight: bold; color: #65be8a; font-size: 1.3em;}
 span.detalhe_patriani { font-weight: bold; color: #65be8a;}
-span.xxx,span.vvv { height: 55px; width: 55px; margin-top: 12px !important; float: left; border: none; background:url(../img/icon_diferenciais.png) no-repeat;}
-span.xxx { background-position: -27px -16px;}
-span.vvv { background-position: -30px -90px;}
+span.xxx,span.vvv { height: 55px; width: 55px; margin-top: 12px !important; float: left; border: none; background:url(../img/icons_diferenciais.png) no-repeat;}
+span.xxx { background-position: -15px -9px;}
+span.vvv { background-position: -598px -89px}
+
+/*REALIZAÇÕES*/
+div#historia_patriani, div#obras_realizadas, div#contruire { width: 850px; float: left;}
+div.box_esquerdo_gr, div.box_direito_gr { width: 400px; text-align: justify;}
+div.box_esquerdo_gr { float: left; }
+div.box_direito_gr { float: right;}
+
+div#historia_patriani p, div#obras_realizadas p, div.box_esquerdo_pq p, div.box_direito_pq p, div#contruire p { font-size: 1.4em; letter-spacing: 1px; float: left;}
+div.box_esquerdo_pq, div.box_direito_pq { width: 265px; text-align: justify;}
+div.box_esquerdo_pq { float: left; margin: -25px 10px 0 0;}
+div.box_direito_pq { float: right; margin-top: -25px;}
+figure#fachada_realizacao { float: left;}
+figure#logo_realizacao { text-align: center; margin: 50px 0 30px 0;}
+
+p.tt_vm_realizacao { font-size: 1.8em; color: #993333; float: left; margin: 40px 0 40px 0;}
+div#obras_realizadas div { float: left; margin-bottom: 20px;}
+div#obras_realizadas div figure { float: left; margin-right: 18px; }
+div#obras_realizadas div span { width: 690px; float: left; text-align: justify;}
+div#obras_realizadas div span.tt_obras { font-weight: bold; color: #000; letter-spacing: 1px;}
+
+div#contruire figure { text-align: center;}
+div#contruire p { text-align: justify; line-height: 23px;}
+div#contruire span { width: 850px; float: left;}
+div#contruire span figure { float: left; margin-left: 56px;}
+div#contruire span figcaption { letter-spacing: 1px; font-size: 1.4em;}
+div#contruire p.legenda_realizacao { width: 850px; margin: 50px 0; text-align: center; line-height: 13px; font-size: 1.2em;}
 
 /*CONTATO*/
 form { width: 730px; position: relative; left: 50%; margin-left: -365px; margin-top: 60px;}
@@ -153,6 +179,25 @@ span.box_checkbox { width: 222.6px; float: left; margin-top: 20px; letter-spacin
 #campo_3 textarea { width: 590px; height: 120px; margin-left: 103px; margin-top: 10px; color: #666666; font-family:"HelveticaNeueLT Std", "Noto Sans", sans-serif; border: solid 1px #666666; border-radius:4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -o-border-radius: 4px;}
 #campo_3 button { width: 280px; background: #FFF; letter-spacing: 2px; margin: 20px 0 0 260px; cursor: pointer; color: #65be8a; padding: 14px 0; border: solid 1px #65be8a; border-radius:4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -o-border-radius: 4px;}
 #campo_3 button:hover { background: #65be8a; color: #FFF;}
+
+/*AVISOS*/
+section#contatoErro aside, section#contatoOk aside { height: 250px; margin-top: 130px; margin-bottom: 130px;}
+section#contatoErro figure, section#contatoOk figure { float: left;}
+section#contatoOk h5, section#contatoErro h5 { font-size: 3.0em; margin: 60px 0 0 15px; text-transform: uppercase; font-weight: bold; float: left; letter-spacing: 1px;} 
+section#contatoErro p.aviso_erro, section#contatoOk p.aviso_ok { font-size: 2.0em; float: left; color: #333333; letter-spacing: 1px;}
+section#contatoOk p.txt_aviso_ok, section#contatoErro p.txt_aviso_erro { font-size: 1.4em; margin: 30px 0 0 -100px; float: left; letter-spacing: 1px;}
+section#contatoErro figure, section#contatoOk figure { margin: 40px 0 0 200px;}
+
+/*AVISO FALHA*/
+section#contatoErro h5 { color: #ff4e00;}
+section#contatoErro p.aviso_erro { margin: 100px 0 0 -85px;}
+section#contatoErro p.txt_aviso_erro { color: #333333;}
+section#contatoErro span a { text-decoration: none; color: #ff4e00; font-weight: bold; letter-spacing: 2px;}
+
+/*AVISO OK*/
+section#contatoOk h5 { color: #447800;}
+section#contatoOk p.aviso_ok { margin: 100px 0 0 -166px;}
+section#contatoOk p.txt_aviso_ok { font-weight: bold; color: #447800;}
 
 /*FOOTER*/
 footer { width: 100%; min-width: 1345px; float: left;}
