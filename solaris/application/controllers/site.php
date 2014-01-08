@@ -30,6 +30,19 @@ class Site extends CI_Controller {
 		$this->load->view('html_footer');
 	}
 	
+	public function resort()
+	{
+		$data['title'] = "Resort";
+		$data['description'] = "";
+		$data['keywords'] = "";
+		$data['menu'] = true;
+		$this->load->view('html_header', $data);
+		$this->load->view('header', $data);
+		$this->load->view('content/resort_view', $data);
+		$this->load->view('footer', $data);
+		$this->load->view('html_footer', $data);
+	}
+	
 }
 
 /* End of file site.php */
