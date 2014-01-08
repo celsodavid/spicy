@@ -68,24 +68,23 @@
 			</p>
 			<br />
 			<br /> 
-			<span>Rua Vitória Régia, 1331 - Travessa da rua
+			<span>Rua Vitória Régia, 1351 - Travessa da rua
 				<br /> 
 				Rosa de Siqueira - Bairro Campestre.
 			</span>
 		</aside>
 
 		<div class="mapa">
-			<iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com.br/maps?f=q&amp;source=s_q&amp;hl=pt-BR&amp;geocode=&amp;q=Rua+Vit%C3%B3ria+R%C3%A9gia,+1331++-+Campestre&amp;aq=&amp;sll=-14.239424,-53.186502&amp;sspn=49.827402,86.572266&amp;ie=UTF8&amp;hq=&amp;hnear=R.+Vit%C3%B3ria-r%C3%A9gia,+1331+-+Bairro+Campestre,+Santo+Andr%C3%A9+-+S%C3%A3o+Paulo,+09080-320&amp;t=m&amp;ll=-23.632258,-46.54727&amp;spn=0.027521,0.062485&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
-			<br />
-			<small>
-				<a href="https://maps.google.com.br/maps?f=q&amp;source=embed&amp;hl=pt-BR&amp;geocode=&amp;q=Rua+Vit%C3%B3ria+R%C3%A9gia,+1331++-+Campestre&amp;aq=&amp;sll=-14.239424,-53.186502&amp;sspn=49.827402,86.572266&amp;ie=UTF8&amp;hq=&amp;hnear=R.+Vit%C3%B3ria-r%C3%A9gia,+1331+-+Bairro+Campestre,+Santo+Andr%C3%A9+-+S%C3%A3o+Paulo,+09080-320&amp;t=m&amp;ll=-23.632258,-46.54727&amp;spn=0.027521,0.062485&amp;z=14&amp;iwloc=A" style="color: #000; text-align: left; text-decoration: none;">
-				Exibir mapa ampliado
-				</a>
-			</small>
+			<iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com.br/maps?q=Rua+Vit%C3%B3ria+R%C3%A9gia,+1351&amp;ie=UTF8&amp;hq=&amp;hnear=Rua+Vit%C3%B3ria+R%C3%A9gia,+1351+-+Campestre,+S%C3%A3o+Paulo,+09080-320&amp;ll=-23.632372,-46.54724&amp;spn=0.017614,0.033023&amp;t=m&amp;z=14&amp;output=embed"></iframe>
+		      <br />
+				<small>
+					<a href="https://maps.google.com.br/maps?q=Rua+Vit%C3%B3ria+R%C3%A9gia,+1351&amp;ie=UTF8&amp;hq=&amp;hnear=Rua+Vit%C3%B3ria+R%C3%A9gia,+1351+-+Campestre,+S%C3%A3o+Paulo,+09080-320&amp;ll=-23.632372,-46.54724&amp;spn=0.017614,0.033023&amp;t=m&amp;z=14&amp;source=embed" style="color:#000;text-align:left">
+						Exibir mapa ampliado
+					</a>
+				</small>
 		</div>
 
 	</section>
-
 
 	<section class="foto_localizacao">
 
