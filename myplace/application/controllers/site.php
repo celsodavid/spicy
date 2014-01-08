@@ -1,10 +1,20 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 class Site extends CI_Controller {
-		
+
+	public $atendimento;
+	
 	public function __construct()
 	{
-		parent::__construct();		
+		parent::__construct();
+		$valor = array("http://viana.hypnobox.com.br/atendimento/index.php?id_produto=83","http://fernandezmera.nccserver.com.br/fernandezmera190/chat5/cliente/frm_login.asp?IDArea=8&sel=terrazzepatriani");
+		$valor[] = shuffle($valor);
+		if(!$this->atendimento) {
+			$this->atendimento = $valor[1];
+		}
+		else {
+			$this->atendimento = $valor[0];
+		}
 	}
 
 	public function index()
@@ -131,6 +141,7 @@ class Site extends CI_Controller {
 		$data['keywords'] = "";
 		$data['menu'] = "contato";
 		$data['h3'] = "Breve Lançamento Patriani<br/> na Vila Assunção em Santo André.";
+		$data['atendimentoOnline'] = $this->atendimento;
 		
 		if($this->input->post('save')) {
 			$this->load->library('form_validation');
@@ -156,32 +167,25 @@ class Site extends CI_Controller {
 				$email['mensagem'] = $this->input->post('mensagem');
 				$email['items'] = $this->input->post('opcao2');
 				$mensagem = $this->load->view('email/mensagem',$email,TRUE);
-				echo $mensagem;
-				die();
-				#$this->load->library('email');
-				#$this->email->from($this->input->post('email'),$this->input->post('nome'));
 				
+				$this->load->library('email');
+				$this->email->from($this->input->post('email'),$this->input->post('nome'));				
 				#$this->email->to('celunico43@gmail.com');
-				#$this->email->cc('tarsila@spicycomm.com.br');
-				
-				#$this->email->to('atendimento@incorporadorapatriani.com.br');
-				#$this->email->cc('');
-				#$this->email->bcc('contato@happinesspatriani.com.br');				
-				#$this->email->subject('Contato via site ['.base_url().']');
-				#$this->email->message($mensagem);
-				
-				#if($this->email->send()) {
-				#	$view = 'content_view/contato_sucesso_view';
-				#}
-				#else {
-				#	$view = 'content_view/contato_falha_view';
-				#}
+				#$this->email->cc('tarsila@spicycomm.com.br');				
+				$this->email->to('atendimento@incorporadorapatriani.com.br');				
+				$this->email->bcc('contato@myplacepatriani.com.br');				
+				$this->email->subject('Contato via site ['.base_url().']');
+				$this->email->message($mensagem);				
+				if($this->email->send()) {
+					$view = 'content/contato_sucesso_view';
+				}
+				else {
+					$view = 'content/contato_falha_view';
+				}
 			}
 		}
 		else {
-			#$view = 'content/contato_view';
-			#$view = 'content/contato_falha_view';
-			$view = 'content/contato_sucesso_view';
+			$view = 'content/contato_view';			
 		}
 		
 		$this->load->view('html_header', $data);

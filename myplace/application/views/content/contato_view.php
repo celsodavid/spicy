@@ -1,13 +1,13 @@
 <section id="contato">
 	<figure>
-		<a href="" title="Atendimento online" alt="Atendimento online"><img src="<?php echo base_url('assets');?>/img/contato_topo.jpg"></a>
+		<a href="#" target="_blank" title="Atendimento online"  onclick="window.open('<?php echo $atendimentoOnline; ?>','Janela','toolbar=yes,location=no,directories=yes,status=yes,menubar=yes,scrollbars=yes,resizable=yes,width=700,height=480'); window.location.reload(); return false;"><img src="<?php echo base_url('assets');?>/img/contato_topo.jpg"></a>
 	</figure>
 
 	<article class="faixa_amarela">
 		  <figure id="endereco_localizacao">
 		  	  <figcaption>Alameda São Bernardo, 143 - Santa Terezinha</figcaption>
 		  	    <img src="<?php echo base_url('assets');?>/img/icone_localizacao.png">
-		  	  <figcaption><span><a href="" title="Clique aqui para visualizar como chegar no local">Clique aqui</a></span> para visualizar como chegar no local</figcaption>
+		  	  <figcaption><span><a href="#" title="Clique aqui para visualizar como chegar no local">Clique aqui</a></span> para visualizar como chegar no local</figcaption>
 		  </figure>
 	</article>
 
