@@ -1,7 +1,7 @@
 <?php echo doctype('html5'); ?>
 <html lang="pt-BR">
 	<head>
-		<title>SOLARES <?php echo " - ".$title; ?></title>
+		<title>SOLARIS <?php echo " - ".$title; ?></title>
 		<meta name="viewport" content="width=device-width, user-scalable=no">
 		<meta charset="utf-8">
 		<?php 
