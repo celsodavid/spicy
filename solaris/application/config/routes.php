@@ -41,6 +41,8 @@
 $route['default_controller'] = "site";
 $route['404_override'] = '';
 $route['localizacao'] = "site/localizacao";
+$route['residencial'] = "site/residencial";
+$route['fale-conosco'] = "site/contato";
 $route['resort'] = "site/resort";
 
 /* End of file routes.php */

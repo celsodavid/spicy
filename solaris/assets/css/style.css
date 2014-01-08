@@ -17,6 +17,7 @@ header section nav ul { list-style: none; font-size: 1.6em; letter-spacing: 1px;
 header section nav ul li { display: inline;}
 header section nav ul li a { text-decoration: none; text-transform: uppercase; color: #FFF; margin: 6px 33px 0 0; float: left;}
 header section nav ul li a:hover { color: #f7941d;}
+header section nav ul li a.active { color: #f7941d;}
 
 /*BASES*/
 section#localizacao, section#resort { width: 100%; min-width: 1345px; float: left;} 

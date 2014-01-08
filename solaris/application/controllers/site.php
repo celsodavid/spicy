@@ -17,12 +17,38 @@ class Site extends CI_Controller {
 		$this->load->view('html_footer');
 	}
 	
+	public function residencial()
+	{
+		$data['title'] = "Residencial";
+		$data['description'] = "";
+		$data['keywords'] = "";
+		$data['menu1'] = true;
+		$this->load->view('html_header', $data);
+		$this->load->view('header', $data);
+		$this->load->view('content/residencial_view', $data);
+		$this->load->view('footer', $data);
+		$this->load->view('html_footer', $data);
+	}
+
+	public function resort()
+	{
+		$data['title'] = "Resort";
+		$data['description'] = "";
+		$data['keywords'] = "";
+		$data['menu2'] = true;
+		$this->load->view('html_header', $data);
+		$this->load->view('header', $data);
+		$this->load->view('content/resort_view', $data);
+		$this->load->view('footer', $data);
+		$this->load->view('html_footer', $data);
+	}
+	
 	public function localizacao()
 	{
 		$data['title'] = "Localizacao";
 		$data['description'] = "";
 		$data['keywords'] = "";
-		$data['menu'] = true;		
+		$data['menu3'] = true;		
 		$this->load->view('html_header', $data);
 		$this->load->view('header', $data);
 		$this->load->view('content/localizacao_view', $data);
@@ -30,15 +56,15 @@ class Site extends CI_Controller {
 		$this->load->view('html_footer');
 	}
 	
-	public function resort()
+	public function contato()
 	{
-		$data['title'] = "Resort";
+		$data['title'] = "Fale Conosco";
 		$data['description'] = "";
 		$data['keywords'] = "";
-		$data['menu'] = true;
+		$data['menu4'] = true;
 		$this->load->view('html_header', $data);
 		$this->load->view('header', $data);
-		$this->load->view('content/resort_view', $data);
+		$this->load->view('content/contato_view', $data);
 		$this->load->view('footer', $data);
 		$this->load->view('html_footer', $data);
 	}
