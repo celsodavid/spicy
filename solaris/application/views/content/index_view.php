@@ -10,7 +10,6 @@
 
 	<article>
 
-
 		<aside>
 
 			<div id="index_efeito">
@@ -23,9 +22,13 @@
 
 				<span><a href=""></a></span>
 
-				   <h3>Residencial</h3>
+				   <h3>
+				   	<a href="">Residencial
+				   	 <img class="seta_residencial" src="<?php echo base_url('assets');?>/img/index_seta.png">
+				   	</a>
+				   </h3>
+				   
 			</div>
-
 
 			<div id="index_efeito">
 
@@ -37,7 +40,11 @@
 
 				<span><a href=""></a></span>
 
-				   <h3>Resort</h3>
+				    <h3>
+				   	 <a href="">Resort
+					   <img class="seta_resort" src="<?php echo base_url('assets');?>/img/index_seta.png">
+					 </a>
+				    </h3>
 			</div>
 
 		</aside>
