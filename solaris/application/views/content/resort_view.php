@@ -26,7 +26,11 @@
 		    <span id="icones_resort">
 
 		    	<figure id="ico01">
-			      <a href=""><img src="<?php echo base_url('assets');?>/img/icon_resort.png"></a>
+			      <a href="">
+			      	<div></div>
+			      	<img src="<?php echo base_url('assets');?>/img/icon_resort.png">
+			      </a>
+
 		        </figure>
 
 		        <figure id="ico02">

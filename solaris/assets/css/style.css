@@ -43,7 +43,9 @@ aside div#index_residencial, aside div#index_resort { width: 50%; float: left; p
 
 aside div#index_residencial figure img, aside div#index_resort figure img { max-width: 100%; height: 100%;}
 
-aside div#index_residencial span, aside div#index_resort span { width: 100%; height: 99%; background: #000; display: none; opacity: 0.5; position: absolute; margin-top: -41.9%;}
+/*aside div#index_residencial span, aside div#index_resort span { width: 100%; height: 99%; background: #000; opacity: 0.5; position: absolute; margin-top: -41.9%;}*/
+
+aside div#index_residencial span, aside div#index_resort span { width: 100%; height: 97%; display: none; z-index: 100; background: #000; opacity: 0.5; position: absolute; top: 0;}
 
 aside div#index_residencial h3 a, aside div#index_resort h3 a { padding-right: 25%; position: absolute; text-decoration: none; margin-top: -28.5%; margin-left: 8%;}
 
@@ -80,7 +82,30 @@ section#resort div#planta_resort { width: 100%; min-width: 1345px; max-width: 19
 section#resort div#planta_resort img { max-width: 100%;}
 div#planta_resort span#icones_resort { width: 100%; position: absolute; z-index: 100; top: 0; left: 0;}
 
+
 span#icones_resort figure#ico01 { position: absolute; margin: 37% 0 0 14%;}
+
+span#icones_resort figure#ico01 a div { width: 200px; height: 200px; background: #DDD; position: absolute; margin: 0 0 0 0;}
+
+span#icones_resort figure#ico01 a:hover div { display: block;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 span#icones_resort figure#ico02 { position: absolute; margin: 36% 0 0 31%;}
 span#icones_resort figure#ico03 { position: absolute; margin: 31% 0 0 35%;}
 span#icones_resort figure#ico04 { position: absolute; margin: 27% 0 0 39%;}
