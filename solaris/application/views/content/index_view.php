@@ -12,21 +12,21 @@
 
 		<aside>
 
-			<div id="index_residencial">
-
+			<div id="index_residencial" class="checkBg">
+				
 				<figure>
 					<a href="">
 						<img src="<?php echo base_url('assets');?>/img/index_residencial.jpg">
 					</a>
 				</figure>
 
-				<span><a href=""></a></span>
+				<span class="fundoPreto"><a href=""></a></span>
 
-				   <h3><a href="#">Residencial<img class="seta_residencial" src="<?php echo base_url('assets');?>/img/index_seta.png"></a></h3>
+				   <h3><a href="#">Residencial<img style="display:none" class="seta_residencial" src="<?php echo base_url('assets');?>/img/index_seta.png"></a></h3>
 				   
 			</div>
 
-			<div id="index_resort">
+			<div id="index_resort" class="checkBg">
 
 				<figure>
 					<a href="">
@@ -34,11 +34,11 @@
 					</a>
 				</figure>
 
-				<span><a href=""></a></span>
+				<span class="fundoPreto"><a href=""></a></span>
 
 				    <h3>
 				   	 <a href="">Resort
-					   <img class="seta_resort" src="<?php echo base_url('assets');?>/img/index_seta.png">
+					   <img style="display:none" class="seta_resort" src="<?php echo base_url('assets');?>/img/index_seta.png">
 					 </a>
 				    </h3>
 			</div>

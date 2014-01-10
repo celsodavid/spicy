@@ -13,5 +13,9 @@ $(function(){
 		$("h3 a").css("fontSize", tamanhoFonte+"em");
 		}
 	}
-	
+	$(".checkBg").hover(function(){
+		$(".fundoPreto",this).fadeIn();
+	},function(){
+		$(".fundoPreto",this).fadeOut();
+	})
 });
