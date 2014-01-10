@@ -14,8 +14,16 @@ $(function(){
 		}
 	}
 	$(".checkBg").hover(function(){
-		$(".fundoPreto",this).fadeIn();
+		$(".fundoPreto",this).fadeIn(200);
+		$("a",this).animate({
+			"left":"100px"
+		},200);
+		$("h3 a img",this).fadeIn(200);
 	},function(){
-		$(".fundoPreto",this).fadeOut();
+		$(".fundoPreto",this).fadeOut(200);
+		$("a",this).animate({
+			"left":"0px"
+		},200);
+		$("h3 a img",this).fadeOut(200);
 	})
 });
