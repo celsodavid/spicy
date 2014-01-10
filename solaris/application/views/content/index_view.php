@@ -22,11 +22,7 @@
 
 				<span><a href=""></a></span>
 
-				   <h3>
-				   	<a href="">Residencial
-				   	 <img class="seta_residencial" src="<?php echo base_url('assets');?>/img/index_seta.png">
-				   	</a>
-				   </h3>
+				   <h3><a href="#">Residencial<img class="seta_residencial" src="<?php echo base_url('assets');?>/img/index_seta.png"></a></h3>
 				   
 			</div>
 
