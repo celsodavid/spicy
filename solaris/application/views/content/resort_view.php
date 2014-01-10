@@ -80,12 +80,10 @@
 		        <figure id="ico14">
 			      <a href=""><img src="<?php echo base_url('assets');?>/img/icon_resort.png"></a>
 		        </figure>
-		        
+
 		    </span>
 
 		</div>
-		
-		
 		
 	</article>
 

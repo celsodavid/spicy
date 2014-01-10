@@ -8,6 +8,7 @@
     font-weight: normal;
     font-style: normal;
 }
+
 body { font-family: 'champagne__limousinesregular'; font-size: 10px;}
 header { width: 100%; min-width: 1345px; background: #000; float: left;}
 header section { width: 1345px; float: left; position: relative; left: 50%; margin-left: -672.5px;}
@@ -20,7 +21,7 @@ header section nav ul li a:hover { color: #f7941d;}
 header section nav ul li a.active { color: #f7941d;}
 
 /*BASES*/
-section#localizacao, section#resort { width: 100%; min-width: 1345px; float: left;} 
+section#localizacao, section#resort, section#index { width: 100%; min-width: 1345px; float: left;} 
 
 section#localizacao aside, section#resort aside { width: 1345px; float: left; position: relative; left: 50%; margin-left: -672.5px; text-transform: uppercase;}
 
@@ -32,6 +33,39 @@ section#localizacao aside p.tt_medio, section#resort aside p.tt_medio { font-siz
 
 section#localizacao article, section#resort article  { width: 100%; min-width: 1345px; float: left;}
 
+
+/*INDEX*/
+section#index article figure img { max-width: 100%;}
+
+aside div#index_efeito { width: 50%; float: left; position: relative;}
+
+aside div#index_efeito figure img { max-width: 100%; height: 100%;}
+
+aside div#index_efeito span { width: 100%; height: 99%; background: #000; display: none; opacity: 0.5; cursor: pointer; position: absolute; margin-top: -41.9%;}
+
+aside div#index_efeito h3 { position: absolute; margin-top: -27.5%; margin-left: 8%; padding-top: 2%; padding-bottom: 2%; padding-right: 46%;}
+
+aside div#index_efeito h3 { font-size: 8.5em; text-transform: uppercase; color: #FFF; font-weight: 100; letter-spacing: 2px;}
+
+aside div#index_efeito h3:hover { background: url(../img/index_seta.png) no-repeat; background-position: 80% 46%; margin-left: 13%; padding-right: 40.7%;}
+
+
+
+
+
+
+
+
+
+/*section#index article figure img { max-width: 100%;}
+
+section#index article aside { margin-top: -10px;}
+
+aside div#index_residencial { width: 50%; float: left;}
+aside div#index_residencial figure img { max-width: 100%;}
+
+aside div#index_resort { width: 50%; float: left;}
+aside div#index_resort figure img { max-width: 100%;}*/
 
 
 /*LOCALIZAÇÃO*/
