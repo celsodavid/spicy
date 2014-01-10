@@ -12,7 +12,7 @@
 
 		<aside>
 
-			<div id="index_efeito">
+			<div id="index_residencial">
 
 				<figure>
 					<a href="">
@@ -26,7 +26,7 @@
 				   
 			</div>
 
-			<div id="index_efeito">
+			<div id="index_resort">
 
 				<figure>
 					<a href="">
