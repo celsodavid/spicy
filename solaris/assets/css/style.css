@@ -47,7 +47,7 @@ aside div#index_residencial span, aside div#index_resort span { width: 100%; hei
 
 aside div#index_residencial h3 a, aside div#index_resort h3 a { padding-right: 25%; position: absolute; text-decoration: none; margin-top: -28.5%; margin-left: 8%;}
 
-aside div#index_residencial h3 a, aside div#index_resort h3 a { font-size: 8.5em; text-transform: uppercase; color: #FFF; font-weight: 100; letter-spacing: 2px;}
+aside div#index_residencial h3 a, aside div#index_resort h3 a { font-size: 6.066em; text-transform: uppercase; color: #FFF; font-weight: 100; letter-spacing: 2px;}
 
 aside div#index_residencial img.seta_residencial { height: 126px; position: absolute; margin-left: 20%; margin-top: -2%;}
 aside div#index_resort img.seta_resort { height: 126px; position: absolute; margin-left: 50%; margin-top: -2%;}
