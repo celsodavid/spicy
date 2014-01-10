@@ -25,12 +25,18 @@
 
 		    <span id="icones_resort">
 
+		    	<div id="box-shadow" style="display: none">
+		    		<img class="imagem_resort" src="<?php echo base_url('assets');?>/img/centrohipico.jpg">
+		    		<img src="<?php echo base_url('assets');?>/img/sobra_box_resort.png">
+		    		<p class="tt_box-shadow"></p>
+		    		<p class="txt_box-shadow"></p>
+                    <img class="dt_box" src="<?php echo base_url('assets');?>/img/detalhe_sobra_box_resort.png">
+		    	</div>
+
 		    	<figure id="ico01">
-			      <a href="">
-			      	<div></div>
+			      <a href="<?php echo base_url('assets');?>/img/centrohipico.jpg" alt="" title="">
 			      	<img src="<?php echo base_url('assets');?>/img/icon_resort.png">
 			      </a>
-
 		        </figure>
 
 		        <figure id="ico02">

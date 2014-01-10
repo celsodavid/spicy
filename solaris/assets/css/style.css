@@ -82,30 +82,23 @@ section#resort div#planta_resort { width: 100%; min-width: 1345px; max-width: 19
 section#resort div#planta_resort img { max-width: 100%;}
 div#planta_resort span#icones_resort { width: 100%; position: absolute; z-index: 100; top: 0; left: 0;}
 
+span#icones_resort div#box-shadow { width: 296px; background: #FFF; position: absolute; z-index: 200; -webkit-border-radius: 10px;
+-moz-border-radius: 10px; border-radius: 10px; -webkit-box-shadow: 0px 0px 2px 2px rgba(50, 50, 50, 0.40);
+-moz-box-shadow: 0px 0px 2px 2px rgba(50, 50, 50, 0.40);
+box-shadow: 0px 0px 2px 2px rgba(50, 50, 50, 0.40);}
+
+p.tt_box-shadow { text-transform: uppercase; font-size: 1.6em; letter-spacing: 1px; color: #f7941d; text-align: center;}
+p.txt_box-shadow { font-size: 1.5em; text-align: center; letter-spacing: 1px; line-height: 20px;}
+
+img.imagem_resort { width: 296px; float: left; -webkit-border-top-left-radius: 10px;
+-webkit-border-top-right-radius: 10px;
+-moz-border-radius-topleft: 10px;
+-moz-border-radius-topright: 10px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;}
+img.dt_box { position: absolute; bottom: -16px; right: 133px;}
 
 span#icones_resort figure#ico01 { position: absolute; margin: 37% 0 0 14%;}
-
-span#icones_resort figure#ico01 a div { width: 200px; height: 200px; background: #DDD; position: absolute; margin: 0 0 0 0;}
-
-span#icones_resort figure#ico01 a:hover div { display: block;}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 span#icones_resort figure#ico02 { position: absolute; margin: 36% 0 0 31%;}
 span#icones_resort figure#ico03 { position: absolute; margin: 31% 0 0 35%;}
 span#icones_resort figure#ico04 { position: absolute; margin: 27% 0 0 39%;}
