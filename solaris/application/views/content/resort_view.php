@@ -33,61 +33,61 @@
                     <img class="dt_box" src="<?php echo base_url('assets');?>/img/detalhe_sobra_box_resort.png">
 		    	</div>
 
-		    	<figure id="ico01">
-			      <a href="<?php echo base_url('assets');?>/img/centrohipico.jpg" alt="" title="">
+		    	<figure id="ico01" class="activePopUp">
+			      <a href="<?php echo base_url('assets');?>/img/centrohipico.jpg" alt="" title="" >
 			      	<img src="<?php echo base_url('assets');?>/img/icon_resort.png">
 			      </a>
 		        </figure>
 
-		        <figure id="ico02">
+		        <figure id="ico02"  class="activePopUp">
 			      <a href=""><img src="<?php echo base_url('assets');?>/img/icon_resort.png"></a>
 		        </figure>
 
-		        <figure id="ico03">
+		        <figure id="ico03" class="activePopUp">
+			      <a href="" ><img src="<?php echo base_url('assets');?>/img/icon_resort.png"></a>
+		        </figure>
+
+		        <figure id="ico04" class="activePopUp">
+			      <a href="" ><img src="<?php echo base_url('assets');?>/img/icon_resort.png"></a>
+		        </figure>
+
+		        <figure id="ico05" class="activePopUp">
+			      <a href="" ><img src="<?php echo base_url('assets');?>/img/icon_resort.png"></a>
+		        </figure>
+
+		        <figure id="ico06" class="activePopUp">
 			      <a href=""><img src="<?php echo base_url('assets');?>/img/icon_resort.png"></a>
 		        </figure>
 
-		        <figure id="ico04">
+		        <figure id="ico07" class="activePopUp">
+			      <a href="" ><img src="<?php echo base_url('assets');?>/img/icon_resort.png"></a>
+		        </figure>
+
+		        <figure id="ico08" class="activePopUp">
+			      <a href="" ><img src="<?php echo base_url('assets');?>/img/icon_resort.png"></a>
+		        </figure>
+
+		        <figure id="ico09" class="activePopUp">
+			      <a href="" ><img src="<?php echo base_url('assets');?>/img/icon_resort.png"></a>
+		        </figure>
+
+		        <figure id="ico10" class="activePopUp">
+			      <a href="" ><img src="<?php echo base_url('assets');?>/img/icon_resort.png"></a>
+		        </figure>
+
+		        <figure id="ico11" class="activePopUp">
 			      <a href=""><img src="<?php echo base_url('assets');?>/img/icon_resort.png"></a>
 		        </figure>
 
-		        <figure id="ico05">
-			      <a href=""><img src="<?php echo base_url('assets');?>/img/icon_resort.png"></a>
+		        <figure id="ico12" class="activePopUp">
+			      <a href="" ><img src="<?php echo base_url('assets');?>/img/icon_resort.png"></a>
 		        </figure>
 
-		        <figure id="ico06">
-			      <a href=""><img src="<?php echo base_url('assets');?>/img/icon_resort.png"></a>
+		        <figure id="ico13" class="activePopUp">
+			      <a href="" ><img src="<?php echo base_url('assets');?>/img/icon_resort.png"></a>
 		        </figure>
 
-		        <figure id="ico07">
-			      <a href=""><img src="<?php echo base_url('assets');?>/img/icon_resort.png"></a>
-		        </figure>
-
-		        <figure id="ico08">
-			      <a href=""><img src="<?php echo base_url('assets');?>/img/icon_resort.png"></a>
-		        </figure>
-
-		        <figure id="ico09">
-			      <a href=""><img src="<?php echo base_url('assets');?>/img/icon_resort.png"></a>
-		        </figure>
-
-		        <figure id="ico10">
-			      <a href=""><img src="<?php echo base_url('assets');?>/img/icon_resort.png"></a>
-		        </figure>
-
-		        <figure id="ico11">
-			      <a href=""><img src="<?php echo base_url('assets');?>/img/icon_resort.png"></a>
-		        </figure>
-
-		        <figure id="ico12">
-			      <a href=""><img src="<?php echo base_url('assets');?>/img/icon_resort.png"></a>
-		        </figure>
-
-		        <figure id="ico13">
-			      <a href=""><img src="<?php echo base_url('assets');?>/img/icon_resort.png"></a>
-		        </figure>
-
-		        <figure id="ico14">
+		        <figure id="ico14" class="activePopUp">
 			      <a href=""><img src="<?php echo base_url('assets');?>/img/icon_resort.png"></a>
 		        </figure>
 
