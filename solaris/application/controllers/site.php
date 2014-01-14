@@ -23,6 +23,7 @@ class Site extends CI_Controller {
 		$data['description'] = "";
 		$data['keywords'] = "";
 		$data['menu1'] = true;
+		$data['rodape_img'] = "residencial";
 		$this->load->view('html_header', $data);
 		$this->load->view('header', $data);
 		$this->load->view('content/residencial_view', $data);
@@ -36,6 +37,7 @@ class Site extends CI_Controller {
 		$data['description'] = "";
 		$data['keywords'] = "";
 		$data['menu2'] = true;
+		$data['rodape_img'] = "resort";
 		$this->load->view('html_header', $data);
 		$this->load->view('header', $data);
 		$this->load->view('content/resort_view', $data);
@@ -48,7 +50,8 @@ class Site extends CI_Controller {
 		$data['title'] = "Localizacao";
 		$data['description'] = "";
 		$data['keywords'] = "";
-		$data['menu3'] = true;		
+		$data['menu3'] = true;
+		$data['rodape_img'] = "localizacao";
 		$this->load->view('html_header', $data);
 		$this->load->view('header', $data);
 		$this->load->view('content/localizacao_view', $data);
@@ -62,6 +65,7 @@ class Site extends CI_Controller {
 		$data['description'] = "";
 		$data['keywords'] = "";
 		$data['menu4'] = true;
+		$data['rodape_img'] = "contato";
 		$this->load->view('html_header', $data);
 		$this->load->view('header', $data);
 		$this->load->view('content/contato_view', $data);

@@ -29,11 +29,11 @@
 		</figure>
 
         <figure id="imagem_rodape">
-		  <img src="<?php echo base_url('assets');?>/img/rodape_residencial.png">
+          <img src="<?php echo base_url('assets');?>/img/rodape_<?php echo $rodape_img;?>.png" >	
 		</figure>
 
 		<figure id="detalhe_rodape">
-		  <a href="" title="voltar ao topo" alt="voltar ao topo"><img src="<?php echo base_url('assets');?>/img/detalhe_rodape.png"></a>
+		  <a id="topo" href="#" title="voltar ao topo" alt="voltar ao topo"><img src="<?php echo base_url('assets');?>/img/detalhe_rodape.png"></a>
 		</figure>
 
 	</article>

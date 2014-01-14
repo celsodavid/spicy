@@ -18,10 +18,10 @@
 					<img src="<?php echo base_url('assets');?>/img/index_residencial.jpg">
 				</figure>
 
-				<a href="#" title="Residencial" alt="Residencial" target="_blank"><span class="fundoPreto"></span></a>
+				<a href="<?php echo base_url('residencial'); ?>" title="Residencial" alt="Residencial"><span class="fundoPreto"></span></a>
 
 				   <h3>
-				   	<a href="">Residencial
+				   	<a href="<?php echo base_url('residencial'); ?>">Residencial
 				   	 <img style="display:none" class="seta_residencial" src="<?php echo base_url('assets');?>/img/index_seta.png">
 				   	</a>
 				   </h3>
@@ -31,15 +31,15 @@
 			<div id="index_resort" class="checkBg">
 
 				<figure>
-					<a href="">
+					<a href="<?php echo base_url('resort'); ?>">
 						<img src="<?php echo base_url('assets');?>/img/index_resort.jpg">
 					</a>
 				</figure>
 
-				<a href="#" title="Resort" alt="Resort" target="_blank"><span class="fundoPreto"></span></a>
+				<a href="<?php echo base_url('resort'); ?>" title="Resort" alt="Resort"><span class="fundoPreto"></span></a>
 
 				    <h3>
-				      <a href="">Resort
+				      <a href="<?php echo base_url('resort'); ?>">Resort
 					  <img style="display:none" class="seta_resort" src="<?php echo base_url('assets');?>/img/index_seta.png">
 					</a>
 				    </h3>
@@ -47,7 +47,7 @@
 
 		</aside>
 
-		<footer></footer>
+		<footer></footer><!-- paulo lembrar -->
 
 	</article>
 
