@@ -21,110 +21,157 @@ header section nav ul li a:hover { color: #f7941d;}
 header section nav ul li a.active { color: #f7941d;}
 
 /*BASES*/
-section#localizacao, section#resort, section#index { width: 100%; min-width: 1345px; float: left;} 
+section#localizacao, section#resort, section#index, section#residencial, footer, section#contato { width: 100%; min-width: 1345px; float: left;} 
 
-section#localizacao aside, section#resort aside { width: 1345px; float: left; position: relative; left: 50%; margin-left: -672.5px; text-transform: uppercase;}
+section#localizacao aside, section#resort aside, section#residencial aside, footer article, section#contato aside { width: 1345px; float: left; position: relative; left: 50%; margin-left: -672.5px; text-transform: uppercase;}
 
-section#localizacao aside h2,section#resort aside h2 { width: 1322px; font-size: 7.0em; letter-spacing: 2px; margin: 70px 0 0 25px; float: left; font-weight: 100; color: #f7941d;}
+section#localizacao aside h2,section#resort aside h2, section#residencial h2, section#contato h2 { width: 1322px; font-size: 7.0em; letter-spacing: 2px; margin: 70px 0 0 25px; float: left; font-weight: 100; color: #f7941d;}
 
-section#localizacao aside p.tt_medio, section#localizacao aside p.tt_pequeno, section#resort aside p.tt_medio { color: #000000; letter-spacing: 1px; float: left;}
+section#localizacao aside p.tt_medio, section#localizacao aside p.tt_pequeno, section#resort aside p.tt_medio, section#residencial p.tt_medio, section#residencial p.tt_pequeno, section#contato p.tt_pequeno { color: #000000; letter-spacing: 1px; float: left;}
 
-section#localizacao aside p.tt_medio, section#resort aside p.tt_medio { font-size: 4.5em; margin: 30px 0 0 25px;}
+section#localizacao aside p.tt_medio, section#resort aside p.tt_medio, section#residencial p.tt_medio { font-size: 4.5em; margin: 30px 0 0 25px;}
 
-section#localizacao article, section#resort article  { width: 100%; min-width: 1345px; float: left;}
+section#localizacao article, section#resort article,section#residencial article  { width: 100%; min-width: 1345px; float: left;}
 
 
 /*INDEX*/
 section#index article figure img { max-width: 100%;}
-
 section#index article aside { margin-top: -3px;}
-
-aside div#index_residencial, aside div#index_resort { width: 50%; float: left; position: relative;}
-
-aside div#index_residencial figure img, aside div#index_resort figure img { max-width: 100%; height: 100%;}
-
-/*aside div#index_residencial span, aside div#index_resort span { width: 100%; height: 99%; background: #000; opacity: 0.5; position: absolute; margin-top: -41.9%;}*/
-
-aside div#index_residencial span, aside div#index_resort span { width: 100%; height: 97%; display: none; z-index: 100; background: #000; opacity: 0.5; position: absolute; top: 0;}
-
-aside div#index_residencial h3 a, aside div#index_resort h3 a { padding-right: 25%; position: absolute; text-decoration: none; margin-top: -28.5%; margin-left: 8%;}
-
+aside div#index_residencial, aside div#index_resort { width: 50%; height: 100%; float: left; position: relative;}
+aside div#index_residencial figure img, aside div#index_resort figure img { max-width: 100%;}
+aside div#index_residencial span, aside div#index_resort span { width: 100%; height: 100%; display: none; cursor: pointer; z-index: 100; background: #000; opacity: 0.5; position: absolute; top: 0;}
+aside div#index_residencial h3 a, aside div#index_resort h3 a { position: absolute; text-decoration: none; margin-top: -28.5%; margin-left: 8%;}
 aside div#index_residencial h3 a, aside div#index_resort h3 a { font-size: 6.066em; text-transform: uppercase; color: #FFF; font-weight: 100; letter-spacing: 2px;}
-
-aside div#index_residencial img.seta_residencial { height: 126px; position: absolute; margin-left: 20%; margin-top: -2%;}
-aside div#index_resort img.seta_resort { height: 126px; position: absolute; margin-left: 50%; margin-top: -2%;}
-
-
-
-/*section#index article figure img { max-width: 100%;}
-
-section#index article aside { margin-top: -10px;}
-
-aside div#index_residencial { width: 50%; float: left;}
-aside div#index_residencial figure img { max-width: 100%;}
-
-aside div#index_resort { width: 50%; float: left;}
-aside div#index_resort figure img { max-width: 100%;}*/
-
+aside div#index_residencial img.seta_residencial { height: 126px; margin-left: 50%; margin-top: -20%; float: right;}
+aside div#index_resort img.seta_resort { height: 126px; margin-left: 70%; margin-top: -22%; float: right;}
+section#index article footer { width: 100%; float: left; position: relative; z-index: 200; height: 15px; background: #FFF; margin-top: -15px;}
 
 /*LOCALIZAÇÃO*/
 section#localizacao aside p.tt_pequeno { font-size: 3.0em; margin: 35px 0 0 25px; line-height: 35px;}
 section#localizacao article div { width: 100%; margin-top: 20px; height: 750px; float: left;}
+
+
+/*RESIDENCIAL*/
+section#residencial article { margin-top: 40px;}
+
+div#residencial_box01, div#residencial_box02, div#residencial_box03 { width: 33.33333333333333%; height: 100%; float: left; position: relative; background-size:100% 100%; -webkit-background-size: 100% 100%; -o-background-size: 100% 100%; -khtml-background-size: 100% 100%; -moz-background-size: 100% 100%;}
+div#residencial_box01 span a, div#residencial_box02 span a, div#residencial_box03 span a { width: 100%; height: 324px; float: left; display: block; background: url(../img/fundo_residencial.png) repeat;}
+div#residencial_box01 span a:hover, div#residencial_box02 span a:hover, div#residencial_box03 span a:hover  { background: transparent;}
+div#residencial_box01 span div.top_box p.tt_top_box, div#residencial_box02 span div.top_box p.tt_top_box, div#residencial_box03 span div.top_box p.tt_top_box { font-size: 2.0em; padding-left: 1%; letter-spacing: 1px; margin-bottom: -10px;}
+div#residencial_box01 span div.top_box p, div#residencial_box02 span div.top_box p, div#residencial_box03 span div.top_box p { font-size: 1.4em; padding-left: 1%; letter-spacing: 1px;}
+div#residencial_box01 span div.top_box, div#residencial_box02 span div.top_box, div#residencial_box03 span div.top_box { width: 100%; background: transparent; height: 125px; color: #FFF; float: left;}
+div#residencial_box01 span:hover div.top_box, div#residencial_box02 span:hover div.top_box, div#residencial_box03 span:hover div.top_box { background: url(../img/fundo_residencialbr.png); color: #000;}
+
+div#residencial_box01 { background: url(../img/teste_resi.jpg) no-repeat;}
+div#residencial_box02 { background: url(../img/teste_resi.jpg) no-repeat;}
+div#residencial_box03 { background: url(../img/teste_resi.jpg) no-repeat;}
+
+div#residencial_box02 span div.active-header { background: url(../img/fundo_residencialbr.png); color: #000;}
+div#residencial_box02 span a.active-span { background: transparent;}
+
+
+section#residencial aside p.tt_pequeno { font-size: 3.0em; margin: 35px 0 0 25px; line-height: 35px;}
+section#residencial aside p.tt_small { font-size: 1.4em; margin: 20px 0 0 25px; line-height: 22px; float: left; letter-spacing: 1px;}
+section#residencial aside figure { float: left; margin: 45px 0 0 25px;}
+section#residencial aside figure figcaption { float: left; margin-top: 35px; letter-spacing: 2px;}
+section#residencial aside figure img { margin-left: 20px;}
+
 
 /*RESORT*/
 section#resort aside p.tt_small { font-size: 1.4em; margin: 20px 0 0 25px; line-height: 22px; float: left; letter-spacing: 1px;}
 section#resort aside figure { float: left; margin-top: 40px;}
 section#resort aside figure img { margin-left: 25px; float: left;}
 section#resort aside figcaption { margin: 12px 0 0 15px; letter-spacing: 1px; font-size: 2.0em; color: #f26522; float: left;}
-
 section#resort article  { width: 100%; float: left; position: relative;}
 section#resort div#planta_resort { width: 100%; min-width: 1345px; max-width: 1903px; max-height: 1360px; margin-top: 55px;}
 section#resort div#planta_resort img { max-width: 100%;}
 div#planta_resort span#icones_resort { width: 100%; position: absolute; z-index: 100; top: 0; left: 0;}
-
-span#icones_resort div#box-shadow { width: 296px; background: #FFF; position: absolute; z-index: 200; -webkit-border-radius: 10px;
--moz-border-radius: 10px; border-radius: 10px; -webkit-box-shadow: 0px 0px 2px 2px rgba(50, 50, 50, 0.40);
--moz-box-shadow: 0px 0px 2px 2px rgba(50, 50, 50, 0.40);
-box-shadow: 0px 0px 2px 2px rgba(50, 50, 50, 0.40);}
-
+span#icones_resort div.box-shadow { width: 296px; display: none; background: #FFF; position: absolute; z-index: 200; -webkit-border-radius: 10px;
+-moz-border-radius: 10px; border-radius: 10px; -webkit-box-shadow: 0px 0px 2px 2px rgba(50, 50, 50, 0.40); -moz-box-shadow: 0px 0px 2px 2px rgba(50, 50, 50, 0.40); box-shadow: 0px 0px 2px 2px rgba(50, 50, 50, 0.40);}
 p.tt_box-shadow { text-transform: uppercase; font-size: 1.6em; letter-spacing: 1px; color: #f7941d; text-align: center;}
-p.txt_box-shadow { font-size: 1.5em; text-align: center; letter-spacing: 1px; line-height: 20px;}
-
-img.imagem_resort { width: 296px; float: left; -webkit-border-top-left-radius: 10px;
--webkit-border-top-right-radius: 10px;
--moz-border-radius-topleft: 10px;
--moz-border-radius-topright: 10px;
-border-top-left-radius: 10px;
-border-top-right-radius: 10px;}
+p.txt_box-shadow { width: 270px; font-size: 1.5em; color: #000; padding-bottom: 15px; text-align: center; letter-spacing: 1px; line-height: 20px; margin: 0 auto;}
+img.imagem_resort { width: 296px; float: left; -webkit-border-top-left-radius: 10px; -webkit-border-top-right-radius: 10px; -moz-border-radius-topleft: 10px; -moz-border-radius-topright: 10px; border-top-left-radius: 10px; border-top-right-radius: 10px;}
 img.dt_box { position: absolute; bottom: -16px; right: 133px;}
+span#icones_resort figure#ico01 a:hover div.box-shadow, span#icones_resort figure#ico02 a:hover div.box-shadow,
+span#icones_resort figure#ico03 a:hover div.box-shadow, span#icones_resort figure#ico04 a:hover div.box-shadow,
+span#icones_resort figure#ico05 a:hover div.box-shadow, span#icones_resort figure#ico06 a:hover div.box-shadow,
+span#icones_resort figure#ico07 a:hover div.box-shadow, span#icones_resort figure#ico08 a:hover div.box-shadow,
+span#icones_resort figure#ico09 a:hover div.box-shadow, span#icones_resort figure#ico10 a:hover div.box-shadow,
+span#icones_resort figure#ico11 a:hover div.box-shadow, span#icones_resort figure#ico12 a:hover div.box-shadow,
+span#icones_resort figure#ico13 a:hover div.box-shadow, span#icones_resort figure#ico14 a:hover div.box-shadow { display: block;}
+
 
 span#icones_resort figure#ico01 { position: absolute; margin: 37% 0 0 14%;}
-span#icones_resort figure#ico02 { position: absolute; margin: 36% 0 0 31%;}
-span#icones_resort figure#ico03 { position: absolute; margin: 31% 0 0 35%;}
-span#icones_resort figure#ico04 { position: absolute; margin: 27% 0 0 39%;}
-span#icones_resort figure#ico05 { position: absolute; margin: 11% 0 0 56%;}
-span#icones_resort figure#ico06 { position: absolute; margin: 31% 0 0 48%;}
-span#icones_resort figure#ico07 { position: absolute; margin: 35% 0 0 43%;}
-span#icones_resort figure#ico08 { position: absolute; margin: 30% 0 0 58%;}
-span#icones_resort figure#ico09 { position: absolute; margin: 38% 0 0 59%;}
-span#icones_resort figure#ico10 { position: absolute; margin: 45% 0 0 66%;}
-span#icones_resort figure#ico11 { position: absolute; margin: 22% 0 0 79%;}
-span#icones_resort figure#ico12 { position: absolute; margin: 33% 0 0 92%;}
-span#icones_resort figure#ico13 { position: absolute; margin: 55% 0 0 75%;}
-span#icones_resort figure#ico14 { position: absolute; margin: 64% 0 0 59%;}
+span#icones_resort div.ico01 { position: absolute; margin: -930% 0 0 -289%;}
 
+span#icones_resort figure#ico02 { position: absolute; margin: 36% 0 0 31%;}
+span#icones_resort div.ico02 { position: absolute; margin: -930% 0 0 -289%;}
+
+span#icones_resort figure#ico03 { position: absolute; margin: 31% 0 0 35%;}
+span#icones_resort div.ico03 { position: absolute; margin: -930% 0 0 -289%;}
+
+span#icones_resort figure#ico04 { position: absolute; margin: 27% 0 0 39%;}
+span#icones_resort div.ico04 { position: absolute; margin: -930% 0 0 -289%;}
+
+span#icones_resort figure#ico05 { position: absolute; margin: 11% 0 0 56%;}
+span#icones_resort div.ico05 { position: absolute; margin: -930% 0 0 -289%;}
+
+span#icones_resort figure#ico06 { position: absolute; margin: 31% 0 0 48%;}
+span#icones_resort div.ico06 { position: absolute; margin: -930% 0 0 -289%;}
+
+span#icones_resort figure#ico07 { position: absolute; margin: 35% 0 0 43%;}
+span#icones_resort div.ico07 { position: absolute; margin: -930% 0 0 -289%;}
+
+span#icones_resort figure#ico08 { position: absolute; margin: 30% 0 0 58%;}
+span#icones_resort div.ico08 { position: absolute; margin: -930% 0 0 -289%;}
+
+span#icones_resort figure#ico09 { position: absolute; margin: 38% 0 0 59%;}
+span#icones_resort div.ico09 { position: absolute; margin: -930% 0 0 -289%;}
+
+span#icones_resort figure#ico10 { position: absolute; margin: 45% 0 0 66%;}
+span#icones_resort div.ico10 { position: absolute; margin: -930% 0 0 -289%;}
+
+span#icones_resort figure#ico11 { position: absolute; margin: 22% 0 0 79%;}
+span#icones_resort div.ico11 { position: absolute; margin: -930% 0 0 -289%;}
+
+span#icones_resort figure#ico12 { position: absolute; margin: 33% 0 0 92%;}
+span#icones_resort div.ico12 { position: absolute; margin: -930% 0 0 -289%;}
+
+span#icones_resort figure#ico13 { position: absolute; margin: 55% 0 0 75%;}
+span#icones_resort div.ico13 { position: absolute; margin: -930% 0 0 -289%;}
+
+span#icones_resort figure#ico14 { position: absolute; margin: 64% 0 0 59%;}
+span#icones_resort div.ico14 { position: absolute; margin: -930% 0 0 -289%;}
+
+/*CONTATO*/
+section#contato aside p.tt_pequeno { font-size: 3.0em; margin: 35px 0 0 25px; line-height: 35px;}
+
+
+
+
+/*FOOTER*/
+footer { border-bottom: solid 52px #000; position: relative; float: left;}
+footer article { height: 345px; position: relative;}
+footer article div { position: absolute; bottom: 15px; left: 25px;}
+footer article div figure { float: left;}
+footer article div figure.chalet { margin-right: 110px;}
+footer article div figure.fernandez { margin-right: 35px;}
+footer article div figure.hope { margin-top: 15px;}
+footer article div figcaption { letter-spacing: 2px; margin-bottom: 10px;}
+article figure#spicy_footer a { position: absolute; right: 604px; bottom: -5px; z-index: 200;}
+article figure#imagem_rodape { position: absolute; right: 64px; bottom: -52px; z-index: 100;}
+article figure#detalhe_rodape a { position: absolute; right: 80px; bottom: -35px; z-index: 200;}
 
 
 /* Hack Chorme */
 @media screen and (-webkit-min-device-pixel-ratio:0) {
- aside div#index_resort img.seta_resort { margin-left: 100%; margin-top: -20%;} 
- aside div#index_residencial img.seta_residencial { margin-left: 10%; margin-top: -2%;}
-
+ aside div#index_residencial img.seta_residencial { margin-right: -20%; margin-top: -21%;}
+ aside div#index_resort img.seta_resort { margin-right: -70%; margin-top: -33%;}
 }
 
 /* Hack ie10 */
-.ie10 aside div#index_resort img.seta_resort { margin-left: 40%; margin-top: -2%;}
-
+.ie10 aside div#index_residencial img.seta_residencial { margin-right: -18% !important; margin-top: -21% !important;} 
+.ie10 aside div#index_resort img.seta_resort { margin-right: -70% !important; margin-top: -5% !important;}
 
 
 /* Hack Opera */

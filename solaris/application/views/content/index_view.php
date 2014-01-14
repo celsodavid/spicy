@@ -15,14 +15,16 @@
 			<div id="index_residencial" class="checkBg">
 				
 				<figure>
-					<a href="">
-						<img src="<?php echo base_url('assets');?>/img/index_residencial.jpg">
-					</a>
+					<img src="<?php echo base_url('assets');?>/img/index_residencial.jpg">
 				</figure>
 
-				<span class="fundoPreto"><a href=""></a></span>
+				<a href="#" title="Residencial" alt="Residencial" target="_blank"><span class="fundoPreto"></span></a>
 
-				   <h3><a href="#">Residencial<img style="display:none" class="seta_residencial" src="<?php echo base_url('assets');?>/img/index_seta.png"></a></h3>
+				   <h3>
+				   	<a href="">Residencial
+				   	 <img style="display:none" class="seta_residencial" src="<?php echo base_url('assets');?>/img/index_seta.png">
+				   	</a>
+				   </h3>
 				   
 			</div>
 
@@ -34,57 +36,18 @@
 					</a>
 				</figure>
 
-				<span class="fundoPreto"><a href=""></a></span>
+				<a href="#" title="Resort" alt="Resort" target="_blank"><span class="fundoPreto"></span></a>
 
 				    <h3>
-				   	 <a href="">Resort
-					   <img style="display:none" class="seta_resort" src="<?php echo base_url('assets');?>/img/index_seta.png">
-					 </a>
+				      <a href="">Resort
+					  <img style="display:none" class="seta_resort" src="<?php echo base_url('assets');?>/img/index_seta.png">
+					</a>
 				    </h3>
 			</div>
 
 		</aside>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-		<!--<aside>
-
-			<div id="index_residencial">
-
-				<figure>
-					<a href="">
-						<img src="<?php echo base_url('assets');?>/img/index_residencial.jpg" onmouseover="this.src='<?php echo base_url('assets'); ?>/img/index_residencial_hover.jpg'" onmouseout="this.src='<?php echo base_url('assets'); ?>/img/index_residencial.jpg'">
-					</a>
-				</figure>
-
-			</div>
-
-			<div id="index_resort">
-
-				<figure>
-					<a href="">
-						<img src="<?php echo base_url('assets');?>/img/index_resort.jpg" onmouseover="this.src='<?php echo base_url('assets'); ?>/img/index_resort_hover.jpg'" onmouseout="this.src='<?php echo base_url('assets'); ?>/img/index_resort.jpg'">
-					</a>
-				</figure>
-
-			</div>
-
-		</aside>-->
+		<footer></footer>
 
 	</article>
 
