@@ -21,39 +21,40 @@ header section nav ul li a:hover { color: #f7941d;}
 header section nav ul li a.active { color: #f7941d;}
 
 /*BASES*/
-section#localizacao, section#resort, section#index, section#residencial, footer, section#contato { width: 100%; min-width: 1345px; float: left;} 
+section#localizacao, section#resort, section#index, section#residencial, footer, section#contato, section#ContatoSucesso { width: 100%; min-width: 1345px; float: left;} 
 
-section#localizacao aside, section#resort aside, section#residencial aside, footer article, section#contato aside { width: 1345px; float: left; position: relative; left: 50%; margin-left: -672.5px; text-transform: uppercase;}
+section#localizacao aside, section#resort aside, section#residencial aside, footer article, section#contato aside, section#ContatoSucesso aside { width: 1345px; float: left; position: relative; left: 50%; margin-left: -672.5px; text-transform: uppercase;}
 
-section#localizacao aside h2,section#resort aside h2, section#residencial h2, section#contato h2 { width: 1322px; font-size: 7.0em; letter-spacing: 2px; margin: 70px 0 0 25px; float: left; font-weight: 100; color: #f7941d;}
+section#localizacao aside h2, section#resort aside h2, section#residencial h2, section#contato h2, section#ContatoSucesso h2 { width: 1322px; font-size: 7.0em; letter-spacing: 2px; margin: 70px 0 0 25px; float: left; font-weight: 100; color: #f7941d;}
 
-section#localizacao aside p.tt_medio, section#localizacao aside p.tt_pequeno, section#resort aside p.tt_medio, section#residencial p.tt_medio, section#residencial p.tt_pequeno, section#contato p.tt_pequeno { color: #000000; letter-spacing: 1px; float: left;}
+section#localizacao aside p.tt_medio, section#localizacao aside p.tt_pequeno, section#resort aside p.tt_medio, section#residencial p.tt_medio, section#residencial p.tt_pequeno, section#contato p.tt_pequeno, section#ContatoSucesso p.tt_pequeno { color: #000000; letter-spacing: 1px; float: left;}
 
 section#localizacao aside p.tt_medio, section#resort aside p.tt_medio, section#residencial p.tt_medio { font-size: 4.5em; margin: 30px 0 0 25px;}
 
-section#localizacao article, section#resort article,section#residencial article  { width: 100%; min-width: 1345px; float: left;}
+section#localizacao article, section#resort article, section#residencial article { width: 100%; min-width: 1345px; float: left;}
 
 
 /*INDEX*/
 section#index article figure img { max-width: 100%;}
-section#index article aside { margin-top: -3px;}
-aside div#index_residencial, aside div#index_resort { width: 50%; height: 100%; float: left; position: relative;}
-aside div#index_residencial figure img, aside div#index_resort figure img { max-width: 100%;}
-aside div#index_residencial span, aside div#index_resort span { width: 100%; height: 100%; display: none; cursor: pointer; z-index: 100; background: #000; opacity: 0.5; position: absolute; top: 0;}
-aside div#index_residencial h3 a, aside div#index_resort h3 a { position: absolute; text-decoration: none; margin-top: -28.5%; margin-left: 8%;}
-aside div#index_residencial h3 a, aside div#index_resort h3 a { font-size: 6.066em; text-transform: uppercase; color: #FFF; font-weight: 100; letter-spacing: 2px;}
-aside div#index_residencial img.seta_residencial { height: 126px; margin-left: 50%; margin-top: -20%; float: right;}
-aside div#index_resort img.seta_resort { height: 126px; margin-left: 70%; margin-top: -22%; float: right;}
-section#index article footer { width: 100%; float: left; position: relative; z-index: 200; height: 15px; background: #FFF; margin-top: -15px;}
+section#index article aside { width: 100%; margin-top: -3px; float: left;}
+div#index_residencial, div#index_resort { width: 50%; float: left; position: relative;}
+div#index_residencial figure img, div#index_resort figure img { max-width: 100%;}
+div#index_residencial span, div#index_resort span { width: 100%; height: 100%; display: none; float: left; cursor: pointer; z-index: 100; background: #000; opacity: 0.5; position: absolute; top: 0;}
+div#index_residencial h3 a, div#index_resort h3 a { position: absolute; text-decoration: none; margin-top: -28.5%; margin-left: 8%;}
+div#index_residencial h3 a, div#index_resort h3 a { font-size: 6.066em; text-transform: uppercase; color: #FFF; font-weight: 100; letter-spacing: 2px;}
+img.seta_residencial { height: 126px; margin-left: 50%; margin-top: -20%; float: right;}
+img.seta_resort { height: 126px; margin-left: 70%; margin-top: -22%; float: right;}
+
+div#rodape_index { width: 100%; float: left; position: relative; z-index: 200; height: 30px; background: #000; margin-top: -15px; color: #FFF}
+
+
 
 /*LOCALIZAÇÃO*/
 section#localizacao aside p.tt_pequeno { font-size: 3.0em; margin: 35px 0 0 25px; line-height: 35px;}
 section#localizacao article div { width: 100%; margin-top: 20px; height: 750px; float: left;}
 
-
 /*RESIDENCIAL*/
 section#residencial article { margin-top: 40px;}
-
 div#residencial_box01, div#residencial_box02, div#residencial_box03 { width: 33.33333333333333%; height: 100%; float: left; position: relative; background-size:100% 100%; -webkit-background-size: 100% 100%; -o-background-size: 100% 100%; -khtml-background-size: 100% 100%; -moz-background-size: 100% 100%;}
 div#residencial_box01 span a, div#residencial_box02 span a, div#residencial_box03 span a { width: 100%; height: 324px; float: left; display: block; background: url(../img/fundo_residencial.png) repeat;}
 div#residencial_box01 span a:hover, div#residencial_box02 span a:hover, div#residencial_box03 span a:hover  { background: transparent;}
@@ -61,21 +62,16 @@ div#residencial_box01 span div.top_box p.tt_top_box, div#residencial_box02 span 
 div#residencial_box01 span div.top_box p, div#residencial_box02 span div.top_box p, div#residencial_box03 span div.top_box p { font-size: 1.4em; padding-left: 1%; letter-spacing: 1px;}
 div#residencial_box01 span div.top_box, div#residencial_box02 span div.top_box, div#residencial_box03 span div.top_box { width: 100%; background: transparent; height: 125px; color: #FFF; float: left;}
 div#residencial_box01 span:hover div.top_box, div#residencial_box02 span:hover div.top_box, div#residencial_box03 span:hover div.top_box { background: url(../img/fundo_residencialbr.png); color: #000;}
-
 div#residencial_box01 { background: url(../img/teste_resi.jpg) no-repeat;}
 div#residencial_box02 { background: url(../img/teste_resi.jpg) no-repeat;}
 div#residencial_box03 { background: url(../img/teste_resi.jpg) no-repeat;}
-
 div#residencial_box02 span div.active-header { background: url(../img/fundo_residencialbr.png); color: #000;}
 div#residencial_box02 span a.active-span { background: transparent;}
-
-
 section#residencial aside p.tt_pequeno { font-size: 3.0em; margin: 35px 0 0 25px; line-height: 35px;}
 section#residencial aside p.tt_small { font-size: 1.4em; margin: 20px 0 0 25px; line-height: 22px; float: left; letter-spacing: 1px;}
 section#residencial aside figure { float: left; margin: 45px 0 0 25px;}
 section#residencial aside figure figcaption { float: left; margin-top: 35px; letter-spacing: 2px;}
 section#residencial aside figure img { margin-left: 20px;}
-
 
 /*RESORT*/
 section#resort aside p.tt_small { font-size: 1.4em; margin: 20px 0 0 25px; line-height: 22px; float: left; letter-spacing: 1px;}
@@ -83,71 +79,105 @@ section#resort aside figure { float: left; margin-top: 40px;}
 section#resort aside figure img { margin-left: 25px; float: left;}
 section#resort aside figcaption { margin: 12px 0 0 15px; letter-spacing: 1px; font-size: 2.0em; color: #f26522; float: left;}
 section#resort article  { width: 100%; float: left; position: relative;}
-section#resort div#planta_resort { width: 100%; min-width: 1345px; max-width: 1903px; max-height: 1360px; margin-top: 55px;}
-section#resort div#planta_resort img { max-width: 100%;}
-div#planta_resort span#icones_resort { width: 100%; position: absolute; z-index: 100; top: 0; left: 0;}
-span#icones_resort div.box-shadow { width: 296px; display: none; background: #FFF; position: absolute; z-index: 200; -webkit-border-radius: 10px;
--moz-border-radius: 10px; border-radius: 10px; -webkit-box-shadow: 0px 0px 2px 2px rgba(50, 50, 50, 0.40); -moz-box-shadow: 0px 0px 2px 2px rgba(50, 50, 50, 0.40); box-shadow: 0px 0px 2px 2px rgba(50, 50, 50, 0.40);}
+div#planta_resort { width: 100%; min-width: 1345px; max-width: 1903px; max-height: 1360px; margin-top: 55px;}
+div#planta_resort img { max-width: 100%;}
+span#icones_resort { width: 100%; position: absolute; z-index: 100; top: 0; left: 0;}
+div.box-shadow { width: 296px; display: none; background: #FFF; position: absolute; z-index: 200; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; -webkit-box-shadow: 0px 0px 2px 2px rgba(50, 50, 50, 0.40); -moz-box-shadow: 0px 0px 2px 2px rgba(50, 50, 50, 0.40); box-shadow: 0px 0px 2px 2px rgba(50, 50, 50, 0.40);}
 p.tt_box-shadow { text-transform: uppercase; font-size: 1.6em; letter-spacing: 1px; color: #f7941d; text-align: center;}
 p.txt_box-shadow { width: 270px; font-size: 1.5em; color: #000; padding-bottom: 15px; text-align: center; letter-spacing: 1px; line-height: 20px; margin: 0 auto;}
 img.imagem_resort { width: 296px; float: left; -webkit-border-top-left-radius: 10px; -webkit-border-top-right-radius: 10px; -moz-border-radius-topleft: 10px; -moz-border-radius-topright: 10px; border-top-left-radius: 10px; border-top-right-radius: 10px;}
 img.dt_box { position: absolute; bottom: -16px; right: 133px;}
-span#icones_resort figure#ico01 a:hover div.box-shadow, span#icones_resort figure#ico02 a:hover div.box-shadow,
-span#icones_resort figure#ico03 a:hover div.box-shadow, span#icones_resort figure#ico04 a:hover div.box-shadow,
-span#icones_resort figure#ico05 a:hover div.box-shadow, span#icones_resort figure#ico06 a:hover div.box-shadow,
-span#icones_resort figure#ico07 a:hover div.box-shadow, span#icones_resort figure#ico08 a:hover div.box-shadow,
-span#icones_resort figure#ico09 a:hover div.box-shadow, span#icones_resort figure#ico10 a:hover div.box-shadow,
-span#icones_resort figure#ico11 a:hover div.box-shadow, span#icones_resort figure#ico12 a:hover div.box-shadow,
-span#icones_resort figure#ico13 a:hover div.box-shadow, span#icones_resort figure#ico14 a:hover div.box-shadow { display: block;}
+figure#ico01 a:hover div.box-shadow, figure#ico02 a:hover div.box-shadow,
+figure#ico03 a:hover div.box-shadow, figure#ico04 a:hover div.box-shadow,
+figure#ico05 a:hover div.box-shadow, figure#ico06 a:hover div.box-shadow,
+figure#ico07 a:hover div.box-shadow, figure#ico08 a:hover div.box-shadow,
+figure#ico09 a:hover div.box-shadow, figure#ico10 a:hover div.box-shadow,
+figure#ico11 a:hover div.box-shadow, figure#ico12 a:hover div.box-shadow,
+figure#ico13 a:hover div.box-shadow, figure#ico14 a:hover div.box-shadow { display: block;}
 
 
-span#icones_resort figure#ico01 { position: absolute; margin: 37% 0 0 14%;}
-span#icones_resort div.ico01 { position: absolute; margin: -930% 0 0 -289%;}
+figure#ico01 { position: absolute; margin: 37% 0 0 14%;}
+div.ico01 { position: absolute; margin: -930% 0 0 -289%;}
 
-span#icones_resort figure#ico02 { position: absolute; margin: 36% 0 0 31%;}
-span#icones_resort div.ico02 { position: absolute; margin: -930% 0 0 -289%;}
+figure#ico02 { position: absolute; margin: 36% 0 0 31%;}
+div.ico02 { position: absolute; margin: -930% 0 0 -289%;}
 
-span#icones_resort figure#ico03 { position: absolute; margin: 31% 0 0 35%;}
-span#icones_resort div.ico03 { position: absolute; margin: -930% 0 0 -289%;}
+figure#ico03 { position: absolute; margin: 31% 0 0 35%;}
+div.ico03 { position: absolute; margin: -930% 0 0 -289%;}
 
-span#icones_resort figure#ico04 { position: absolute; margin: 27% 0 0 39%;}
-span#icones_resort div.ico04 { position: absolute; margin: -930% 0 0 -289%;}
+figure#ico04 { position: absolute; margin: 27% 0 0 39%;}
+div.ico04 { position: absolute; margin: -930% 0 0 -289%;}
 
-span#icones_resort figure#ico05 { position: absolute; margin: 11% 0 0 56%;}
-span#icones_resort div.ico05 { position: absolute; margin: -930% 0 0 -289%;}
+figure#ico05 { position: absolute; margin: 11% 0 0 56%;}
+div.ico05 { position: absolute; margin: -930% 0 0 -289%;}
 
-span#icones_resort figure#ico06 { position: absolute; margin: 31% 0 0 48%;}
-span#icones_resort div.ico06 { position: absolute; margin: -930% 0 0 -289%;}
+figure#ico06 { position: absolute; margin: 31% 0 0 48%;}
+div.ico06 { position: absolute; margin: -930% 0 0 -289%;}
 
-span#icones_resort figure#ico07 { position: absolute; margin: 35% 0 0 43%;}
-span#icones_resort div.ico07 { position: absolute; margin: -930% 0 0 -289%;}
+figure#ico07 { position: absolute; margin: 35% 0 0 43%;}
+div.ico07 { position: absolute; margin: -930% 0 0 -289%;}
 
-span#icones_resort figure#ico08 { position: absolute; margin: 30% 0 0 58%;}
-span#icones_resort div.ico08 { position: absolute; margin: -930% 0 0 -289%;}
+figure#ico08 { position: absolute; margin: 30% 0 0 58%;}
+div.ico08 { position: absolute; margin: -930% 0 0 -289%;}
 
-span#icones_resort figure#ico09 { position: absolute; margin: 38% 0 0 59%;}
-span#icones_resort div.ico09 { position: absolute; margin: -930% 0 0 -289%;}
+figure#ico09 { position: absolute; margin: 38% 0 0 59%;}
+div.ico09 { position: absolute; margin: -930% 0 0 -289%;}
 
-span#icones_resort figure#ico10 { position: absolute; margin: 45% 0 0 66%;}
-span#icones_resort div.ico10 { position: absolute; margin: -930% 0 0 -289%;}
+figure#ico10 { position: absolute; margin: 45% 0 0 66%;}
+div.ico10 { position: absolute; margin: -930% 0 0 -289%;}
 
-span#icones_resort figure#ico11 { position: absolute; margin: 22% 0 0 79%;}
-span#icones_resort div.ico11 { position: absolute; margin: -930% 0 0 -289%;}
+figure#ico11 { position: absolute; margin: 22% 0 0 79%;}
+div.ico11 { position: absolute; margin: -930% 0 0 -289%;}
 
-span#icones_resort figure#ico12 { position: absolute; margin: 33% 0 0 92%;}
-span#icones_resort div.ico12 { position: absolute; margin: -930% 0 0 -289%;}
+figure#ico12 { position: absolute; margin: 33% 0 0 92%;}
+div.ico12 { position: absolute; margin: -930% 0 0 -289%;}
 
-span#icones_resort figure#ico13 { position: absolute; margin: 55% 0 0 75%;}
-span#icones_resort div.ico13 { position: absolute; margin: -930% 0 0 -289%;}
+figure#ico13 { position: absolute; margin: 55% 0 0 75%;}
+div.ico13 { position: absolute; margin: -930% 0 0 -289%;}
 
-span#icones_resort figure#ico14 { position: absolute; margin: 64% 0 0 59%;}
-span#icones_resort div.ico14 { position: absolute; margin: -930% 0 0 -289%;}
+figure#ico14 { position: absolute; margin: 64% 0 0 59%;}
+div.ico14 { position: absolute; margin: -930% 0 0 -289%;}
 
 /*CONTATO*/
 section#contato aside p.tt_pequeno { font-size: 3.0em; margin: 35px 0 0 25px; line-height: 35px;}
+section#contato article { width: 1052px; margin: 75px 0 0 25px; float: left; position: relative;}
+section#contato aside p.tt_pequeno { font-size: 3.0em; margin: 35px 0 0 25px; line-height: 35px;}
+section#contato article form { float: left;}
+section#contato article form input, select { font-family: 'Arial', Helvetica, sans-serif; font-size: 1.4em; letter-spacing: 2px; color: #000;}
+div.form_topo { width: 300px; float: left; margin-right: 50px; }
+div.form_meio { width: 650px; float: left; margin-top: 40px;}
+div.form_fim { width: 1052px; float: left; margin-top: 40px; margin-left: -12px;}
+div.form_topo label, div.form_meio, div.form_fim { font-size: 1.4em; text-transform: uppercase; color: #000; letter-spacing: 2px; float: left; margin-bottom: 10px;}
+div.form_topo input { width: 272px; height: 28px; border: solid 1px #000; -webkit-border-radius: 10px;
+-moz-border-radius: 10px; border-radius: 10px; margin-bottom: 37px; padding: 12px;}
+div.form_topo select { width: 298px; height: 51px; border: solid 1px #000; -webkit-border-radius: 10px;
+-moz-border-radius: 10px; border-radius: 10px; padding: 15px 12px 12px 12px;}
+div.form_meio input { margin: 20px 0 0 20px;}
+div.form_meio span.box_checkbox { width: 150px; float: left; margin: 40px 0 0 85px;}
+div.form_fim label { display: block;}
+div.form_fim textarea { width: 650px; height: 150px; border: solid 1px #000; -webkit-border-radius: 10px;
+-moz-border-radius: 10px; border-radius: 10px; padding: 12px;}
+div.form_fim textarea { font-family: 'Arial', Helvetica, sans-serif; letter-spacing: 2px;}
+div.form_fim button  { width: 300px; height: 50px; margin-top: -110px; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px;  float: right; border: none; background: #f7941d;}
+div.form_fim button:hover {  background: #d67e13}
+div.form_fim button  { text-transform: uppercase; color: #FFF; font-size: 1.4em; padding-top: 4px;}
+span.form_meio_erro { text-transform: none; margin-left: 10px; font-weight: bold; color: #fa6464;}
 
+/*ERROS FORM*/
+div.form_topo input.statusErro { color: #FFF !important; background: url(../img/icon_erro.png) no-repeat #fa6464; background-position: 250px 13px; cursor: pointer;}
+div.form_topo input.statusValido { color: #000 !important; background: url(../img/icon_valido.png) no-repeat #8fd43e; background-position: 250px 13px;}
 
+/*FORM SUCESSO*/
+section#ContatoSucesso article { width: 1130px; height: 500px; margin: 75px 0 0 25px; float: left; position: relative;}
+section#ContatoSucesso aside p.tt_pequeno { font-size: 3.0em; margin: 35px 0 0 25px; line-height: 35px;}
+figure#img_aviso { position: absolute; left: 180px; top: 100px;}
+section#ContatoSucesso aside p#tt_aviso { font-size: 4.5em; line-height: 50px; letter-spacing: 2px; position: absolute; left: 400px; top: 175px;}
+section#ContatoSucesso aside p#tt_aviso span { font-size: 1.5em;}
+section#ContatoSucesso aside p#txt_aviso { font-size: 2.4em; color: #67a222; letter-spacing: 1px; position: absolute; left: 180px; top: 350px;}
 
+/*FORM ERROS*/
+section#ContatoSucesso aside p#txt_aviso_erro { font-size: 2.4em; line-height: 30px; color: #333333; letter-spacing: 1px; position: absolute; left: 180px; top: 350px;}
+section#ContatoSucesso aside p#txt_aviso_erro a { text-decoration: none; color: #e42c32;}
 
 /*FOOTER*/
 footer { border-bottom: solid 52px #000; position: relative; float: left;}
@@ -174,10 +204,10 @@ article figure#detalhe_rodape a { position: absolute; right: 80px; bottom: -35px
 .ie10 aside div#index_resort img.seta_resort { margin-right: -70% !important; margin-top: -5% !important;}
 
 
-/* Hack Opera */
+/* Hack Opera 
 x:-o-prefocus, span.box_checkbox { 
 	width: 226px !important;
-} 
+} */
 
 
 

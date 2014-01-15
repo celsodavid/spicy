@@ -31,23 +31,23 @@
 			<div id="index_resort" class="checkBg">
 
 				<figure>
-					<a href="<?php echo base_url('resort'); ?>">
-						<img src="<?php echo base_url('assets');?>/img/index_resort.jpg">
-					</a>
+				   <img src="<?php echo base_url('assets');?>/img/index_resort.jpg">
 				</figure>
 
 				<a href="<?php echo base_url('resort'); ?>" title="Resort" alt="Resort"><span class="fundoPreto"></span></a>
 
 				    <h3>
 				      <a href="<?php echo base_url('resort'); ?>">Resort
-					  <img style="display:none" class="seta_resort" src="<?php echo base_url('assets');?>/img/index_seta.png">
-					</a>
+					    <img style="display:none" class="seta_resort" src="<?php echo base_url('assets');?>/img/index_seta.png">
+					  </a>
 				    </h3>
 			</div>
 
 		</aside>
 
-		<footer></footer><!-- paulo lembrar -->
+		<div id="rodape_index">
+			Solaris© 2014. Todos os direitos reservados
+		</div>
 
 	</article>
 
