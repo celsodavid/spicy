@@ -2,9 +2,11 @@
 
 class Site extends CI_Controller {
 
+	public $contato_view;
+	
 	function __construct()
 	{
-		parent::__construct();	
+		parent::__construct();		
 	}
 	
 	public function index()
@@ -61,14 +63,22 @@ class Site extends CI_Controller {
 	
 	public function contato()
 	{
-		$data['title'] = "Fale Conosco";
+		$data['title'] = "Contato";
 		$data['description'] = "";
 		$data['keywords'] = "";
 		$data['menu4'] = true;
 		$data['rodape_img'] = "contato";
+		
+		if($this->input->post('enviar')) {
+			$this->contato_view = "contato_sucesso_view";
+		}
+		else {
+			$this->contato_view = "contato_view";
+		}
+		
 		$this->load->view('html_header', $data);
 		$this->load->view('header', $data);
-		$this->load->view('content/contato_view', $data);
+		$this->load->view("content/{$this->contato_view}", $data);
 		$this->load->view('footer', $data);
 		$this->load->view('html_footer', $data);
 	}

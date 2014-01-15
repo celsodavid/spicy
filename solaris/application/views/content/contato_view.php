@@ -1,4 +1,4 @@
-<!--<section id="contato">
+<section id="contato">
 
 	<aside>
 		<h2>Contato</h2>
@@ -6,11 +6,11 @@
 
 		<article>
 
-		 <form method="post" action="#">
+		 <form method="post" action="<?php echo base_url('contato');?>">
 
 		 			<div class="form_topo">		
 				    	<label for="nome">Nome:</label><br />
-	                    <!--<input class="statusNome" type="text" name="nome" id="nome" />
+	                    <!-- <input class="statusNome" type="text" name="nome" id="nome" /> -->
 	                    <input class="statusErro" type="text" name="nome" id="nome" value="*Este campo é obrigatório." disabled="disabled"/>
 	                    <br />
 
@@ -27,8 +27,8 @@
 
 	                <div class="form_topo">
 	                	<label for="nome">E-mail:</label><br />
-	                    <!--<input class="statusEmail" type="text" name="nome" id="nome" />-->
-		                    <!--<nput class="statusErro" type="text" name="nome" id="nome" value="Email invalido" disabled/>
+	                    	<!--<input class="statusEmail" type="text" name="nome" id="nome" />-->
+		                    <!--<nput class="statusErro" type="text" name="nome" id="nome" value="Email invalido" disabled/>-->
 		                    <input class="statusValido" type="text" name="nome" id="nome" value="celso@teste.com.br" disabled="disabled"/>
 	                    <br />
 
@@ -40,7 +40,7 @@
 	                <div class="form_topo">
 
 	                	<label for="nome">Telefone:</label><br />
-	                    <!--<input class="statusTelefone" type="text" name="nome" id="nome" />
+	                    <!--<input class="statusTelefone" type="text" name="nome" id="nome" />-->
 	                    <input class="statusErro" type="text" name="nome" id="nome" value="*Este campo é obrigatório." disabled="disabled"/> 
 	                    <br />
 
@@ -97,7 +97,7 @@
 	                    <textarea name="mensagem" class="statusMensagem"></textarea>
 			            <br class="clear" />
 
-			            <button type="button" class="enviar" title="Enviar" id="save">Enviar mensagem</button>
+			            <button type="submit" class="enviar" name="enviar" value="1" title="Enviar" id="save">Enviar mensagem</button>
 	                </div>   
                  	
 	    </form>
@@ -106,130 +106,4 @@
 
 	</aside>
 
-</section>-->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!--<section id="ContatoSucesso">
-
-	<aside>
-		<h2>Contato</h2>
-		<p class="tt_pequeno">ligue: 0800.770.7044, (11) 3066.1000, ou se preferir preencha o formulário abaixo:</p>
-
-		<article>
-
-			<figure id="img_aviso">
-				<img src="<?php echo base_url('assets');?>/img/img_sucesso.png">
-			</figure>
-
-			<p id="tt_aviso"><span>parabéns</span><br/>
-            mensagem enviada com sucesso.</p>
-            <p id="txt_aviso">Aguarde você será redirecionado em alguns segundos.</p>
-
-	    </article>
-
-	</aside>
-
-</section>-->
-
-<section id="ContatoSucesso">
-
-	<aside>
-		<h2>Contato</h2>
-		<p class="tt_pequeno">ligue: 0800.770.7044, (11) 3066.1000, ou se preferir preencha o formulário abaixo:</p>
-
-		<article>
-
-			<figure id="img_aviso">
-				<img src="<?php echo base_url('assets');?>/img/img_erro.png">
-			</figure>
-
-			<p id="tt_aviso"><span>erro</span><br/>
-              falha no envio da mensagem.</p>
-            <p id="txt_aviso_erro">Se o erro persistir entre em contato através do e-mail abaixo:<br/>
-            	<a href="">solaris@solaris.com.br</a>
-            </p>
-
-	    </article>
-
-	</aside>
-
 </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
