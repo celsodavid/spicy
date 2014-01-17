@@ -63,6 +63,10 @@ class Site extends CI_Controller {
 	
 	public function contato()
 	{
+		/* 
+			São Paulo - kaubatalha@abacusconsultoria.com.br 
+			Boituva- wasposato@bol.com.br
+		 */
 		$data['title'] = "Contato";
 		$data['description'] = "";
 		$data['keywords'] = "";
