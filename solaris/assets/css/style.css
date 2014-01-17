@@ -56,21 +56,23 @@ section#localizacao article div { width: 100%; margin-top: 20px; height: 750px; 
 section#residencial article { margin-top: 40px;}
 div#residencial_box01, div#residencial_box02, div#residencial_box03 { width: 33.33333333333333%; height: 100%; float: left; position: relative; background-size:100% 100%; -webkit-background-size: 100% 100%; -o-background-size: 100% 100%; -khtml-background-size: 100% 100%; -moz-background-size: 100% 100%;}
 div#residencial_box01 span a, div#residencial_box02 span a, div#residencial_box03 span a { width: 100%; height: 324px; float: left; display: block; background: url(../img/fundo_residencial.png) repeat;}
-/*div#residencial_box01 span a:hover, div#residencial_box02 span a:hover, div#residencial_box03 span a:hover  { background: transparent;}*/
+div#residencial_box01 span a:hover, div#residencial_box02 span a:hover, div#residencial_box03 span a:hover  { background: transparent;}
 div#residencial_box01 span div.top_box p.tt_top_box, div#residencial_box02 span div.top_box p.tt_top_box, div#residencial_box03 span div.top_box p.tt_top_box { font-size: 2.0em; padding-left: 1%; letter-spacing: 1px; margin-bottom: -10px;}
 div#residencial_box01 span div.top_box p, div#residencial_box02 span div.top_box p, div#residencial_box03 span div.top_box p { font-size: 1.4em; padding-left: 1%; letter-spacing: 1px;}
-div#residencial_box01 span div.top_box, div#residencial_box02 span div.top_box, div#residencial_box03 span div.top_box { width: 100%; background: transparent; height: 125px; color: #FFF; float: left;}
-/*div#residencial_box01 span:hover div.top_box, div#residencial_box02 span:hover div.top_box, div#residencial_box03 span:hover div.top_box { background: url(../img/fundo_residencialbr.png); color: #000;}*/
+div#residencial_box01 span div.top_box, div#residencial_box02 span div.top_box, div#residencial_box03 span div.top_box { width: 100%; background: transparent; height: 125px; color: #FFF; float: left; transition: all 999ms ease 0s;}
+div#residencial_box01 span:hover div.top_box, div#residencial_box02 span:hover div.top_box, div#residencial_box03 span:hover div.top_box { background: url(../img/fundo_residencialbr.png); color: #000;}
 div#residencial_box01 { background: url(../img/teste_resi.jpg) no-repeat;}
 div#residencial_box02 { background: url(../img/teste_resi.jpg) no-repeat;}
 div#residencial_box03 { background: url(../img/teste_resi.jpg) no-repeat;}
-div#residencial_box02 span div.active-header { background: url(../img/fundo_residencialbr.png); color: #000;}
-div#residencial_box02 span a.active-span { background: transparent;}
 section#residencial aside p.tt_pequeno { font-size: 3.0em; margin: 35px 0 0 25px; line-height: 35px;}
 section#residencial aside p.tt_small { font-size: 1.4em; margin: 20px 0 0 25px; line-height: 22px; float: left; letter-spacing: 1px;}
 section#residencial aside figure { float: left; margin: 45px 0 0 25px;}
 section#residencial aside figure figcaption { float: left; margin-top: 35px; letter-spacing: 2px;}
 section#residencial aside figure img { margin-left: 20px;}
+
+div#residencial_box01 span.active-header div.top_box { background: url(../img/fundo_residencialbr.png); color: #000;}
+div#residencial_box01 span a.active-span { background: transparent;}
+
 
 /*RESORT*/
 section#resort aside p.tt_small { font-size: 1.4em; margin: 20px 0 0 25px; line-height: 22px; float: left; letter-spacing: 1px;}
@@ -129,7 +131,8 @@ figure#ico11 { position: absolute; margin: 22% 0 0 79%;}
 div.ico11 { position: absolute; margin: -930% 0 0 -289%;}
 
 figure#ico12 { position: absolute; margin: 33% 0 0 92%;}
-div.ico12 { position: absolute; margin: -930% 0 0 -289%;}
+div.ico12 { position: absolute; margin: -453% 0 0 -722%}
+img.dt_box-ico12 { position: absolute; bottom: 148px; right: -16px;}
 
 figure#ico13 { position: absolute; margin: 55% 0 0 75%;}
 div.ico13 { position: absolute; margin: -930% 0 0 -289%;}

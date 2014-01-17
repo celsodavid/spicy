@@ -24,8 +24,8 @@
 		   
 			<div id="residencial_box02">
 		    	<span>
-		    	  <a class="active-span" href="">
-		    	  	<div class="top_box active-header">
+		    	  <a href="">
+		    	  	<div class="top_box">
 		    	  	  <p class="tt_top_box">Casa João Lambert</p>
                       <p>Quadra 17 - Lotes 15,16  Terreno 867m² - Casa 333m²<br/><br/>  
                       Arquiteto João Lambert</p>

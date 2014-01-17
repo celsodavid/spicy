@@ -223,7 +223,7 @@
 							Circuito para enduro equestre e um 
 							haras com 52 baias para deixar seu 
 							cavalo e os do empreendimento.</p>
-	                    <img class="dt_box" src="<?php echo base_url('assets');?>/img/detalhe_sobra_box_resort.png">
+	                    <img class="dt_box-ico12" src="<?php echo base_url('assets');?>/img/detalhe_sobra_box_resort2.png">
 		    	    </div>
 			      	<img src="<?php echo base_url('assets');?>/img/icon_resort.png">
 			      </a>
