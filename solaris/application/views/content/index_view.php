@@ -46,7 +46,7 @@
 		</aside>
 
 		<div id="rodape_index">
-			Solaris© 2014. Todos os direitos reservados
+			Solaris © 2014. Todos os direitos reservados
 		</div>
 
 	</article>

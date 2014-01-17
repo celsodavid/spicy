@@ -25,7 +25,7 @@ section#localizacao, section#resort, section#index, section#residencial, footer,
 
 section#localizacao aside, section#resort aside, section#residencial aside, footer article, section#contato aside, section#ContatoSucesso aside { width: 1345px; float: left; position: relative; left: 50%; margin-left: -672.5px; text-transform: uppercase;}
 
-section#localizacao aside h2, section#resort aside h2, section#residencial h2, section#contato h2, section#ContatoSucesso h2 { width: 1322px; font-size: 7.0em; letter-spacing: 2px; margin: 70px 0 0 25px; float: left; font-weight: 100; color: #f7941d;}
+section#localizacao aside h2, section#resort aside h2, section#residencial h2, section#contato h2, section#ContatoSucesso h2 { width: 1320px; font-size: 7.0em; letter-spacing: 2px; margin: 70px 0 0 25px; float: left; font-weight: 100; color: #f7941d;}
 
 section#localizacao aside p.tt_medio, section#localizacao aside p.tt_pequeno, section#resort aside p.tt_medio, section#residencial p.tt_medio, section#residencial p.tt_pequeno, section#contato p.tt_pequeno, section#ContatoSucesso p.tt_pequeno { color: #000000; letter-spacing: 1px; float: left;}
 
@@ -45,8 +45,7 @@ div#index_residencial h3 a, div#index_resort h3 a { font-size: 6.066em; text-tra
 img.seta_residencial { height: 126px; margin-left: 50%; margin-top: -20%; float: right;}
 img.seta_resort { height: 126px; margin-left: 70%; margin-top: -22%; float: right;}
 
-div#rodape_index { width: 100%; float: left; position: relative; z-index: 200; height: 30px; background: #000; margin-top: -15px; color: #FFF}
-
+div#rodape_index { width: 100%; padding-top: 10px; letter-spacing: 1px; float: left; text-align: center; font-size: 1.4em; position: relative; z-index: 200; height: 20px; background: #000; margin-top: -15px; color: #FFF}
 
 
 /*LOCALIZAÇÃO*/
@@ -57,11 +56,11 @@ section#localizacao article div { width: 100%; margin-top: 20px; height: 750px; 
 section#residencial article { margin-top: 40px;}
 div#residencial_box01, div#residencial_box02, div#residencial_box03 { width: 33.33333333333333%; height: 100%; float: left; position: relative; background-size:100% 100%; -webkit-background-size: 100% 100%; -o-background-size: 100% 100%; -khtml-background-size: 100% 100%; -moz-background-size: 100% 100%;}
 div#residencial_box01 span a, div#residencial_box02 span a, div#residencial_box03 span a { width: 100%; height: 324px; float: left; display: block; background: url(../img/fundo_residencial.png) repeat;}
-div#residencial_box01 span a:hover, div#residencial_box02 span a:hover, div#residencial_box03 span a:hover  { background: transparent;}
+/*div#residencial_box01 span a:hover, div#residencial_box02 span a:hover, div#residencial_box03 span a:hover  { background: transparent;}*/
 div#residencial_box01 span div.top_box p.tt_top_box, div#residencial_box02 span div.top_box p.tt_top_box, div#residencial_box03 span div.top_box p.tt_top_box { font-size: 2.0em; padding-left: 1%; letter-spacing: 1px; margin-bottom: -10px;}
 div#residencial_box01 span div.top_box p, div#residencial_box02 span div.top_box p, div#residencial_box03 span div.top_box p { font-size: 1.4em; padding-left: 1%; letter-spacing: 1px;}
 div#residencial_box01 span div.top_box, div#residencial_box02 span div.top_box, div#residencial_box03 span div.top_box { width: 100%; background: transparent; height: 125px; color: #FFF; float: left;}
-div#residencial_box01 span:hover div.top_box, div#residencial_box02 span:hover div.top_box, div#residencial_box03 span:hover div.top_box { background: url(../img/fundo_residencialbr.png); color: #000;}
+/*div#residencial_box01 span:hover div.top_box, div#residencial_box02 span:hover div.top_box, div#residencial_box03 span:hover div.top_box { background: url(../img/fundo_residencialbr.png); color: #000;}*/
 div#residencial_box01 { background: url(../img/teste_resi.jpg) no-repeat;}
 div#residencial_box02 { background: url(../img/teste_resi.jpg) no-repeat;}
 div#residencial_box03 { background: url(../img/teste_resi.jpg) no-repeat;}
@@ -195,20 +194,19 @@ article figure#detalhe_rodape a { position: absolute; right: 80px; bottom: -35px
 
 /* Hack Chorme */
 @media screen and (-webkit-min-device-pixel-ratio:0) {
- aside div#index_residencial img.seta_residencial { margin-right: -20%; margin-top: -21%;}
- aside div#index_resort img.seta_resort { margin-right: -70%; margin-top: -33%;}
+ img.seta_residencial { margin-right: -16%; margin-top: -21%;}
+ img.seta_resort { margin-right: -70%; margin-top: -33%;}
 }
 
 /* Hack ie10 */
-.ie10 aside div#index_residencial img.seta_residencial { margin-right: -18% !important; margin-top: -21% !important;} 
-.ie10 aside div#index_resort img.seta_resort { margin-right: -70% !important; margin-top: -5% !important;}
+.ie10 img.seta_residencial { margin-right: -16% !important; margin-top: -21% !important;} 
+.ie10 img.seta_resort { margin-right: -70% !important; margin-top: -5% !important;}
 
 
-/* Hack Opera 
-x:-o-prefocus, span.box_checkbox { 
-	width: 226px !important;
-} */
-
+/* Hack Opera */
+x:-o-prefocus, img.seta_residencial { 
+	margin-right: -30% !important; margin-top: -21%;
+}
 
 
 
