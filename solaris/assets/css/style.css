@@ -163,7 +163,7 @@ div.form_fim textarea { font-family: 'Arial', Helvetica, sans-serif; letter-spac
 div.form_fim button  { width: 300px; height: 50px; margin-top: -110px; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px;  float: right; border: none; background: #f7941d;}
 div.form_fim button:hover {  background: #d67e13}
 div.form_fim button  { text-transform: uppercase; color: #FFF; font-size: 1.4em; padding-top: 4px;}
-span.form_meio_erro { text-transform: none; margin-left: 10px; font-weight: bold; color: #fa6464;}
+span.form_meio_erro { text-transform: none; margin-left: 10px; font-weight: bold; color: #fa6464; display: none;}
 
 /*ERROS FORM*/
 div.form_topo input.statusErro { color: #FFF !important; background: url(../img/icon_erro.png) no-repeat #fa6464; background-position: 250px 13px; cursor: pointer;}

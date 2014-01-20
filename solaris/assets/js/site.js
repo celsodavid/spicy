@@ -1,3 +1,66 @@
+function validar(name, nameClass)
+{
+	$("input[name="+name+"]").on("blur", function(){
+		var classe = $(this).attr("class");
+		if(classe != "statusErro") {			
+			if($(this).val() == "") {
+				$(this).removeClass(nameClass).addClass("statusErro");
+				$(this).val("*Este campo é obrigatório.");
+			}
+			else {
+				if(name == "email") {
+					if(valid_email($(this).val()) == "sim") {						
+						$(this).removeClass(nameClass).addClass("statusValido");
+						//$(this).attr("disabled","disabled");
+						$(this).attr("readonly","readonly");
+					}
+					else {
+						$(this).removeClass(nameClass).addClass("statusErro");
+						$(this).val("*E-mail inválido.");
+					}
+				}
+				else {
+					$(this).removeClass(nameClass).addClass("statusValido");
+					//$(this).attr("disabled","disabled");
+					$(this).attr("readonly","readonly");
+				}
+				
+			}
+		}
+	}).on("focus", function(){
+		var classe = $(this).attr("class");
+		if(classe == "statusErro") {
+			var valor = $("."+classe).val();
+			$(this).val("");
+			$(this).removeClass("statusErro").addClass(nameClass);
+		}
+	});
+}
+function valid_email(email) {
+	var filtro = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
+	if(filtro.test(email)) {		
+		return "sim";
+	}
+	else {		
+        return "nao";
+	}
+}
+
+function contador(segundos){
+	contador1 = setTimeout('redireciona()', segundos*1000);
+	atualiza(segundos);
+}
+function atualiza(segundos){
+	if(segundos>0){
+		$("#cont").html(segundos);
+		segundos = segundos-1;
+		contador2 = setTimeout('atualiza(\''+segundos+'\')', 1000);
+	}
+}
+function redireciona(){
+	window.location = "contato";
+}
+
 $(function() {
 	var width = $(window).width();
 
@@ -53,5 +116,76 @@ $(function() {
 		$("html, body").animate({scrollTop:0},"slow");
 		return false;
 	});
+	
+	/* validate */
+	validar("nome", "statusNome");
+	validar("email", "statusEmail");
+	validar("tel", "statusTelefone");
+	
+	$("button[name=enviar]").on("click", function(event){		
+		var error = 0;
+		$("label[for=opcao1] .form_meio_erro").fadeOut("slow");
+		$("label[for=mensagem] .form_meio_erro").fadeOut("slow");
+		
+		if($("input[name=nome]").val() == "") {
+			$("input[name=nome]").removeClass("statusNome").addClass("statusErro");
+			$("input[name=nome]").val("*Este campo é obrigatório.");
+			error ++;
+		}
+		
+		if($("input[name=email]").val() == "") {
+			$("input[name=email]").removeClass("statusEmail").addClass("statusErro");
+			$("input[name=email]").val("*Este campo é obrigatório.");
+			error ++;
+		}
+		else {
+			if(valid_email($("input[name=email]").val()) == "nao") {
+				$("input[name=email]").removeClass("statusEmail").addClass("statusErro");
+				$("input[name=email]").val("*E-mail inválido.");
+				error ++;
+			}
+		}
+		
+		if($("input[name=tel]").val() == "") {
+			$("input[name=tel]").removeClass("statusTelefone").addClass("statusErro");
+			$("input[name=tel]").val("*Este campo é obrigatório.");
+			error ++;
+		}
+		
+		if($(".opcao11").is(":checked")==false && $(".opcao12").is(":checked")==false) {
+			$("label[for=opcao1] .form_meio_erro").fadeIn("slow");
+			error ++;			
+		}
+		
+		if($("textarea[name=mensagem]").val() == "") {
+			$("label[for=mensagem] .form_meio_erro").fadeIn("slow");
+			error ++;
+		}
+		
+		$("html, body").animate({scrollTop:0},"slow");
+		if(error > 0) {
+			return false;
+		}
+	});
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 });

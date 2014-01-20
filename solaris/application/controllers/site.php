@@ -63,18 +63,43 @@ class Site extends CI_Controller {
 	
 	public function contato()
 	{
-		/* 
-			São Paulo - kaubatalha@abacusconsultoria.com.br 
-			Boituva- wasposato@bol.com.br
-		 */
 		$data['title'] = "Contato";
 		$data['description'] = "";
 		$data['keywords'] = "";
 		$data['menu4'] = true;
 		$data['rodape_img'] = "contato";
 		
-		if($this->input->post('enviar')) {
-			$this->contato_view = "contato_sucesso_view";
+		if($this->input->post('enviar')) {			
+			$dados['nome'] = $this->input->post('nome');
+			$dados['telefone'] = $this->input->post('tel');
+			$dados['estado_civil'] = $this->input->post('estado_civil');
+			$dados['idade'] = $this->input->post('idade');
+			$dados['email'] = $this->input->post('email');
+			$dados['filhos'] = $this->input->post('son');
+			$dados['opcao1'] = $this->input->post('opcao1');
+			$dados['mensagem'] = $this->input->post('mensagem');
+			$dados['items'] = $this->input->post('opcao2');
+			$dados['i'] = 0;
+			$mensagem = $this->load->view('email/mensagem',$dados,TRUE);
+			
+			$this->load->library('email');
+			$this->email->from($this->input->post('email'),$this->input->post('nome'));
+			#$this->email->to('kaubatalha@abacusconsultoria.com.br'); // São Paulo
+			#$this->email->cc('');
+			#$this->email->bcc('wasposato@bol.com.br','solaris@solarisboituva.com.br'); // Boituva
+			
+			$this->email->to('solaris@solarisboituva.com.br');
+			$this->email->cc('celunico43@gmail.com');
+			#$this->email->cc('tarsila@spicycomm.com.br');
+			
+			$this->email->subject('Contato via site ['.base_url().']');
+			$this->email->message($mensagem);
+			if($this->email->send()) {
+				$this->contato_view = "contato_sucesso_view";
+			}
+			else {
+				$this->contato_view = "contato_erro_view";
+			}
 		}
 		else {
 			$this->contato_view = "contato_view";

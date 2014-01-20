@@ -13,7 +13,7 @@
 				<a href="mailto:contato@myplacepatriani.com.br?subject=Erro ao enviar o e-mail pelo site.">myplace@myplace.com.br</a>
 			</span>
 		</p>
-		<p class="">
+		<p>
 			Ou aguarde, você será redirecionado novamente para o site em <span id="cont">25</span> segundos...
 		</p>
 	</aside>

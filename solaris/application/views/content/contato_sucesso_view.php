@@ -10,15 +10,24 @@
 				<img src="<?php echo base_url('assets');?>/img/img_sucesso.png">
 			</figure>
 
-			<p id="tt_aviso"><span>parabéns</span><br/>
-            mensagem enviada com sucesso.</p>
-            <p id="txt_aviso">Aguarde você será redirecionado em alguns segundos.</p>
+			<p id="tt_aviso">
+				<span>parabéns</span>
+				<br/>
+				mensagem enviada com sucesso.
+			</p>
+            <p id="txt_aviso">Aguarde você será redirecionado em <span id="cont">10</span> segundos....</p>
 
 	    </article>
 
 	</aside>
 
 </section>
+
+<script type="text/javascript">
+$(function(){
+	contador(5);
+});
+</script>
 
 
 
