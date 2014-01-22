@@ -63,7 +63,7 @@ class Site extends CI_Controller {
 	
 	public function contato()
 	{
-		$data['title'] = "Contato";
+		/*$data['title'] = "Contato";
 		$data['description'] = "";
 		$data['keywords'] = "";
 		$data['menu4'] = true;
@@ -109,7 +109,8 @@ class Site extends CI_Controller {
 		$this->load->view('header', $data);
 		$this->load->view("content/{$this->contato_view}", $data);
 		$this->load->view('footer', $data);
-		$this->load->view('html_footer', $data);
+		$this->load->view('html_footer', $data);*/
+		$this->load->view('email/mensagem');
 	}
 	
 }
