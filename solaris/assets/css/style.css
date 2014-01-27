@@ -94,51 +94,68 @@ figure#ico05 a:hover div.box-shadow, figure#ico06 a:hover div.box-shadow,
 figure#ico07 a:hover div.box-shadow, figure#ico08 a:hover div.box-shadow,
 figure#ico09 a:hover div.box-shadow, figure#ico10 a:hover div.box-shadow,
 figure#ico11 a:hover div.box-shadow, figure#ico12 a:hover div.box-shadow,
-figure#ico13 a:hover div.box-shadow, figure#ico14 a:hover div.box-shadow { display: block;}
+figure#ico13 a:hover div.box-shadow, figure#ico14 a:hover div.box-shadow,
+figure#ico15 a:hover div.box-shadow, figure#ico16 a:hover div.box-shadow,
+figure#ico17 a:hover div.box-shadow, figure#ico18 a:hover div.box-shadow,
+figure#ico19 a:hover div.box-shadow { display: block;}
 
 
 figure#ico01 { position: absolute; margin: 37% 0 0 14%;}
-div.ico01 { position: absolute; margin: -930% 0 0 -289%;}
+div.ico01 { position: absolute; margin: -835% 0 0 -289%;}
 
-figure#ico02 { position: absolute; margin: 36% 0 0 31%;}
-div.ico02 { position: absolute; margin: -930% 0 0 -289%;}
+figure#ico02 { position: absolute; margin: 25% 0 0 47%;}
+div.ico02 { position: absolute; margin: -835% 0 0 -289%;}
 
-figure#ico03 { position: absolute; margin: 31% 0 0 35%;}
-div.ico03 { position: absolute; margin: -930% 0 0 -289%;}
+figure#ico03 { position: absolute; margin: 51% 0 0 80%;}
+div.ico03 { position: absolute; margin: -790% 0 0 -289%;}
 
-figure#ico04 { position: absolute; margin: 27% 0 0 39%;}
-div.ico04 { position: absolute; margin: -930% 0 0 -289%;}
+figure#ico04 { position: absolute; margin: 18% 0 0 55%;}
+div.ico04 { position: absolute; margin: -830% 0 0 -289%;}
 
-figure#ico05 { position: absolute; margin: 11% 0 0 56%;}
-div.ico05 { position: absolute; margin: -930% 0 0 -289%;}
+figure#ico05 { position: absolute; margin: 30% 0 0 58%;}
+div.ico05 { position: absolute; margin: -830% 0 0 -289%;}
 
-figure#ico06 { position: absolute; margin: 31% 0 0 48%;}
-div.ico06 { position: absolute; margin: -930% 0 0 -289%;}
+figure#ico06 { position: absolute; margin: 17% 0 0 77%;}
+div.ico06 { position: absolute; margin: -830% 0 0 -289%;}
 
-figure#ico07 { position: absolute; margin: 35% 0 0 43%;}
-div.ico07 { position: absolute; margin: -930% 0 0 -289%;}
+figure#ico07 { position: absolute; margin: 23% 0 0 60%;}
+div.ico07 { position: absolute; margin: -830% 0 0 -289%;}
 
-figure#ico08 { position: absolute; margin: 30% 0 0 58%;}
-div.ico08 { position: absolute; margin: -930% 0 0 -289%;}
+figure#ico08 { position: absolute; margin: 32% 0 0 86%;}
+div.ico08 { position: absolute; margin: -785% 0 0 -289%;}
 
-figure#ico09 { position: absolute; margin: 38% 0 0 59%;}
-div.ico09 { position: absolute; margin: -930% 0 0 -289%;}
+figure#ico09 { position: absolute; margin: 65% 0 0 59%;}
+div.ico09 { position: absolute; margin: -740% 0 0 -289%;}
 
-figure#ico10 { position: absolute; margin: 45% 0 0 66%;}
-div.ico10 { position: absolute; margin: -930% 0 0 -289%;}
+figure#ico10 { position: absolute; margin: 34% 0 0 41%;}
+div.ico10 { position: absolute; margin: -740% 0 0 -289%;}
 
-figure#ico11 { position: absolute; margin: 22% 0 0 79%;}
-div.ico11 { position: absolute; margin: -930% 0 0 -289%;}
+figure#ico11 { position: absolute; margin: 31% 0 0 47%;}
+div.ico11 { position: absolute; margin: -785% 0 0 -289%;}
 
-figure#ico12 { position: absolute; margin: 33% 0 0 92%;}
-div.ico12 { position: absolute; margin: -453% 0 0 -722%}
-img.dt_box-ico12 { position: absolute; bottom: 148px; right: -16px;}
+figure#ico12 { position: absolute; margin: 39% 0 0 26%;}
+div.ico12 { position: absolute; margin: -825% 0 0 -289%;}
 
-figure#ico13 { position: absolute; margin: 55% 0 0 75%;}
-div.ico13 { position: absolute; margin: -930% 0 0 -289%;}
+figure#ico13 { position: absolute; margin: 36% 0 0 53%;}
+div.ico13 { position: absolute; margin: -825% 0 0 -289%;}
 
-figure#ico14 { position: absolute; margin: 64% 0 0 59%;}
-div.ico14 { position: absolute; margin: -930% 0 0 -289%;}
+figure#ico14 { position: absolute; margin: 39% 0 0 58%;}
+div.ico14 { position: absolute; margin: -825% 0 0 -289%;}
+
+figure#ico15 { position: absolute; margin: 45% 0 0 62%;}
+div.ico15 { position: absolute; margin: -825% 0 0 -289%;}
+
+figure#ico16 { position: absolute; margin: 51% 0 0 37%;}
+div.ico16 { position: absolute; margin: -825% 0 0 -289%;}
+
+figure#ico17 { position: absolute; margin: 60% 0 0 54%;}
+div.ico17 { position: absolute; margin: -825% 0 0 -289%;}
+
+figure#ico18 { position: absolute; margin: 62% 0 0 74%;}
+div.ico18 { position: absolute; margin: -825% 0 0 -289%;}
+
+figure#ico19 { position: absolute; margin: 54% 0 0 85%;}
+div.ico19 { position: absolute; margin: -785% 0 0 -289%;}
 
 /*CONTATO*/
 section#contato aside p.tt_pequeno { font-size: 3.0em; margin: 35px 0 0 25px; line-height: 35px;}
