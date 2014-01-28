@@ -3,10 +3,13 @@
 	<aside>
 		<h2>resort</h2>
 		<p class="tt_medio">prepare-se para se divertir. o resort já está pronto</p>
-		<p class="tt_small">antes que sua casa fique pronta, você poderá aproveitar o complexo de lazer.<br/>
-		e estamos falando apenas de um dos diferenciais de solaris. seu projeto incorpora um conjunto de conceitos 
-		inéditos na região para garantir que sua diversão será completa,<br/> como, por exemplo os monitores que irão 
-		coordenar brincadeiras, gincanas, passeios, atividades físicas e  esportivas.</p>
+		<p class="tt_small">AQUI VOCÊ E SUA FAMILIA NÃO PRECISARÃO APENAS SONHAR COM A 
+			DIVERSÃO, POIS O COMPLEXO DE LAZER ESTÁ PRONTO! VOCÊ PODERÁ APROVEITAR DESDE JÁ.<br/> 
+			E ESTAMOS FALANDO APENAS DE UM DOS DIFERENCIAIS DE SOLARIS. SEU PROJETO INCORPORA
+			 UM CONJUNTO DE CONCEITOS INÉDITOS NA REGIÃO PARA GARANTIR<br/> QUE SUA DIVERSÃO SERÁ 
+			 COMPLETA, COMO, POR EXEMPLO, OS MONITORES QUE IRÃO COORDENAR BRINCADEIRAS, GINCANAS, 
+			 PASSEIOS, ATIVIDADES FÍSICAS<br/> E ESPORTIVAS. AQUI SUA FAMÍLIA TERÁ MOTIVOS DE SOBRA 
+			 PARA SE DIVERTIR E SER FELIZ</p>
 
 		<figure>
 			<img src="<?php echo base_url('assets');?>/img/icon_resort.png">

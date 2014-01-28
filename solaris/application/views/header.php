@@ -1,7 +1,7 @@
 <header>
 	<section>
 		<h1>
-			<a href="<?php echo base_url();?>" title="Solaris Residencial e Resort" alt="Solaris Residencial e Resort">Solaris Residencial e Resort</a>
+			<a href="<?php echo base_url();?>" title="Home" alt="Solaris Residencial e Resort - Voltar Home">Solaris Residencial e Resort</a>
 		</h1>
 
 		<nav>

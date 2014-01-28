@@ -54,12 +54,12 @@
 		<p class="tt_medio">segurança, lazer, diversão e serviços.<br/>
         tudo para vocÊ entrar no clima de solaris.</p>
 
-        <p class="tt_small">viver num residencial que incorpora um rersort completo. como se 
-        você ficasse em um hotel sem ter que fazer reservas ou se programar. 
-        é a sua casa. o lugar onde você vai<br/> aproveitar seus finais de semana 
-        sem se preocupar com absolutamente nada, pois além de todo lazer e diversão, 
-        você terá à sua disposição uma série de serviços administrados<br/> pela hubert e 
-        um moderno sistema de segurança. só de pensar nisto, você já entra no clima da solaris.</p>
+        <p class="tt_small">VIVA NUM RESIDENCIAL QUE INCORPORA UM RERSORT COMPLETO. 
+        	COMO SE VOCÊ FICASSE EM UM HOTEL SEM TER QUE FAZER RESERVAS OU SE PROGRAMAR.<br/> 
+        	A SUA CASA EM UM LUGAR PERFEITO! VOCÊ E SUA FAMÍLIA IRÃO APROVEITAR SEUS FINAIS 
+        	DE SEMANA SEM SE PREOCUPAREM COM ABSOLUTAMENTE NADA, POIS<br/> ALÉM DE TODO LAZER E 
+        	DIVERSÃO, TERÃO À DISPOSIÇÃO UMA SÉRIE DE SERVIÇOS ADMINISTRADOS PELA HUBERT E 
+        	UM MODERNO SISTEMA DE SEGURANÇA.<br/> SÓ DE PENSAR NISTO, VOCÊ JÁ ENTRA NO CLIMA DA SOLARIS</p>
 
         <figure>
 		  <figcaption class="tt_small">administração<br/> condominial:</figcaption>
