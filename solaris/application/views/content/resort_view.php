@@ -31,7 +31,7 @@
 		        <figure id="ico01">
 			      <a href="" alt="" title="">
 			      	<div class="box-shadow ico01">
-			    		<img class="imagem_resort" src="<?php echo base_url('assets');?>/img/semimagem.jpg">
+			    		<img class="imagem_resort" src="<?php echo base_url('assets');?>/img/minifazenda1.jpg">
 			    		<img src="<?php echo base_url('assets');?>/img/sobra_box_resort.png">
 			    		<p class="tt_box-shadow">Mini fazenda</p>
 			    		<p class="txt_box-shadow">Tudo para seus filhos interagirem com uma comunidade rural e experimentarem a verdadeira vida no campo.</p>
@@ -44,7 +44,7 @@
 		        <figure id="ico02">
 			      <a href="" alt="" title="">
 			      	<div class="box-shadow ico02">
-			    		<img class="imagem_resort" src="<?php echo base_url('assets');?>/img/semimagem.jpg">
+			    		<img class="imagem_resort" src="<?php echo base_url('assets');?>/img/minifazenda2.jpg">
 			    		<img src="<?php echo base_url('assets');?>/img/sobra_box_resort.png">
 			    		<p class="tt_box-shadow">Mini fazenda</p>
 			    		<p class="txt_box-shadow">Tudo para seus filhos interagirem com uma comunidade rural e experimentarem a verdadeira vida no campo.</p>
@@ -70,7 +70,7 @@
 		        <figure id="ico04">
 			      <a href="" alt="" title="">
 			      	<div class="box-shadow ico04">
-			    		<img class="imagem_resort" src="<?php echo base_url('assets');?>/img/semimagem.jpg">
+			    		<img class="imagem_resort" src="<?php echo base_url('assets');?>/img/lago.jpg">
 			    		<img src="<?php echo base_url('assets');?>/img/sobra_box_resort.png">
 			    		<p class="tt_box-shadow">lago com praia</p>
 			    		<p class="txt_box-shadow">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica.</p>
@@ -83,7 +83,7 @@
 		        <figure id="ico05">
 			      <a href="" alt="" title="">
 			      	<div class="box-shadow ico05">
-			    		<img class="imagem_resort" src="<?php echo base_url('assets');?>/img/semimagem.jpg">
+			    		<img class="imagem_resort" src="<?php echo base_url('assets');?>/img/haras.jpg">
 			    		<img src="<?php echo base_url('assets');?>/img/sobra_box_resort.png">
 			    		<p class="tt_box-shadow">haras</p>
 			    		<p class="txt_box-shadow">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica.</p>
@@ -200,7 +200,7 @@
 		        <figure id="ico14">
 			      <a href="" alt="" title="">
 			      	<div class="box-shadow ico14">
-			    		<img class="imagem_resort" src="<?php echo base_url('assets');?>/img/semimagem.jpg">
+			    		<img class="imagem_resort" src="<?php echo base_url('assets');?>/img/baias.jpg">
 			    		<img src="<?php echo base_url('assets');?>/img/sobra_box_resort.png">
 			    		<p class="tt_box-shadow">baias</p>
 			    		<p class="txt_box-shadow">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica.</p>
@@ -252,7 +252,7 @@
 		        <figure id="ico18">
 			      <a href="" alt="" title="">
 			      	<div class="box-shadow ico18">
-			    		<img class="imagem_resort" src="<?php echo base_url('assets');?>/img/semimagem.jpg">
+			    		<img class="imagem_resort" src="<?php echo base_url('assets');?>/img/salao_jogos_festas.jpg">
 			    		<img src="<?php echo base_url('assets');?>/img/sobra_box_resort.png">
 			    		<p class="tt_box-shadow">Salão de jogos e festas</p>
 			    		<p class="txt_box-shadow">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica.</p>
@@ -265,7 +265,7 @@
 		        <figure id="ico19">
 			      <a href="" alt="" title="">
 			      	<div class="box-shadow ico19">
-			    		<img class="imagem_resort" src="<?php echo base_url('assets');?>/img/semimagem.jpg">
+			    		<img class="imagem_resort" src="<?php echo base_url('assets');?>/img/pousada.jpg">
 			    		<img src="<?php echo base_url('assets');?>/img/sobra_box_resort.png">
 			    		<p class="tt_box-shadow">pousada</p>
 			    		<p class="txt_box-shadow">Antes e depois de aproveitar seus dias, nada melhor do que descansar em casa.</p>
