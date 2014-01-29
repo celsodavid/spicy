@@ -61,9 +61,9 @@ div#residencial_box01 span div.top_box p.tt_top_box, div#residencial_box02 span 
 div#residencial_box01 span div.top_box p, div#residencial_box02 span div.top_box p, div#residencial_box03 span div.top_box p { font-size: 1.4em; padding-left: 1%; letter-spacing: 1px;}
 div#residencial_box01 span div.top_box, div#residencial_box02 span div.top_box, div#residencial_box03 span div.top_box { width: 100%; background: transparent; height: 125px; color: #FFF; float: left; transition: all 999ms ease 0s;}
 div#residencial_box01 span:hover div.top_box, div#residencial_box02 span:hover div.top_box, div#residencial_box03 span:hover div.top_box { background: url(../img/fundo_residencialbr.png); color: #000;}
-div#residencial_box01 { background: url(../img/teste_resi.jpg) no-repeat;}
-div#residencial_box02 { background: url(../img/teste_resi.jpg) no-repeat;}
-div#residencial_box03 { background: url(../img/teste_resi.jpg) no-repeat;}
+div#residencial_box01 { background: url(../img/img_01.jpg) no-repeat;}
+div#residencial_box02 { background: url(../img/img_02.jpg) no-repeat;}
+div#residencial_box03 { background: url(../img/img_03.jpg) no-repeat;}
 section#residencial aside p.tt_pequeno { font-size: 3.0em; margin: 35px 0 0 25px; line-height: 35px;}
 section#residencial aside p.tt_small { font-size: 1.4em; margin: 20px 0 0 25px; line-height: 22px; float: left; letter-spacing: 1px;}
 section#residencial aside figure { float: left; margin: 45px 0 0 25px;}
@@ -203,10 +203,18 @@ footer { border-bottom: solid 52px #000; position: relative; float: left;}
 footer article { height: 345px; position: relative;}
 footer article div { position: absolute; bottom: 15px; left: 25px;}
 footer article div figure { float: left;}
-footer article div figure.chalet { margin-right: 110px;}
-footer article div figure.fernandez { margin-right: 35px;}
+
+footer article div figure img {width: 60%;}
+
+footer article div figure.chalet { margin-right: 30px;}
+footer article div figure.fernandez { margin-right: -20px;}
 footer article div figure.hope { margin-top: 15px;}
 footer article div figcaption { letter-spacing: 2px; margin-bottom: 10px;}
+
+
+
+
+
 article figure#spicy_footer a { position: absolute; right: 604px; bottom: -5px; z-index: 200;}
 article figure#imagem_rodape { position: absolute; right: 64px; bottom: -52px; z-index: 100;}
 article figure#detalhe_rodape a { position: absolute; right: 80px; bottom: -35px; z-index: 200;}
