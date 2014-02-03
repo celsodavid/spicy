@@ -57,12 +57,12 @@ section#localizacao article div { width: 100%; margin-top: 20px; height: 750px; 
 section#residencial article { margin-top: 40px;}
 article#galeria { width: 100%; min-width: 1345px; float: left; position: relative;}
 span#setaD, span#setaE { display: block; position: absolute; z-index: 100;}
-span#setaD a, span#setaE a { text-decoration: none; color: rgba(255,255,255, 0.2); padding: 187px 20px 125px 20px;}
-span#setaD a:hover, span#setaE a:hover { background: rgba(255,255,255, 0.2); color: rgba(255,255,255, 0.8); -webkit-transition: 0.7s; transition: 0.7s;}
-span#setaD { top: 88px; right: 0;}
-span#setaE { top: 88px; left: 0;} 
-span#setaE a:before { content: '\2329'; font-size: 10.0em;} 
-span#setaD a:before { content: '\232A'; font-size: 10.0em;}
+span#setaD, span#setaE { text-decoration: none; color: rgba(255,255,255, 0.2); padding: 88px 20px 102px 20px; cursor: pointer;}
+span#setaD:hover, span#setaE:hover { background: rgba(255,255,255, 0.2); color: rgba(255,255,255, 0.8); -webkit-transition: 0.7s; transition: 0.7s;}
+span#setaD { top: 0; right: 0;}
+span#setaE { top: 0; left: 0;} 
+span#setaE:before { content: '\2329'; font-size: 10.0em;} 
+span#setaD:before { content: '\232A'; font-size: 10.0em;}
 div#residencial_box { width: 33.33333333333333%; height: 100%; float: left; position: relative; background-size:100% 100%; -webkit-background-size: 100% 100%; -o-background-size: 100% 100%; -khtml-background-size: 100% 100%; -moz-background-size: 100% 100%;}
 div#residencial_box a { width: 100%; height: 324px; float: left; display: block; background: url(../img/fundo_residencial.png) repeat;}
 div#residencial_box a:hover { background: transparent;}

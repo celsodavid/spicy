@@ -44,8 +44,8 @@
 	</aside>
 
 	<article id="galeria">
+		
 		<span id="setaE">
-			<a href=""></a>
 		</span>
 
 		<section id="bloco1">
@@ -145,8 +145,8 @@
 		</section>
 
 		<span id="setaD">
-			<a href=""></a>
 		</span>
+
     </article>
 	    
 	<aside>		
