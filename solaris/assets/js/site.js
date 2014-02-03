@@ -61,7 +61,15 @@ function redireciona(){
 	window.location = "contato";
 }
 
-$(function() {
+$(function() {	
+	$(".fancybox").fancybox({
+        openEffect	: 'fade',
+        closeEffect	: 'fade',
+        nextEffect      : 'slow',
+        prevEffect      : 'fade'
+    });
+	
+	
 	var width = $(window).width();
 
 	if (width > 1345) {
