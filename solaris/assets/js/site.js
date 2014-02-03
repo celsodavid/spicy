@@ -180,32 +180,47 @@ $(function() {
 	var quantidadeSection = $("#galeria section").length;
 	$("#galeria section").hide();
 	$('#galeria section#bloco1').show();
-	$("#setaE").attr('data-content','bloco'+quantidadeSection);
-	$("#setaE").attr('data-item','bloco'+(quantidadeSection-1));
-	$("#setaD").attr('data-content','bloco2');
-	$("#setaD").attr('data-item','bloco'+(cont-1));
+	$("#setaE").attr('data-next','bloco'+quantidadeSection);
+	$("#setaE").attr('data-previous','bloco'+(quantidadeSection-1));
+	$("#setaD").attr('data-next','bloco2');
+	$("#setaD").attr('data-previous','bloco'+(cont-1));
 	
 	$("#galeria span#setaD").on('click', function(){
-		var ativa = $(this).data('content');
-		var inativa = $(this).data('item');
-				
+		var ativa, inativa = null;		
+		ativa = $(this).data('next');
+		inativa = $(this).data('previous');
+		
+		alert('ativa:'+ativa+' inativa:'+inativa);
+		
 		cont += 1;
-		if(cont <= quantidadeSection){
-			
-			/* setaD */			
-			$(this).attr('data-content','bloco'+cont);
-			$(this).attr('data-item',ativa);
-			
-			/* setaE */
-			$("#setaE").attr('data-item',$("#setaE").data('content'));
-			$("#setaE").attr('data-content',inativa);
-			
-		}
+		$(this).attr('data-next','bloco'+cont);
+		$(this).attr('data-previous',ativa);
 		
 		$("#galeria section#"+inativa).fadeOut(1200);
 		$("#galeria section#"+ativa).fadeIn(1200);
 		
-		return false;
+		
+		
+		
+		
+		/*cont += 1;
+		if(cont <= quantidadeSection){
+			
+			
+			$(this).attr('data-content','bloco'+cont);
+			$(this).attr('data-item',ativa);
+			
+			
+			$("#setaE").attr('data-item',$("#setaE").data('content'));
+			$("#setaE").attr('data-content',inativa);
+			
+		}
+		else {
+			
+		}*/
+		
+		//$("#galeria section#"+inativa).fadeOut(1200);
+		//$("#galeria section#"+ativa).fadeIn(1200);
 	});
 	
 	
