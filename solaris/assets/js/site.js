@@ -176,9 +176,37 @@ $(function() {
 		}
 	});
 	
+	var cont = 2;
+	var quantidadeSection = $("#galeria section").length;
+	$("#galeria section").hide();
+	$('#galeria section#bloco1').show();
+	$("#setaE").attr('data-content','bloco'+quantidadeSection);
+	$("#setaE").attr('data-item','bloco'+(quantidadeSection-1));
+	$("#setaD").attr('data-content','bloco2');
+	$("#setaD").attr('data-item','bloco'+(cont-1));
 	
-	
-	
+	$("#galeria span#setaD").on('click', function(){
+		var ativa = $(this).data('content');
+		var inativa = $(this).data('item');
+				
+		cont += 1;
+		if(cont <= quantidadeSection){
+			
+			/* setaD */			
+			$(this).attr('data-content','bloco'+cont);
+			$(this).attr('data-item',ativa);
+			
+			/* setaE */
+			$("#setaE").attr('data-item',$("#setaE").data('content'));
+			$("#setaE").attr('data-content',inativa);
+			
+		}
+		
+		$("#galeria section#"+inativa).fadeOut(1200);
+		$("#galeria section#"+ativa).fadeIn(1200);
+		
+		return false;
+	});
 	
 	
 	
