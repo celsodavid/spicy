@@ -39,17 +39,11 @@ section#index article figure img { max-width: 100%;}
 section#index article aside { width: 100%; margin-top: -3px; float: left;}
 div#index_residencial, div#index_resort { width: 50%; float: left; position: relative;}
 div#index_residencial figure img, div#index_resort figure img { max-width: 100%;}
-
 div#index_residencial span, div#index_resort span { width: 100%; height: 100%; display: none; float: left; cursor: pointer; z-index: 100; background: #000; opacity: 0.3; position: absolute; top: 0;}
-
-
 div#index_residencial h3 a, div#index_resort h3 a { position: absolute; text-decoration: none; margin-top: -28.5%; margin-left: 8%;}
-div#index_residencial h3 a, div#index_resort h3 a { font-size: 6.066em; text-transform: uppercase; color: #FFF; font-weight: 100; letter-spacing: 2px;}
-
-
+div#index_residencial h3 a, div#index_resort h3 a { font-size: 4.066em; text-transform: uppercase; color: #FFF; font-weight: 100; letter-spacing: 2px;}
 img.seta_residencial { height: 126px; margin-left: 50%; margin-top: -20%; float: right;}
 img.seta_resort { height: 126px; margin-left: 70%; margin-top: -22%; float: right;}
-
 div#rodape_index { width: 100%; padding-top: 10px; letter-spacing: 1px; float: left; text-align: center; font-size: 1.4em; position: relative; z-index: 200; height: 20px; background: #000; margin-top: -15px; color: #FFF}
 
 
@@ -63,7 +57,7 @@ section#localizacao article div { width: 100%; margin-top: 20px; height: 750px; 
 section#residencial article { margin-top: 40px;}
 article#galeria { width: 100%; min-width: 1345px; float: left; position: relative;}
 span#setaD, span#setaE { display: block; position: absolute; z-index: 100;}
-span#setaD a, span#setaE a { text-decoration: none; color: rgba(255,255,255, 0.8); padding: 187px 20px 125px 20px;}
+span#setaD a, span#setaE a { text-decoration: none; color: rgba(255,255,255, 0.2); padding: 187px 20px 125px 20px;}
 span#setaD a:hover, span#setaE a:hover { background: rgba(255,255,255, 0.2); color: rgba(255,255,255, 0.8); -webkit-transition: 0.7s; transition: 0.7s;}
 span#setaD { top: 88px; right: 0;}
 span#setaE { top: 88px; left: 0;} 
@@ -224,20 +218,13 @@ footer { border-bottom: solid 52px #000; position: relative; float: left;}
 footer article { height: 345px; position: relative;}
 footer article div { position: absolute; bottom: 15px; left: 25px;}
 footer article div figure { float: left;}
-
 footer article div figure img {width: 60%;}
-
 footer article div figure.chalet { margin-right: 30px;}
 footer article div figure.fernandez { margin-right: -20px;}
 footer article div figure.hope { margin-top: 15px;}
 footer article div figcaption { letter-spacing: 2px; margin-bottom: 10px;}
-
-
-
-
-
-article figure#spicy_footer a { position: absolute; right: 604px; bottom: -5px; z-index: 200;}
-article figure#imagem_rodape { position: absolute; right: 64px; bottom: -52px; z-index: 100;}
+article figure#spicy_footer a { bottom: -5px; position: absolute; right: 494px; z-index: 200;}
+article figure#imagem_rodape { position: absolute; right: 88px; bottom: -41px; z-index: 100;}
 article figure#detalhe_rodape a { position: absolute; right: 80px; bottom: -35px; z-index: 200;}
 
 
