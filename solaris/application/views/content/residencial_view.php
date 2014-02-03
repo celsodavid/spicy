@@ -113,7 +113,7 @@
 		</section>
 		
 		<section id="bloco3">
-			<div id="residencial_box" class="box03">
+			<div id="residencial_box" class="box01">
 			    <a href="">
 			      <div class="top_box">
 			    	<p class="tt_top_box">Casa João Lambert</p>
@@ -123,7 +123,7 @@
 			    </a>
 			</div>
 	
-			<div id="residencial_box" class="box03">
+			<div id="residencial_box" class="box01">
 			    <a href="">
 			      <div class="top_box">
 			    	<p class="tt_top_box">Casa João Lambert</p>
@@ -133,7 +133,7 @@
 			    </a>
 			</div>
 	
-			<div id="residencial_box" class="box03">
+			<div id="residencial_box" class="box01">
 			    <a href="">
 			      <div class="top_box">
 			    	<p class="tt_top_box">Casa João Lambert</p>

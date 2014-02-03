@@ -55,39 +55,30 @@
 					<br /> 
 					<span style="margin-left: -25px" class="box_checkbox"> 
 						<input type="checkbox" name="opcao2[]" value="tv"> TV 
-						<br />
 						<br /> 
 						<input type="checkbox" name="opcao2[]" value="Estandarte"> Estandarte 
-						<br />
 						<br /> 
 						<input type="checkbox" name="opcao2[]" value="Bandeiras"> Bandeiras 
-						<br />
 						<br /> 
 						<input type="checkbox" name="opcao2[]" value="Placas"> Placas 
 					</span> 
 					
 					<span class="box_checkbox"> 
 						<input type="checkbox" name="opcao2[]" value="Jornal"> Jornal 
-						<br />
 						<br /> 
 						<input type="checkbox" name="opcao2[]" value="Cavalete"> Cavalete 
-						<br />
 						<br /> 
 						<input type="checkbox" name="opcao2[]" value="Folheto"> Folheto 
-						<br />
 						<br /> 
 						<input type="checkbox" name="opcao2[]" value="Indicação"> Indicação
 					</span> 
 					
 					<span class="box_checkbox"> 
 						<input type="checkbox" name="opcao2[]" value="Revista"> Revista 
-						<br />
 						<br /> 
 						<input type="checkbox" name="opcao2[]" value="HomemSeta"> Homem Seta 
-						<br />
 						<br /> 
 						<input type="checkbox" name="opcao2[]" value="Internet"> Internet 
-						<br />
 						<br /> 
 						<input type="checkbox" name="opcao2[]" value="Corretor"> Corretor
 					</span>

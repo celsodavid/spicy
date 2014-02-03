@@ -183,7 +183,7 @@ div.form_meio { width: 650px; float: left; margin-top: 10px;}
 div.form_fim { width: 1052px; float: left; margin-top: 20px; margin-left: -12px;}
 div.form_topo label, div.form_meio, div.form_fim { font-size: 1.4em; text-transform: uppercase; color: #000; letter-spacing: 2px; float: left; margin-bottom: 10px;}
 div.form_topo input { width: 272px; height: 28px; border: solid 1px #000; -webkit-border-radius: 10px;
--moz-border-radius: 10px; border-radius: 10px; margin-bottom: 37px; padding: 12px;}
+-moz-border-radius: 10px; border-radius: 10px; margin-bottom: 20px; padding: 12px;}
 div.form_topo select { width: 298px; height: 51px; border: solid 1px #000; -webkit-border-radius: 10px;
 -moz-border-radius: 10px; border-radius: 10px; padding: 15px 12px 12px 12px;}
 div.form_meio input { margin: 20px 0 0 20px;}
@@ -215,7 +215,7 @@ section#ContatoSucesso aside p#txt_aviso_erro a { text-decoration: none; color: 
 
 /*FOOTER*/
 footer { border-bottom: solid 52px #000; position: relative; float: left;}
-footer article { height: 345px; position: relative;}
+footer article { height: 200px; position: relative;}
 footer article div { position: absolute; bottom: 15px; left: 25px;}
 footer article div figure { float: left;}
 footer article div figure img {width: 60%;}
