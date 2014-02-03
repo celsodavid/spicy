@@ -180,25 +180,25 @@ figure#ico19 { position: absolute; margin: 54% 0 0 85%;}
 div.ico19 { position: absolute; margin: -785% 0 0 -289%;}
 
 /*CONTATO*/
-section#contato article { width: 1052px; margin: 75px 0 0 25px; float: left; position: relative;}
+section#contato article { width: 1052px; margin: 30px 0 0 25px; float: left; position: relative;}
 section#contato aside p.tt_pequeno { font-size: 2.5em; margin: 35px 0 0 25px; line-height: 35px;}
 section#contato article form { float: left;}
 section#contato article form input, select { font-family: 'Arial', Helvetica, sans-serif; font-size: 1.4em; letter-spacing: 2px; color: #000;}
-div.form_topo { width: 300px; float: left; margin-right: 50px; }
-div.form_meio { width: 650px; float: left; margin-top: 40px;}
-div.form_fim { width: 1052px; float: left; margin-top: 40px; margin-left: -12px;}
+div.form_topo { width: 300px; float: left; margin-right: 25px;}
+div.form_meio { width: 650px; float: left; margin-top: 10px;}
+div.form_fim { width: 1052px; float: left; margin-top: 20px; margin-left: -12px;}
 div.form_topo label, div.form_meio, div.form_fim { font-size: 1.4em; text-transform: uppercase; color: #000; letter-spacing: 2px; float: left; margin-bottom: 10px;}
 div.form_topo input { width: 272px; height: 28px; border: solid 1px #000; -webkit-border-radius: 10px;
 -moz-border-radius: 10px; border-radius: 10px; margin-bottom: 37px; padding: 12px;}
 div.form_topo select { width: 298px; height: 51px; border: solid 1px #000; -webkit-border-radius: 10px;
 -moz-border-radius: 10px; border-radius: 10px; padding: 15px 12px 12px 12px;}
 div.form_meio input { margin: 20px 0 0 20px;}
-div.form_meio span.box_checkbox { width: 150px; float: left; margin: 40px 0 0 85px;}
+div.form_meio span.box_checkbox { width: 150px; float: left; margin: 10px 0 0 85px;}
 div.form_fim label { display: block;}
 div.form_fim textarea { width: 650px; height: 150px; border: solid 1px #000; -webkit-border-radius: 10px;
 -moz-border-radius: 10px; border-radius: 10px; padding: 12px;}
 div.form_fim textarea { font-family: 'Arial', Helvetica, sans-serif; letter-spacing: 2px;}
-div.form_fim button  { width: 300px; height: 50px; margin-top: -110px; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px;  float: right; border: none; background: #f7941d;}
+div.form_fim button  { width: 300px; height: 50px; margin: -110px 60px 0 0; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px;  float: right; border: none; background: #f7941d;}
 div.form_fim button:hover {  background: #d67e13}
 div.form_fim button  { text-transform: uppercase; color: #FFF; font-size: 1.4em; padding-top: 4px;}
 span.form_meio_erro { text-transform: none; margin-left: 10px; font-weight: bold; color: #fa6464; display: none;}

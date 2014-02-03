@@ -39,7 +39,7 @@
 					<input class="statusFilhos" type="text" name="son" id="son" /> <br />
 				</div>
 
-				<div class="form_meio">
+				<div class="form_meio" style="margin-top:0px">
 					<label for="opcao1">
 						Você conhece o <strong>solaris - residencial e resort?</strong>
 						<span class="form_meio_erro">*Este campo é obrigatório.</span>
