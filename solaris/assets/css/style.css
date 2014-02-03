@@ -25,11 +25,11 @@ section#localizacao, section#resort, section#index, section#residencial, footer,
 
 section#localizacao aside, section#resort aside, section#residencial aside, footer article, section#contato aside, section#ContatoSucesso aside { width: 1345px; float: left; position: relative; left: 50%; margin-left: -672.5px; text-transform: uppercase;}
 
-section#localizacao aside h2, section#resort aside h2, section#residencial h2, section#contato h2, section#ContatoSucesso h2 { width: 1320px; font-size: 7.0em; letter-spacing: 2px; margin: 70px 0 0 25px; float: left; font-weight: 100; color: #f7941d;}
+section#localizacao aside h2, section#resort aside h2, section#residencial h2, section#contato h2, section#ContatoSucesso h2 { width: 1320px; font-size: 5.0em; letter-spacing: 2px; margin: 70px 0 0 25px; float: left; font-weight: 100; color: #f7941d;}
 
 section#localizacao aside p.tt_medio, section#localizacao aside p.tt_pequeno, section#resort aside p.tt_medio, section#residencial p.tt_medio, section#residencial p.tt_pequeno, section#contato p.tt_pequeno, section#ContatoSucesso p.tt_pequeno { color: #000000; letter-spacing: 1px; float: left;}
 
-section#localizacao aside p.tt_medio, section#resort aside p.tt_medio, section#residencial p.tt_medio { font-size: 4.5em; margin: 30px 0 0 25px;}
+section#localizacao aside p.tt_medio, section#resort aside p.tt_medio, section#residencial p.tt_medio { font-size: 3.5em; margin: 30px 0 0 25px;}
 
 section#localizacao article, section#resort article, section#residencial article { width: 100%; min-width: 1345px; float: left;}
 
@@ -39,9 +39,14 @@ section#index article figure img { max-width: 100%;}
 section#index article aside { width: 100%; margin-top: -3px; float: left;}
 div#index_residencial, div#index_resort { width: 50%; float: left; position: relative;}
 div#index_residencial figure img, div#index_resort figure img { max-width: 100%;}
-div#index_residencial span, div#index_resort span { width: 100%; height: 100%; display: none; float: left; cursor: pointer; z-index: 100; background: #000; opacity: 0.5; position: absolute; top: 0;}
+
+div#index_residencial span, div#index_resort span { width: 100%; height: 100%; display: none; float: left; cursor: pointer; z-index: 100; background: #000; opacity: 0.3; position: absolute; top: 0;}
+
+
 div#index_residencial h3 a, div#index_resort h3 a { position: absolute; text-decoration: none; margin-top: -28.5%; margin-left: 8%;}
 div#index_residencial h3 a, div#index_resort h3 a { font-size: 6.066em; text-transform: uppercase; color: #FFF; font-weight: 100; letter-spacing: 2px;}
+
+
 img.seta_residencial { height: 126px; margin-left: 50%; margin-top: -20%; float: right;}
 img.seta_resort { height: 126px; margin-left: 70%; margin-top: -22%; float: right;}
 
@@ -49,29 +54,46 @@ div#rodape_index { width: 100%; padding-top: 10px; letter-spacing: 1px; float: l
 
 
 /*LOCALIZAÇÃO*/
-section#localizacao aside p.tt_pequeno { font-size: 3.0em; margin: 35px 0 0 25px; line-height: 35px;}
+section#localizacao aside p.tt_pequeno { font-size: 2.5em; margin: 35px 0 0 25px; line-height: 35px;}
 section#localizacao article div { width: 100%; margin-top: 20px; height: 750px; float: left;}
+
+
 
 /*RESIDENCIAL*/
 section#residencial article { margin-top: 40px;}
-div#residencial_box01, div#residencial_box02, div#residencial_box03 { width: 33.33333333333333%; height: 100%; float: left; position: relative; background-size:100% 100%; -webkit-background-size: 100% 100%; -o-background-size: 100% 100%; -khtml-background-size: 100% 100%; -moz-background-size: 100% 100%;}
-div#residencial_box01 span a, div#residencial_box02 span a, div#residencial_box03 span a { width: 100%; height: 324px; float: left; display: block; background: url(../img/fundo_residencial.png) repeat;}
-div#residencial_box01 span a:hover, div#residencial_box02 span a:hover, div#residencial_box03 span a:hover  { background: transparent;}
-div#residencial_box01 span div.top_box p.tt_top_box, div#residencial_box02 span div.top_box p.tt_top_box, div#residencial_box03 span div.top_box p.tt_top_box { font-size: 2.0em; padding-left: 1%; letter-spacing: 1px; margin-bottom: -10px;}
-div#residencial_box01 span div.top_box p, div#residencial_box02 span div.top_box p, div#residencial_box03 span div.top_box p { font-size: 1.4em; padding-left: 1%; letter-spacing: 1px;}
-div#residencial_box01 span div.top_box, div#residencial_box02 span div.top_box, div#residencial_box03 span div.top_box { width: 100%; background: transparent; height: 125px; color: #FFF; float: left; transition: all 999ms ease 0s;}
-div#residencial_box01 span:hover div.top_box, div#residencial_box02 span:hover div.top_box, div#residencial_box03 span:hover div.top_box { background: url(../img/fundo_residencialbr.png); color: #000;}
-div#residencial_box01 { background: url(../img/img_01.jpg) no-repeat;}
-div#residencial_box02 { background: url(../img/img_02.jpg) no-repeat;}
-div#residencial_box03 { background: url(../img/img_03.jpg) no-repeat;}
-section#residencial aside p.tt_pequeno { font-size: 3.0em; margin: 35px 0 0 25px; line-height: 35px;}
+article#galeria { width: 100%; min-width: 1345px; float: left; position: relative;}
+span#setaD, span#setaE { display: block; position: absolute; z-index: 100;}
+span#setaD a, span#setaE a { text-decoration: none; color: rgba(255,255,255, 0.8); padding: 187px 20px 125px 20px;}
+span#setaD a:hover, span#setaE a:hover { background: rgba(255,255,255, 0.2); color: rgba(255,255,255, 0.8); -webkit-transition: 0.7s; transition: 0.7s;}
+span#setaD { top: 88px; right: 0;}
+span#setaE { top: 88px; left: 0;} 
+span#setaE a:before { content: '\2329'; font-size: 10.0em;} 
+span#setaD a:before { content: '\232A'; font-size: 10.0em;}
+div#residencial_box { width: 33.33333333333333%; height: 100%; float: left; position: relative; background-size:100% 100%; -webkit-background-size: 100% 100%; -o-background-size: 100% 100%; -khtml-background-size: 100% 100%; -moz-background-size: 100% 100%;}
+div#residencial_box a { width: 100%; height: 324px; float: left; display: block; background: url(../img/fundo_residencial.png) repeat;}
+div#residencial_box a:hover { background: transparent;}
+div#residencial_box div.top_box p { font-size: 1.4em; padding-left: 1%; letter-spacing: 1px;}
+div#residencial_box div.top_box p.tt_top_box { font-size: 2.0em; padding-left: 1%; letter-spacing: 1px; margin-bottom: -10px;}
+div#residencial_box div.top_box { width: 100%; background: transparent; height: 125px; color: #FFF; float: left; transition: all 999ms ease 0s;}
+div#residencial_box a:hover div.top_box { background: url(../img/fundo_residencialbr.png); color: #000;}
+section#residencial aside p.tt_pequeno { font-size: 2.5em; margin: 35px 0 0 25px; line-height: 35px;}
 section#residencial aside p.tt_small { font-size: 1.4em; margin: 20px 0 0 25px; line-height: 22px; float: left; letter-spacing: 1px;}
 section#residencial aside figure { float: left; margin: 45px 0 0 25px;}
 section#residencial aside figure figcaption { float: left; margin-top: 35px; letter-spacing: 2px;}
 section#residencial aside figure img { margin-left: 20px;}
 
-div#residencial_box01 span.active-header div.top_box { background: url(../img/fundo_residencialbr.png); color: #000;}
-div#residencial_box01 span a.active-span { background: transparent;}
+.box01 { background: url(../img/img_01.jpg) no-repeat;}
+.box02 { background: url(../img/img_02.jpg) no-repeat;}
+.box03 { background: url(../img/img_03.jpg) no-repeat;}
+
+.box04 { background: url(../img/img_04.jpg) no-repeat;}
+.box05 { background: url(../img/img_05.jpg) no-repeat;}
+.box06 { background: url(../img/img_06.jpg) no-repeat;}
+
+
+
+
+
 
 
 /*RESORT*/
@@ -158,9 +180,8 @@ figure#ico19 { position: absolute; margin: 54% 0 0 85%;}
 div.ico19 { position: absolute; margin: -785% 0 0 -289%;}
 
 /*CONTATO*/
-section#contato aside p.tt_pequeno { font-size: 3.0em; margin: 35px 0 0 25px; line-height: 35px;}
 section#contato article { width: 1052px; margin: 75px 0 0 25px; float: left; position: relative;}
-section#contato aside p.tt_pequeno { font-size: 3.0em; margin: 35px 0 0 25px; line-height: 35px;}
+section#contato aside p.tt_pequeno { font-size: 2.5em; margin: 35px 0 0 25px; line-height: 35px;}
 section#contato article form { float: left;}
 section#contato article form input, select { font-family: 'Arial', Helvetica, sans-serif; font-size: 1.4em; letter-spacing: 2px; color: #000;}
 div.form_topo { width: 300px; float: left; margin-right: 50px; }

@@ -9,42 +9,28 @@
 
 	<article>
 
-            <div id="residencial_box01">
-		    	<span>
+            <div id="residencial_box" class="box01">
 		    	  <a href="">
-		    	  	<div class="top_box">
-		    	  	  <p class="tt_top_box">Casa João Lambert</p>
-                      <p>Quadra 17 - Lotes 15,16  Terreno 867m² - Casa 333m²<br/><br/>  
-                      Arquiteto João Lambert</p>
+		    	  	<div class="top_box" style="height: 60px">
+		    	  	  <p class="tt_top_box">Fotos do Local</p>
 		    	  	</div>
 		    	  </a>
-		    	</span>
 			</div>
 		
-		   
-			<div id="residencial_box02">
-		    	<span>
+			<div id="residencial_box" class="box02">
 		    	  <a href="">
-		    	  	<div class="top_box">
-		    	  	  <p class="tt_top_box">Casa João Lambert</p>
-                      <p>Quadra 17 - Lotes 15,16  Terreno 867m² - Casa 333m²<br/><br/>  
-                      Arquiteto João Lambert</p>
+		    	  	<div class="top_box" style="height: 60px">
+		    	  	  <p class="tt_top_box">Fotos do Local</p>
 		    	  	</div>
 		    	  </a>
-		    	</span>
 			</div>
 
-
-			<div id="residencial_box03">
-		    	<span>
+			<div id="residencial_box" class="box03">
 		    	  <a href="">
-		    	  	<div class="top_box">
-		    	  	  <p class="tt_top_box">Casa João Lambert</p>
-                      <p>Quadra 17 - Lotes 15,16  Terreno 867m² - Casa 333m²<br/><br/>  
-                      Arquiteto João Lambert</p>
+		    	  	<div class="top_box" style="height: 60px">
+		    	  	  <p class="tt_top_box">Fotos do Local</p>
 		    	  	</div>
 		    	  </a>
-		    	</span>
 			</div>
 
 	</article>
@@ -61,6 +47,84 @@
         	DIVERSÃO, TERÃO À DISPOSIÇÃO UMA SÉRIE DE SERVIÇOS ADMINISTRADOS PELA HUBERT E 
         	UM MODERNO SISTEMA DE SEGURANÇA.<br/> SÓ DE PENSAR NISTO, VOCÊ JÁ ENTRA NO CLIMA DA SOLARIS</p>
 
+	</aside>
+
+		<article id="galeria">
+
+			<span id="setaE">
+				<a href=""></a>
+			</span>
+
+			<div id="residencial_box" class="box04">
+			    <a href="">
+			      <div class="top_box">
+			    	<p class="tt_top_box">Casa João Lambert</p>
+	                <p>Quadra 17 - Lotes 15,16  Terreno 867m² - Casa 333m²<br/><br/>  
+	                Arquiteto João Lambert</p>
+			      </div>
+			    </a>
+			</div>
+
+			<div id="residencial_box" class="box05">
+			    <a href="">
+			      <div class="top_box">
+			    	<p class="tt_top_box">Casa João Carlos Della Manna</p>
+	                <p>Quadra 10 - Lotes 43,44  Terreno 1.153m² - Casa 277m²<br/><br/>  
+	                Arquiteto João Carlos Della Manna</p>
+			      </div>
+			    </a>
+			</div>
+
+			<div id="residencial_box" class="box06">
+			    <a href="">
+			      <div class="top_box">
+			    	<p class="tt_top_box">Casa Patrícia Varago</p>
+	                <p>Quadra 7 - Lotes 45,46  Terreno 1.010m² - Casa 530m²<br/><br/>  
+	                Arquiteto Patrícia Varago</p>
+			      </div>
+			    </a>
+			</div>
+
+			<div id="residencial_box" class="box03">
+			    <a href="">
+			      <div class="top_box">
+			    	<p class="tt_top_box">Casa João Lambert</p>
+	                <p>Quadra 17 - Lotes 15,16  Terreno 867m² - Casa 333m²<br/><br/>  
+	                Arquiteto João Lambert</p>
+			      </div>
+			    </a>
+			</div>
+
+			<div id="residencial_box" class="box03">
+			    <a href="">
+			      <div class="top_box">
+			    	<p class="tt_top_box">Casa João Lambert</p>
+	                <p>Quadra 17 - Lotes 15,16  Terreno 867m² - Casa 333m²<br/><br/>  
+	                Arquiteto João Lambert</p>
+			      </div>
+			    </a>
+			</div>
+
+			<div id="residencial_box" class="box03">
+			    <a href="">
+			      <div class="top_box">
+			    	<p class="tt_top_box">Casa João Lambert</p>
+	                <p>Quadra 17 - Lotes 15,16  Terreno 867m² - Casa 333m²<br/><br/>  
+	                Arquiteto João Lambert</p>
+			      </div>
+			    </a>
+			</div>
+
+			<span id="setaD">
+				<a href=""></a>
+			</span>
+
+	    </article>
+
+
+
+	<aside>
+		
         <figure>
 		  <figcaption class="tt_small">administração<br/> condominial:</figcaption>
 		  <img src="<?php echo base_url('assets');?>/img/hubert.jpg">
