@@ -189,9 +189,34 @@ $(function() {
 	
 	$("#galeria section").hide();
 	$("#galeria section:eq(0)").addClass("ativo").show();
-	setInterval(slide,3000);
+	//setInterval(slide,3000);
 	
-	
+	var iniset = 5;
+	$("#setaD").on("click",function(){		
+		if($(".ativo").next('section').size()){
+			$(".ativo").fadeOut().removeClass("ativo").next('section').fadeIn().addClass("ativo");
+			//alert('if');
+		}
+		else {
+			$(".ativo").fadeOut().removeClass("ativo");
+			$("#galeria section:eq(0)").fadeIn().addClass("ativo");
+			//alert('else');
+		}
+		
+		return false;
+	});
+	$("#setaE").on("click",function(){
+		if($(".ativo").prev('section').size()){
+			$(".ativo").fadeOut().removeClass("ativo").prev().fadeIn().addClass("ativo");
+			//alert('if');
+		}
+		else {			
+			$("#galeria section").fadeOut().removeClass("ativo").last().fadeIn().addClass("ativo");
+			//alert('else');
+		}
+		
+		return false;
+	});
 	
 	
 	
