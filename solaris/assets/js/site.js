@@ -61,16 +61,6 @@ function redireciona(){
 	window.location = "contato";
 }
 
-function slide() {
-	if($(".ativo").next().size()){
-		$(".ativo").fadeOut().removeClass("ativo").next().fadeIn().addClass("ativo");
-	}
-	else {
-		$(".ativo").fadeOut().removeClass("ativo");
-		$("#galeria section:eq(0)").fadeIn().addClass("ativo");
-	}
-}
-
 $(function() {	
 	$(".fancybox").fancybox({
         openEffect	: 'fade',
@@ -189,17 +179,14 @@ $(function() {
 	
 	$("#galeria section").hide();
 	$("#galeria section:eq(0)").addClass("ativo").show();
-	//setInterval(slide,3000);
-	
-	var iniset = 5;
 	$("#setaD").on("click",function(){		
 		if($(".ativo").next('section').size()){
-			$(".ativo").fadeOut().removeClass("ativo").next('section').fadeIn().addClass("ativo");
+			$(".ativo").hide().removeClass("ativo").next('section').show('swing').addClass("ativo");
 			//alert('if');
 		}
 		else {
-			$(".ativo").fadeOut().removeClass("ativo");
-			$("#galeria section:eq(0)").fadeIn().addClass("ativo");
+			$(".ativo").fadeOut('fast').removeClass("ativo");
+			$("#galeria section:eq(0)").show('swing').addClass("ativo");
 			//alert('else');
 		}
 		
@@ -207,11 +194,11 @@ $(function() {
 	});
 	$("#setaE").on("click",function(){
 		if($(".ativo").prev('section').size()){
-			$(".ativo").fadeOut().removeClass("ativo").prev().fadeIn().addClass("ativo");
+			$(".ativo").fadeOut('fast').removeClass("ativo").prev().fadeIn(1200,'swing').addClass("ativo");
 			//alert('if');
 		}
 		else {			
-			$("#galeria section").fadeOut().removeClass("ativo").last().fadeIn().addClass("ativo");
+			$("#galeria section").fadeOut('fast').removeClass("ativo").last().fadeIn('swing').addClass("ativo");
 			//alert('else');
 		}
 		

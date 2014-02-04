@@ -33,7 +33,7 @@
 
 	<aside>		
 		<p class="tt_medio">segurança, lazer, diversão e serviços.<br/>
-        tudo para vocÊ entrar no clima de solaris.</p>
+        tudo para você entrar no clima de solaris.</p>
 
         <p class="tt_small">VIVA NUM RESIDENCIAL QUE INCORPORA UM RERSORT COMPLETO. 
         	COMO SE VOCÊ FICASSE EM UM HOTEL SEM TER QUE FAZER RESERVAS OU SE PROGRAMAR.<br/> 
@@ -72,9 +72,9 @@
 			<div id="residencial_box" class="box06">
 			    <a href="<?php echo base_url('assets/img/img_06_poup.jpg'); ?>" class="fancybox" rel="gallery1" title="Casa Patrícia Varago - Quadra 7 - Lotes 45,46 - Terreno 1.010m² - Casa 530m²">
 			      <div class="top_box">
-			    	<p class="tt_top_box">Casa Patrícia Varago</p>
+			    	<p class="tt_top_box">Casa PatrÃ­cia Varago</p>
 	                <p>Quadra 7 - Lotes 45,46  Terreno 1.010m² - Casa 530m²<br/><br/>  
-	                Arquiteto Patrícia Varago</p>
+	                Arquiteto PatrÃ­cia Varago</p>
 			      </div>
 			    </a>
 			</div>

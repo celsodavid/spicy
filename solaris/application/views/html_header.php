@@ -19,6 +19,7 @@
 		echo script_tag('assets/js/jquery-1.10.2.min.js');
 		echo script_tag('assets/js/html5shiv.js');
 		echo script_tag('assets/js/fancy-box/source/jquery.fancybox.js');
+		echo script_tag('http://code.jquery.com/ui/1.10.4/jquery-ui.js');
 		echo '<script type="text/javascript"> var baseurl = "', base_url(), '";</script>';
 		echo script_tag('assets/js/site.js');		
 		?>
