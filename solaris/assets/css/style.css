@@ -78,6 +78,9 @@ div#container-galeria section ul li a:hover { background: transparent;}
 div.top_lista { width: 0%; height: 100px; color: #FFF; background: transparent; float: left; position: relative; -webkit-transition: 0.7s ease-out; transition: 0.7s ease-out;}
 div#container-galeria section ul li a:hover div.top_lista { width: 100%; background: rgba(255,255,255,0.7); color: #000; -webkit-transition: 0.7s ease-in; transition: 0.7s ease-in;}
 
+div#container-galeria section ul li.active a { background: transparent;}
+div#container-galeria section ul li.active a div.top_lista { width: 100%; background: rgba(255,255,255,0.7); color: #000; -webkit-transition: 0.7s ease-in; transition: 0.7s ease-in;}
+
 div.top_lista h6, div.top_lista h6 + p { width: 443px; padding: 0; margin: 0;}
 div.top_lista h6 { font-size: 2.0em; letter-spacing: 1px; padding: 10px 0 0 5px;}
 div.top_lista h6 + p { font-size: 1.4em; letter-spacing: 1px; padding: 5px 0 0 5px; line-height: 2;}
