@@ -8,7 +8,7 @@
 	<article>
 		<div id="residencial_box" class="box01">
 			<a href="">
-		    	<div class="top_box" style="height: 60px">
+		    	<div class="top_box">
 		    		<p class="tt_top_box">Fotos do Local</p>
 		    	</div>
 		    </a>
@@ -16,7 +16,7 @@
 		
 		<div id="residencial_box" class="box02">
 			<a href="">
-		    	<div class="top_box" style="height: 60px">
+		    	<div class="top_box">
 		    		<p class="tt_top_box">Fotos do Local</p>
 		    	</div>
 		    </a>
@@ -24,7 +24,7 @@
 
 		<div id="residencial_box" class="box03">
 			<a href="">
-		    	<div class="top_box" style="height: 60px">
+		    	<div class="top_box">
 		    		<p class="tt_top_box">Fotos do Local</p>
 		    	</div>
 		    </a>
@@ -43,112 +43,53 @@
         	UM MODERNO SISTEMA DE SEGURANÇA.<br/> SÓ DE PENSAR NISTO, VOCÊ JÁ ENTRA NO CLIMA DA SOLARIS.</p>
 	</aside>
 
+
 	<article id="galeria">
-		
-		<span id="setaE">
-		</span>
 
-		<section id="bloco1">
-			<div id="residencial_box" class="box04">
-			    <a href="<?php echo base_url('assets/img/img_04_poup.jpg'); ?>" class="fancybox" rel="gallery1" title="Casa João Lambert - Quadra 17 - Lotes 15,16 - Terreno 867m² - Casa 333m²">
-			      <div class="top_box">
-			    	<p class="tt_top_box">Casa João Lambert</p>
-	                <p>Quadra 17 - Lotes 15,16  Terreno 867m² - Casa 333m²<br/><br/>  
-	                Arquiteto João Lambert</p>
-			      </div>
-			    </a>
-			</div>
-	
-			<div id="residencial_box" class="box05">
-			    <a href="<?php echo base_url('assets/img/img_05_poup.jpg'); ?>" class="fancybox" rel="gallery1" title="Casa João Carlos Della Manna - Quadra 10 - Lotes 43,44 - Terreno 1.153m² - Casa 277m²">
-			      <div class="top_box">
-			    	<p class="tt_top_box">Casa João Carlos Della Manna</p>
-	                <p>Quadra 10 - Lotes 43,44  Terreno 1.153m² - Casa 277m²<br/><br/>  
-	                Arquiteto João Carlos Della Manna</p>
-			      </div>
-			    </a>
-			</div>
-	
-			<div id="residencial_box" class="box06">
-			    <a href="<?php echo base_url('assets/img/img_06_poup.jpg'); ?>" class="fancybox" rel="gallery1" title="Casa Patrícia Varago - Quadra 7 - Lotes 45,46 - Terreno 1.010m² - Casa 530m²">
-			      <div class="top_box">
-			    	<p class="tt_top_box">Casa PatrÃ­cia Varago</p>
-	                <p>Quadra 7 - Lotes 45,46  Terreno 1.010m² - Casa 530m²<br/><br/>  
-	                Arquiteto PatrÃ­cia Varago</p>
-			      </div>
-			    </a>
-			</div>
-		</section>
-		
-		<section id="bloco2">
-			<div id="residencial_box" class="box03">
-			    <a href="">
-			      <div class="top_box">
-			    	<p class="tt_top_box">Casa João Lambert</p>
-	                <p>Quadra 17 - Lotes 15,16  Terreno 867m² - Casa 333m²<br/><br/>  
-	                Arquiteto João Lambert</p>
-			      </div>
-			    </a>
-			</div>
-	
-			<div id="residencial_box" class="box03">
-			    <a href="">
-			      <div class="top_box">
-			    	<p class="tt_top_box">Casa João Lambert</p>
-	                <p>Quadra 17 - Lotes 15,16  Terreno 867m² - Casa 333m²<br/><br/>  
-	                Arquiteto João Lambert</p>
-			      </div>
-			    </a>
-			</div>
-	
-			<div id="residencial_box" class="box03">
-			    <a href="">
-			      <div class="top_box">
-			    	<p class="tt_top_box">Casa João Lambert</p>
-	                <p>Quadra 17 - Lotes 15,16  Terreno 867m² - Casa 333m²<br/><br/>  
-	                Arquiteto João Lambert</p>
-			      </div>
-			    </a>
-			</div>
-		</section>
-		
-		<section id="bloco3">
-			<div id="residencial_box" class="box01">
-			    <a href="">
-			      <div class="top_box">
-			    	<p class="tt_top_box">Casa João Lambert</p>
-	                <p>Quadra 17 - Lotes 15,16  Terreno 867m² - Casa 333m²<br/><br/>  
-	                Arquiteto João Lambert</p>
-			      </div>
-			    </a>
-			</div>
-	
-			<div id="residencial_box" class="box01">
-			    <a href="">
-			      <div class="top_box">
-			    	<p class="tt_top_box">Casa João Lambert</p>
-	                <p>Quadra 17 - Lotes 15,16  Terreno 867m² - Casa 333m²<br/><br/>  
-	                Arquiteto João Lambert</p>
-			      </div>
-			    </a>
-			</div>
-	
-			<div id="residencial_box" class="box01">
-			    <a href="">
-			      <div class="top_box">
-			    	<p class="tt_top_box">Casa João Lambert</p>
-	                <p>Quadra 17 - Lotes 15,16  Terreno 867m² - Casa 333m²<br/><br/>  
-	                Arquiteto João Lambert</p>
-			      </div>
-			    </a>
-			</div>
-		</section>
+		<div id="container-galeria">
 
-		<span id="setaD">
-		</span>
+			<span id="setaE"></span>
 
-    </article>
-	    
+			<section>
+				<ul>
+					<li class="casa01">
+						<a href="">
+						  <div class="top_lista">
+						    <h6>Casa João Lambert</h6>
+				            <p>Quadra 17 - Lotes 15,16  Terreno 867m² - Casa 333m²<br/>  
+				            Arquiteto João Lambert</p>
+						  </div>
+						</a>
+					</li>
+
+					<li class="casa02">
+						<a href="">
+						  <div class="top_lista">
+						    <h6>Casa João Carlos Della Manna</h6>
+				            <p>Quadra 10 - Lotes 43,44  Terreno 1.153m² - Casa 277m²<br/>  
+				            Arquiteto João Carlos Della Manna</p>
+						  </div>
+						</a>
+					</li>
+
+					<li class="casa03">
+						<a href="">
+						  <div class="top_lista">
+						    <h6>Casa Patricia Varago</h6>
+				            <p>Quadra 7 - Lotes 45,46  Terreno 1.010m² - Casa 530m²<br/>  
+				            Arquiteto Patricia Varago</p>
+						  </div>
+						</a>
+					</li>
+				</ul>
+			</section>
+
+			<span id="setaD"></span>
+
+		</div>
+
+	</article>
+	
 	<aside>		
         <figure>
 		  <figcaption class="tt_small">administração<br/> condominial:</figcaption>

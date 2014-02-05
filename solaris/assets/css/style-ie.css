@@ -1,2 +1,6 @@
 img.seta_residencial { margin-right: -16%; margin-top: -21%;} 
 img.seta_resort { margin-right: -70%; margin-top: -5%;}
+span#setaD { height: 124px; display: block; position: absolute; z-index: 100; padding: 100px 4px;}
+span#setaE { height: 124px; display: block; position: absolute; z-index: 100; padding: 100px 4px;}
+span#setaD:hover { padding: 100px 14px;}
+span#setaE:hover { padding: 100px 14px;}

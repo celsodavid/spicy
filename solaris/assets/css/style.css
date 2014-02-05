@@ -33,7 +33,6 @@ section#localizacao aside p.tt_medio, section#resort aside p.tt_medio, section#r
 
 section#localizacao article, section#resort article, section#residencial article { width: 100%; min-width: 1345px; float: left;}
 
-
 /*INDEX*/
 section#index article figure img { max-width: 100%;}
 section#index article aside { width: 100%; margin-top: -3px; float: left;}
@@ -46,49 +45,61 @@ img.seta_residencial { height: 126px; margin-left: 50%; margin-top: -20%; float:
 img.seta_resort { height: 126px; margin-left: 70%; margin-top: -22%; float: right;}
 div#rodape_index { width: 100%; padding-top: 10px; letter-spacing: 1px; float: left; text-align: center; font-size: 1.4em; position: relative; z-index: 200; height: 20px; background: #000; margin-top: -15px; color: #FFF}
 
-
 /*LOCALIZAÇÃO*/
 section#localizacao aside p.tt_pequeno { font-size: 2.5em; margin: 35px 0 0 25px; line-height: 35px;}
 section#localizacao article div { width: 100%; margin-top: 20px; height: 750px; float: left;}
 
-
-
 /*RESIDENCIAL*/
 section#residencial article { margin-top: 40px;}
-article#galeria { width: 100%; min-width: 1345px; float: left; position: relative;}
-span#setaD, span#setaE { display: block; position: absolute; z-index: 100;}
-span#setaD, span#setaE { text-decoration: none; color: rgba(255,255,255, 0.2); padding: 88px 20px 102px 20px; cursor: pointer;}
-span#setaD:hover, span#setaE:hover { background: rgba(255,255,255, 0.2); color: rgba(255,255,255, 0.8); -webkit-transition: 0.7s; transition: 0.7s;}
-span#setaD { top: 0; right: 0;}
-span#setaE { top: 0; left: 0;} 
-span#setaE:before { content: '\2329'; font-size: 10.0em;} 
-span#setaD:before { content: '\232A'; font-size: 10.0em;}
 div#residencial_box { width: 33.33333333333333%; height: 100%; float: left; position: relative; background-size:100% 100%; -webkit-background-size: 100% 100%; -o-background-size: 100% 100%; -khtml-background-size: 100% 100%; -moz-background-size: 100% 100%;}
-div#residencial_box a { width: 100%; height: 324px; float: left; display: block; background: url(../img/fundo_residencial.png) repeat;}
+div#residencial_box a { width: 100%; height: 324px; float: left; display: block; background: rgba(0,0,0,0.5); -webkit-transition: 0.7s ease-out; transition: 0.7s ease-out;}
 div#residencial_box a:hover { background: transparent;}
 div#residencial_box div.top_box p { font-size: 1.4em; padding-left: 1%; letter-spacing: 1px;}
 div#residencial_box div.top_box p.tt_top_box { font-size: 2.0em; padding-left: 1%; letter-spacing: 1px; margin-bottom: -10px;}
-div#residencial_box div.top_box { width: 100%; background: transparent; height: 125px; color: #FFF; float: left; transition: all 999ms ease 0s;}
-div#residencial_box a:hover div.top_box { background: url(../img/fundo_residencialbr.png); color: #000;}
-section#residencial aside p.tt_pequeno { font-size: 2.5em; margin: 35px 0 0 25px; line-height: 35px;}
-section#residencial aside p.tt_small { font-size: 1.4em; margin: 20px 0 0 25px; line-height: 22px; float: left; letter-spacing: 1px;}
-section#residencial aside figure { float: left; margin: 45px 0 0 25px;}
-section#residencial aside figure figcaption { float: left; margin-top: 35px; letter-spacing: 2px;}
-section#residencial aside figure img { margin-left: 20px;}
+div#residencial_box div.top_box { width:100%; height: 0px; background: transparent; color: #FFF; float: left; -webkit-transition: 0.7s ease-out; transition: 0.7s ease-out;}
+div#residencial_box a:hover div.top_box { height: 60px; background: rgba(255,255,255,0.7); color: #000; -webkit-transition: 0.5s ease-in; transition: 0.5s ease-in;}
 
 .box01 { background: url(../img/img_01.jpg) no-repeat;}
 .box02 { background: url(../img/img_02.jpg) no-repeat;}
 .box03 { background: url(../img/img_03.jpg) no-repeat;}
 
-.box04 { background: url(../img/img_04.jpg) no-repeat;}
-.box05 { background: url(../img/img_05.jpg) no-repeat;}
-.box06 { background: url(../img/img_06.jpg) no-repeat;}
+article#galeria { width: 100%; min-width: 1345px; float: left; position: relative;}
+div#container-galeria { width: 1345px; float: left; position: relative; left: 50%; margin-left: -672.5px;}
+div#container-galeria section { width: 1345px; overflow: hidden; position: relative;}
 
+div#container-galeria section ul { width:2000px; height: 324px; padding: 0; margin: 0; float: left; position: relative; list-style: none;}
+div#container-galeria section ul li { text-decoration: none; display: inline-block; padding: 0; margin-right: -2px}
+div#container-galeria section ul li a { text-decoration: none;}
 
+div#container-galeria section ul li { width: 448.3px; height: 100%; float: left; position: relative; background-size:100% 100%; -webkit-background-size: 100% 100%; -o-background-size: 100% 100%; -khtml-background-size: 100% 100%; -moz-background-size: 100% 100%;}
+div#container-galeria section ul li a { width: 100%; height: 324px; float: left; display: block; background: rgba(0,0,0,0.6); -webkit-transition: 0.7s ease-out; transition: 0.7s ease-out;}
+div#container-galeria section ul li a:hover { background: transparent;}
 
+div.top_lista { width: 0%; height: 100px; color: #FFF; background: transparent; float: left; position: relative; -webkit-transition: 0.7s ease-out; transition: 0.7s ease-out;}
+div#container-galeria section ul li a:hover div.top_lista { width: 100%; background: rgba(255,255,255,0.7); color: #000; -webkit-transition: 0.7s ease-in; transition: 0.7s ease-in;}
 
+div.top_lista h6, div.top_lista h6 + p { width: 443px; padding: 0; margin: 0;}
+div.top_lista h6 { font-size: 2.0em; letter-spacing: 1px; padding: 10px 0 0 5px;}
+div.top_lista h6 + p { font-size: 1.4em; letter-spacing: 1px; padding: 5px 0 0 5px; line-height: 2;}
 
+.casa01 { background: url(../img/galeria01.jpg) no-repeat;}
+.casa02 { background: url(../img/galeria02.jpg) no-repeat;}
+.casa03 { background: url(../img/galeria03.jpg) no-repeat;}
 
+span#setaD, span#setaE { height: 174px; display: block; position: absolute; z-index: 100; padding: 75px 4px;}
+span#setaD, span#setaE { text-decoration: none; color: rgba(235,239,235,0.2); cursor: pointer; -webkit-transition: 0.5s ease-out; transition: 0.5s ease-out;}
+span#setaD:hover, span#setaE:hover { color: rgba(0,0,0,0.46); background: rgba(255,255,255,0.2); padding: 75px 14px; -webkit-transition: 0.3s; transition: 0.3s;}
+
+span#setaD { top: 0; right: 0;}
+span#setaE { top: 0; left: 0;} 
+span#setaE:before { content: '\2329'; font-size: 10.0em;} 
+span#setaD:before { content: '\232A'; font-size: 10.0em;}
+
+section#residencial aside p.tt_pequeno { font-size: 2.5em; margin: 35px 0 0 25px; line-height: 35px;}
+section#residencial aside p.tt_small { font-size: 1.4em; margin: 20px 0 0 25px; line-height: 22px; float: left; letter-spacing: 1px;}
+section#residencial aside figure { float: left; margin: 45px 0 0 25px;}
+section#residencial aside figure figcaption { float: left; margin-top: 35px; letter-spacing: 2px;}
+section#residencial aside figure img { margin-left: 20px;}
 
 /*RESORT*/
 section#resort aside p.tt_small { font-size: 1.4em; margin: 20px 0 0 25px; line-height: 22px; float: left; letter-spacing: 1px;}
@@ -104,6 +115,7 @@ p.tt_box-shadow { text-transform: uppercase; font-size: 1.6em; letter-spacing: 1
 p.txt_box-shadow { width: 270px; font-size: 1.5em; color: #000; padding-bottom: 15px; text-align: center; letter-spacing: 1px; line-height: 20px; margin: 0 auto;}
 img.imagem_resort { width: 296px; float: left; -webkit-border-top-left-radius: 10px; -webkit-border-top-right-radius: 10px; -moz-border-radius-topleft: 10px; -moz-border-radius-topright: 10px; border-top-left-radius: 10px; border-top-right-radius: 10px;}
 img.dt_box { position: absolute; bottom: -16px; right: 133px;}
+
 figure#ico01 a:hover div.box-shadow, figure#ico02 a:hover div.box-shadow,
 figure#ico03 a:hover div.box-shadow, figure#ico04 a:hover div.box-shadow,
 figure#ico05 a:hover div.box-shadow, figure#ico06 a:hover div.box-shadow,
@@ -232,11 +244,17 @@ article figure#detalhe_rodape a { position: absolute; right: 80px; bottom: -35px
 @media screen and (-webkit-min-device-pixel-ratio:0) {
  img.seta_residencial { margin-right: -16%; margin-top: -21%;}
  img.seta_resort { margin-right: -70%; margin-top: -33%;}
+ span#setaD, span#setaE { height: 124px; display: block; position: absolute; z-index: 100; padding: 100px 4px;}
+ span#setaD:hover, span#setaE:hover { padding: 100px 14px;}
 }
 
 /* Hack ie10 */
 .ie10 img.seta_residencial { margin-right: -16% !important; margin-top: -21% !important;} 
 .ie10 img.seta_resort { margin-right: -70% !important; margin-top: -5% !important;}
+.ie10 span#setaD { height: 124px; display: block; position: absolute; z-index: 100; padding: 100px 4px;}
+.ie10 span#setaE { height: 124px; display: block; position: absolute; z-index: 100; padding: 100px 4px;}
+.ie10 span#setaD:hover { padding: 100px 14px;}
+.ie10 span#setaE:hover { padding: 100px 14px;}
 
 
 /* Hack Opera */
