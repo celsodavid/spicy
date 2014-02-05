@@ -45,9 +45,7 @@
 
 
 	<article id="galeria">
-
 		<div id="container-galeria">
-
 			<span id="setaE"></span>
 
 			<section>
@@ -85,9 +83,7 @@
 			</section>
 
 			<span id="setaD"></span>
-
 		</div>
-
 	</article>
 	
 	<aside>		
