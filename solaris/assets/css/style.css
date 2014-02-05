@@ -67,7 +67,8 @@ article#galeria { width: 100%; min-width: 1345px; float: left; position: relativ
 div#container-galeria { width: 1345px; float: left; position: relative; left: 50%; margin-left: -672.5px;}
 div#container-galeria section { width: 1339px; overflow: hidden; position: relative;}
 
-div#container-galeria section ul { /*width:2680px;*/ height: 324px; padding: 0; margin: 0; float: left; position: relative; list-style: none;}
+/* ul tinha width:2680px; */
+div#container-galeria section ul { height: 324px; padding: 0; margin: 0; float: left; position: relative; list-style: none;}
 div#container-galeria section ul li { text-decoration: none; display: inline-block; padding: 0; margin-right: -2px}
 div#container-galeria section ul li a { text-decoration: none;}
 

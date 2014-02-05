@@ -51,7 +51,7 @@
 			<section>
 				<ul>
 					<li class="casa01">
-						<a href="">
+						<a class="gallery" href="<?php echo base_url('assets/img/galeria01_poup.jpg'); ?>" title="Casa João Lambert - Quadra 17 - Lotes 15,16  Terreno 867m² - Casa 333m² - Arquiteto João Lambert">
 						  <div class="top_lista">
 						    <h6>Casa João Lambert</h6>
 				            <p>Quadra 17 - Lotes 15,16  Terreno 867m² - Casa 333m²<br/>  
@@ -61,7 +61,7 @@
 					</li>
 
 					<li class="casa02">
-						<a href="">
+						<a class="gallery" href="<?php echo base_url('assets/img/galeria02_poup.jpg'); ?>" title="Casa João Carlos Della Manna - Quadra 10 - Lotes 43,44  Terreno 1.153m² - Casa 277m² - Arquiteto João Carlos Della Manna">
 						  <div class="top_lista">
 						    <h6>Casa João Carlos Della Manna</h6>
 				            <p>Quadra 10 - Lotes 43,44  Terreno 1.153m² - Casa 277m²<br/>  
@@ -71,7 +71,7 @@
 					</li>
 
 					<li class="casa03">
-						<a href="">
+						<a class="gallery" href="<?php echo base_url('assets/img/galeria03_poup.jpg'); ?>" title="Casa Patricia Varago - Quadra 7 - Lotes 45,46  Terreno 1.010m² - Casa 530m² - Arquiteto Patricia Varago">
 						  <div class="top_lista">
 						    <h6>Casa Patricia Varago</h6>
 				            <p>Quadra 7 - Lotes 45,46  Terreno 1.010m² - Casa 530m²<br/>  
