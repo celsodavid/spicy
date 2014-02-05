@@ -78,37 +78,7 @@
 				            Arquiteto Patricia Varago</p>
 						  </div>
 						</a>
-					</li>
-
-					<li class="casa05">
-						<a href="">
-						  <div class="top_lista">
-						    <h6>Casa Patricia Varago</h6>
-				            <p>Quadra 7 - Lotes 45,46  Terreno 1.010m² - Casa 530m²<br/>  
-				            Arquiteto Patricia Varago</p>
-						  </div>
-						</a>
-					</li>
-
-					<li class="casa06">
-						<a href="">
-						  <div class="top_lista">
-						    <h6>Casa Patricia Varago</h6>
-				            <p>Quadra 7 - Lotes 45,46  Terreno 1.010m² - Casa 530m²<br/>  
-				            Arquiteto Patricia Varago</p>
-						  </div>
-						</a>
-					</li>
-
-					<li class="casa07">
-						<a href="">
-						  <div class="top_lista">
-						    <h6>Casa Patricia Varago</h6>
-				            <p>Quadra 7 - Lotes 45,46  Terreno 1.010m² - Casa 530m²<br/>  
-				            Arquiteto Patricia Varago</p>
-						  </div>
-						</a>
-					</li>
+					</li>			
 				</ul>
 			</section>
 
