@@ -65,9 +65,9 @@ div#residencial_box a:hover div.top_box { height: 60px; background: rgba(255,255
 
 article#galeria { width: 100%; min-width: 1345px; float: left; position: relative;}
 div#container-galeria { width: 1345px; float: left; position: relative; left: 50%; margin-left: -672.5px;}
-div#container-galeria section { width: 1345px; overflow: hidden; position: relative;}
+div#container-galeria section { width: 1339px; overflow: hidden; position: relative;}
 
-div#container-galeria section ul { width:2000px; height: 324px; padding: 0; margin: 0; float: left; position: relative; list-style: none;}
+div#container-galeria section ul { width:2680px; height: 324px; padding: 0; margin: 0; float: left; position: relative; list-style: none;}
 div#container-galeria section ul li { text-decoration: none; display: inline-block; padding: 0; margin-right: -2px}
 div#container-galeria section ul li a { text-decoration: none;}
 
@@ -85,6 +85,9 @@ div.top_lista h6 + p { font-size: 1.4em; letter-spacing: 1px; padding: 5px 0 0 5
 .casa01 { background: url(../img/galeria01.jpg) no-repeat;}
 .casa02 { background: url(../img/galeria02.jpg) no-repeat;}
 .casa03 { background: url(../img/galeria03.jpg) no-repeat;}
+.casa05 { background: url(../img/galeria-teste1.jpg) no-repeat;}
+.casa06 { background: url(../img/galeria-teste2.jpg) no-repeat;}
+.casa07 { background: url(../img/galeria-teste3.jpg) no-repeat;}
 
 span#setaD, span#setaE { height: 174px; display: block; position: absolute; z-index: 100; padding: 75px 4px;}
 span#setaD, span#setaE { text-decoration: none; color: rgba(235,239,235,0.2); cursor: pointer; -webkit-transition: 0.5s ease-out; transition: 0.5s ease-out;}
