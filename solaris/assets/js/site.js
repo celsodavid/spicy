@@ -175,11 +175,44 @@ $(function() {
 			return false;
 		}
 	});
-	
-	
-	$("#galeria section").hide();
-	$("#galeria section:eq(0)").addClass("ativo").show();
+		
+	$("#container-galeria li:eq(2)").addClass("ativo");	
 	$("#setaD").on("click",function(){		
+		$("#container-galeria section ul").animate({left:"+=447"}, 500, function(){
+			var li = $("#container-galeria li:last").clone();
+			$("#container-galeria li:last").remove();
+			$("#container-galeria ul").css({left:"-=447"});
+			$("#container-galeria ul").prepend(li);
+			$(".ativo").removeClass("ativo");
+			$("#container-galeria li:eq(2)").addClass("ativo");
+		});		
+		return false;
+	});
+	$("#setaE").on("click",function(){
+		$("#container-galeria section ul").animate({left:"-=447"}, 500, function(){
+			var li = $("#container-galeria li:first").clone();
+			$("#container-galeria li:first").remove();
+			$("#container-galeria ul").css({left:"+=447"});
+			$("#container-galeria ul").append(li);
+		});
+		return false;
+	});
+	
+	
+	
+	
+	/*$("#setaD").on("click",function(){		
+		$("#container-galeria section ul").animate({left:"+=447"}, 1200);
+		return false;
+	});
+	$("#setaE").on("click",function(){
+		$("#container-galeria section ul").animate({left:"-=447"}, 1200);
+		return false;
+	});*/
+	
+	
+	
+	/*$("#setaD").on("click",function(){		
 		if($(".ativo").next('section').size()){
 			$(".ativo").hide().removeClass("ativo").next('section').show('swing').addClass("ativo");
 			//alert('if');
@@ -203,7 +236,7 @@ $(function() {
 		}
 		
 		return false;
-	});
+	});*/
 	
 	
 	
