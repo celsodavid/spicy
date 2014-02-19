@@ -35,9 +35,9 @@ function enviar_email($nome, $email, $telefone, $mensagens, $site) {
     $CI->load->library('email', $config);
     
     $CI->email->from($eRemetente, $nRemetente);    
-    $CI->email->to('cassio@zabo.com.br');  
+    $CI->email->to('vscons01@terra.com.br');  
    	$CI->email->cc('contato@maisonlouise.com.br');
-	$CI->email->bcc('vscons01@terra.com.br,vsolai@solai.com.br');
+	$CI->email->bcc('cassio@zabo.com.br,vsolai@solai.com.br');
     $CI->email->subject($assunto);
     $CI->email->message($mensagem);    
 
