@@ -1,19 +1,18 @@
 <section id="resort">
 
 	<aside>
-		<h2>resort Teste</h2>
-		<p class="tt_medio">prepare-se para se divertir. o resort já está pronto.</p>
-		<p class="tt_small">AQUI VOCÊ E SUA FAMILIA NÃO PRECISARÃO APENAS SONHAR COM A 
-			DIVERSÃO, POIS O COMPLEXO DE LAZER ESTÁ PRONTO! VOCÊ PODERÁ APROVEITAR DESDE JÁ.<br/> 
-			E ESTAMOS FALANDO APENAS DE UM DOS DIFERENCIAIS DE SOLARIS. SEU PROJETO INCORPORA
-			 UM CONJUNTO DE CONCEITOS INÉDITOS NA REGIÃO PARA GARANTIR.<br/> QUE SUA DIVERSÃO SERÁ 
-			 COMPLETA, COMO, POR EXEMPLO, OS MONITORES QUE IRÃO COORDENAR BRINCADEIRAS, GINCANAS, 
-			 PASSEIOS, ATIVIDADES FÍSICAS.<br/> E ESPORTIVAS. AQUI SUA FAMÍLIA TERÁ MOTIVOS DE SOBRA 
-			 PARA SE DIVERTIR E SER FELIZ.</p>
+		<h2>resort</h2>
+		<p class="tt_medio">prepare-se para se divertir: o resort já está pronto.</p>
+		
+		<p class="tt_small">São 300.000m² criados para que a diversão da sua família seja completa.
+         Nosso Resort está com o Complexo de Lazer totalmente pronto.<br/> Aproveite desde já um Centro Hípico com 
+        52 baías e um projeto com conceito inédito de lazer na região.
+        <br/>Viva momentos únicos de diversão.</p>
+
 
 		<figure>
 			<img src="<?php echo base_url('assets');?>/img/icon_resort.png">
-			<figcaption>clique nas imagens que possuem esse icone, para conhecer melhor o local.</figcaption>
+			<figcaption>clique nas imagens que possuem este ícone, para conhecer melhor o local.</figcaption>
 		</figure>
 
 	</aside>
@@ -223,7 +222,7 @@
 			      </a>
 		        </figure>
 
-		        <figure id="ico16">
+		        <!--<figure id="ico16">
 			      <a href="" alt="" title="">
 			      	<div class="box-shadow ico16">
 			    		<img class="imagem_resort" src="<?php echo base_url('assets');?>/img/semimagem.jpg">
@@ -234,7 +233,7 @@
 		    	    </div>
 			      	<img src="<?php echo base_url('assets');?>/img/icon_resort.png">
 			      </a>
-		        </figure>
+		        </figure>-->
 
 		        <figure id="ico17">
 			      <a href="" alt="" title="">

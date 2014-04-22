@@ -1,8 +1,10 @@
 <section id="residencial">	
 	<aside>
 		<h2>residencial</h2>
-		<p class="tt_medio">TERRENOS DE 420m² a 1260m²</p>
-		<p class="tt_pequeno">antes e depois de aproveitar seus dias nada melhor do que descansar em casa.</p>
+		<p class="tt_medio">TERRENOS RESIDÊNCIAIS A PARTIR DE 420M²</p>
+		<p class="tt_pequeno">Disponibilizamos uma reserva especial de lotes com topografia e
+			<br/> localização privilegiadas para você que quer desfrutar de um lugar junto
+			<br/> à natureza, com a melhor infraestrutura de lazer e segurança da região.</p>
 	</aside>
 
 	<article>
@@ -35,12 +37,9 @@
 		<p class="tt_medio">segurança, lazer, diversão e serviços.<br/>
         tudo para você entrar no clima de solaris.</p>
 
-        <p class="tt_small">VIVA NUM RESIDENCIAL QUE INCORPORA UM RERSORT COMPLETO. 
-        	COMO SE VOCÊ FICASSE EM UM HOTEL SEM TER QUE FAZER RESERVAS OU SE PROGRAMAR.<br/> 
-        	A SUA CASA EM UM LUGAR PERFEITO! VOCÊ E SUA FAMÍLIA IRÃO APROVEITAR SEUS FINAIS 
-        	DE SEMANA SEM SE PREOCUPAREM COM ABSOLUTAMENTE NADA, POIS<br/> ALÉM DE TODO LAZER E 
-        	DIVERSÃO, TERÃO À DISPOSIÇÃO UMA SÉRIE DE SERVIÇOS ADMINISTRADOS PELA HUBERT E 
-        	UM MODERNO SISTEMA DE SEGURANÇA.<br/> SÓ DE PENSAR NISTO, VOCÊ JÁ ENTRA NO CLIMA DA SOLARIS.</p>
+        <p class="tt_small">Viva em um residencial que incorpora um rersort completo, como se você ficasse em um hotel sem ter<br/> que fazer reservas ou se programar.
+A sua casa em um lugar perfeito!
+
 	</aside>
 
 
@@ -86,11 +85,11 @@
 		</div>
 	</article>
 	
-	<aside>		
+	<!--<aside>		
         <figure>
 		  <figcaption class="tt_small">administração<br/> condominial:</figcaption>
 		  <img src="<?php echo base_url('assets');?>/img/hubert.jpg">
 		  <img src="<?php echo base_url('assets');?>/img/icones_hubert.jpg">
 		</figure>		
-	</aside>
+	</aside>-->
 </section>

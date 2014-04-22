@@ -2,8 +2,9 @@
 
 	<aside>
 		<h2>Localização</h2>
-		<p class="tt_pequeno">acesso pelo km 116 da Rod. castelo Branco sentido iperó. 
-		estrada municipal do<br/> bairro santo antônio, s/nº - boituva ligue: 0800.770.7044 ou (11) 3066.1000.</p>
+		<p class="tt_medio tt_medio-laranja">SEJA BEM-VINDO AO SOLARIS.</p>
+		<p class="tt_pequeno">ACESSO PELO KM 116 DA ROD. CASTELO BRANCO SENTIDO IPERÓ. 
+		ESTRADA MUNICIPAL<br/>  DO BAIRRO SANTO ANTÔNIO,S/Nº - BOITUVA - LIGUE:(15) 3268.7618, (15) 99732.2730 ou (15) 99775.4313.</p>
 	</aside>
 
 	<article>

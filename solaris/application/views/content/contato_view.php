@@ -1,7 +1,7 @@
 <section id="contato">
 	<aside>
 		<h2>Contato</h2>
-		<p class="tt_pequeno">ligue: 0800.770.7044, (11) 3066.1000, ou se preferir preencha o formulário abaixo:</p>
+		<p class="tt_pequeno">ligue: (15) 3268.7618, (15) 99732.2730, (15) 99775.4313 <br/> ou se preferir preencha o formulário abaixo:</p>
 		<article>
 			<form id="formSolaris" method="post" action="<?php echo base_url('contato');?>">
 				<div class="form_topo">

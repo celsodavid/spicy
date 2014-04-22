@@ -9,7 +9,7 @@
 			  </a>
 			</figure>
 
-			<figure class="fernandez">
+		<!--<figure class="fernandez">
 				<figcaption class="tt_small">coordenação de vendas:</figcaption>
 			  <a href="" target="_blank" title="coordenação de vendas" alt="coordenação de vendas">
 			  	<img src="<?php echo base_url('assets');?>/img/fernandezmera.png">
@@ -20,7 +20,7 @@
 			  <a href="" target="_blank" title="Hope" alt="Hope">
 			  	<img src="<?php echo base_url('assets');?>/img/hope.png">
 			  </a>
-			</figure>
+			</figure>-->
 		</div>
 
 

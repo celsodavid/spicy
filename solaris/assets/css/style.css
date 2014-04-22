@@ -33,6 +33,8 @@ section#localizacao aside p.tt_medio, section#resort aside p.tt_medio, section#r
 
 section#localizacao article, section#resort article, section#residencial article { width: 100%; min-width: 1345px; float: left;}
 
+section#localizacao aside p.tt_medio-laranja {color:#f7941d;}
+
 /*INDEX*/
 section#index article figure img { max-width: 100%;}
 section#index article aside { width: 100%; margin-top: -3px; float: left;}
