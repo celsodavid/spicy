@@ -1,7 +1,7 @@
 <section id="resort">
 
 	<aside>
-		<h2>resort</h2>
+		<h2>resort Teste</h2>
 		<p class="tt_medio">prepare-se para se divertir. o resort já está pronto.</p>
 		<p class="tt_small">AQUI VOCÊ E SUA FAMILIA NÃO PRECISARÃO APENAS SONHAR COM A 
 			DIVERSÃO, POIS O COMPLEXO DE LAZER ESTÁ PRONTO! VOCÊ PODERÁ APROVEITAR DESDE JÁ.<br/> 
