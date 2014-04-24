@@ -28,7 +28,7 @@
 		    <span id="icones_resort">
 
 		        <figure id="ico01">
-			      <a href="" alt="" title="">
+			      <a class="gallery" href="<?php echo base_url('assets/img/galeria01_poup.jpg'); ?>" title="Mini fazenda tudo para seus filhos interagirem com uma comunidade rural e experimentarem a verdadeira vida no campo.">
 			      	<div class="box-shadow ico01">
 			    		<img class="imagem_resort" src="<?php echo base_url('assets');?>/img/minifazenda1.jpg">
 			    		<img src="<?php echo base_url('assets');?>/img/sobra_box_resort.png">
