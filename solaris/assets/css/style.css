@@ -12,7 +12,7 @@
 body { font-family: 'champagne__limousinesregular'; font-size: 10px;}
 header { width: 100%; min-width: 1345px; background: #000; float: left;}
 header section { width: 1345px; float: left; position: relative; left: 50%; margin-left: -672.5px;}
-header section h1 a { width: 140px; height: 135px; position: absolute; left: 10px; top: 0; z-index: 9999; text-indent: -9999px; background: url(../img/logo_solaris.png) no-repeat;}
+header section h1 a { width: 140px; height: 135px; position: absolute; left: 10px; top: 0; z-index: 100; text-indent: -9999px; background: url(../img/logo_solaris.png) no-repeat;}
 header section nav { width: 500px; height: 62px; float: right; margin-top: -13px;}
 header section nav ul { list-style: none; font-size: 1.6em; letter-spacing: 1px;}
 header section nav ul li { display: inline;}
