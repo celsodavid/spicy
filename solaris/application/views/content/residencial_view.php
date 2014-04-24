@@ -9,7 +9,7 @@
 
 	<article>
 		<div id="residencial_box" class="box01">
-			<a class="gallery" href="<?php echo base_url('assets/img/galeria01_poup.jpg'); ?>" title="Casas já contruidas no local.">
+			<a class="gallery" href="<?php echo base_url('assets/img/img_01_g.jpg'); ?>" title="Casas já contruidas no local.">
 		    	<div class="top_box">
 		    		<p class="tt_top_box">Fotos do Local</p>
 		    	</div>
@@ -17,7 +17,7 @@
 		</div>
 		
 		<div id="residencial_box" class="box02">
-			<a class="gallery" href="<?php echo base_url('assets/img/galeria01_poup.jpg'); ?>" title="Casas já contruidas no local.">
+			<a class="gallery" href="<?php echo base_url('assets/img/img_02_g.jpg'); ?>" title="Casas já contruidas no local.">
 		    	<div class="top_box">
 		    		<p class="tt_top_box">Fotos do Local</p>
 		    	</div>
@@ -25,7 +25,7 @@
 		</div>
 
 		<div id="residencial_box" class="box03">
-			<a class="gallery" href="<?php echo base_url('assets/img/galeria01_poup.jpg'); ?>" title="Casas já contruidas no local.">
+			<a class="gallery" href="<?php echo base_url('assets/img/img_03_g.jpg'); ?>" title="Casas já contruidas no local.">
 		    	<div class="top_box">
 		    		<p class="tt_top_box">Fotos do Local</p>
 		    	</div>
