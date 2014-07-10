@@ -50,31 +50,28 @@ A sua casa em um lugar perfeito!
 			<section>
 				<ul>
 					<li class="casa01">
-						<a class="gallery" href="<?php echo base_url('assets/img/galeria01_poup.jpg'); ?>" title="Casa João Lambert - Quadra 17 - Lotes 15,16  Terreno 867m² - Casa 333m² - Arquiteto João Lambert">
+						<a class="gallery" href="<?php echo base_url('assets/img/nova-galeria01-popup.jpg'); ?>" title="A qualidade de vida que a sua família merece está aqui.">
 						  <div class="top_lista">
-						    <h6>Casa João Lambert</h6>
-				            <p>Quadra 17 - Lotes 15,16  Terreno 867m² - Casa 333m²<br/>  
-				            Arquiteto João Lambert</p>
+						    <h6>Projeto de Casa Térrea em dois lotes</h6>
+				            <p>A qualidade de vida que a sua família merece está aqui.</p>
 						  </div>
 						</a>
 					</li>
 
 					<li class="casa02">
-						<a class="gallery" href="<?php echo base_url('assets/img/galeria02_poup.jpg'); ?>" title="Casa João Carlos Della Manna - Quadra 10 - Lotes 43,44  Terreno 1.153m² - Casa 277m² - Arquiteto João Carlos Della Manna">
+						<a class="gallery" href="<?php echo base_url('assets/img/nova-galeria02-popup.jpg'); ?>" title="Ambiente descontraído para receber momentos deliciosos.">
 						  <div class="top_lista">
-						    <h6>Casa João Carlos Della Manna</h6>
-				            <p>Quadra 10 - Lotes 43,44  Terreno 1.153m² - Casa 277m²<br/>  
-				            Arquiteto João Carlos Della Manna</p>
+						    <h6>Espaço gourmet.</h6>
+				            <p>Ambiente descontraído para receber momentos deliciosos.</p>
 						  </div>
 						</a>
 					</li>
 
 					<li class="casa03">
-						<a class="gallery" href="<?php echo base_url('assets/img/galeria03_poup.jpg'); ?>" title="Casa Patricia Varago - Quadra 7 - Lotes 45,46  Terreno 1.010m² - Casa 530m² - Arquiteto Patricia Varago">
+						<a class="gallery" href="<?php echo base_url('assets/img/nova-galeria03-popup.jpg'); ?>" title="Bem-estar e diversão integrados com a natureza. Harmonia completa para você.">
 						  <div class="top_lista">
-						    <h6>Casa Patricia Varago</h6>
-				            <p>Quadra 7 - Lotes 45,46  Terreno 1.010m² - Casa 530m²<br/>  
-				            Arquiteto Patricia Varago</p>
+						    <h6>Áreas de convívio e lazer</h6>
+				            <p>Bem-estar e diversão integrados com a natureza. Harmonia completa para você.</p>
 						  </div>
 						</a>
 					</li>			

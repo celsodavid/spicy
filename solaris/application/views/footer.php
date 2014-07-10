@@ -23,7 +23,6 @@
 			</figure>-->
 		</div>
 
-
         <figure id="spicy_footer">
 		  <a href="http://www.spicyweb.com.br/" target="_blank" title="SpicyWeb" alt="SpicyWeb"><img src="<?php echo base_url('assets');?>/img/spicy_footer.png"></a>
 		</figure>

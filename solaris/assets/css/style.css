@@ -88,9 +88,9 @@ div.top_lista h6, div.top_lista h6 + p { width: 443px; padding: 0; margin: 0;}
 div.top_lista h6 { font-size: 2.0em; letter-spacing: 1px; padding: 10px 0 0 5px;}
 div.top_lista h6 + p { font-size: 1.4em; letter-spacing: 1px; padding: 5px 0 0 5px; line-height: 2;}
 
-.casa01 { background: url(../img/galeria01.jpg) no-repeat;}
-.casa02 { background: url(../img/galeria02.jpg) no-repeat;}
-.casa03 { background: url(../img/galeria03.jpg) no-repeat;}
+.casa01 { background: url(../img/nova-galeria01.jpg) no-repeat;}
+.casa02 { background: url(../img/nova-galeria02.jpg) no-repeat;}
+.casa03 { background: url(../img/nova-galeria03.jpg) no-repeat;}
 .casa05 { background: url(../img/galeria-teste1.jpg) no-repeat;}
 .casa06 { background: url(../img/galeria-teste2.jpg) no-repeat;}
 .casa07 { background: url(../img/galeria-teste3.jpg) no-repeat;}
@@ -112,7 +112,7 @@ section#residencial aside figure img { margin-left: 20px;}
 
 /*RESORT*/
 section#resort aside p.tt_small { font-size: 1.4em; margin: 20px 0 0 25px; line-height: 22px; float: left; letter-spacing: 1px;}
-section#resort aside figure { float: left; margin-top: 40px;}
+section#resort aside figure { width: 1000px; float: left; margin-top: 40px;}
 section#resort aside figure img { margin-left: 25px; float: left;}
 section#resort aside figcaption { margin: 12px 0 0 15px; letter-spacing: 1px; font-size: 2.0em; color: #f26522; float: left;}
 section#resort article  { width: 100%; float: left; position: relative;}
@@ -124,6 +124,18 @@ p.tt_box-shadow { text-transform: uppercase; font-size: 1.6em; letter-spacing: 1
 p.txt_box-shadow { width: 270px; font-size: 1.5em; color: #000; padding-bottom: 15px; text-align: center; letter-spacing: 1px; line-height: 20px; margin: 0 auto;}
 img.imagem_resort { width: 296px; float: left; -webkit-border-top-left-radius: 10px; -webkit-border-top-right-radius: 10px; -moz-border-radius-topleft: 10px; -moz-border-radius-topright: 10px; border-top-left-radius: 10px; border-top-right-radius: 10px;}
 img.dt_box { position: absolute; bottom: -16px; right: 133px;}
+
+div#slider-resort { width: 800px; position: relative; left: 50%; margin: 40px 0 0 -400px; float: left;}
+div#slider-resort div { width: 800px; float: left; overflow: hidden;}
+div#slider-resort div ul.slider-lista { width: 40000px; float: left; left: 0px; position: relative; list-style: none; padding: 0; margin: 0; -webkit-transition: 0.3s; transition: 0.3s;}
+div#slider-resort div ul.slider-lista li { width: 800px; height: 400px; float: left; position: relative;}
+div#slider-resort div ul.slider-lista li a { text-decoration: none;}
+div#slider-resort div ul.slider-lista li span { width: 100%; height: 55px; position: absolute; z-index: 100; left: 0; bottom: 0; background: rgba(0,0,0,0.5);}
+div#slider-resort div ul.slider-lista li span p { text-align: center; color: #FFFFFF; font-size: 1.7em; letter-spacing: 1px; margin-top: 19px;}
+div#slider-resort a.previous { background: url(../img/esquerda.png) no-repeat scroll center rgba(50, 50, 50, 0.40); padding: 60px 20px 60px 20px; position: absolute; left: 0; top: 140px; z-index: 100; -webkit-transition: 0.3s; transition: 0.3s;}
+div#slider-resort a.previous:hover { background: url(../img/esquerda.png) no-repeat scroll center rgba(50, 50, 50, 0.60); padding: 60px 10px 60px 20px;}
+div#slider-resort a.next { background: url(../img/direita.png) no-repeat scroll center rgba(50, 50, 50, 0.40); padding: 60px 20px 60px 20px; position: absolute; right: 0; top: 140px; z-index: 100; -webkit-transition: 0.3s; transition: 0.3s;}
+div#slider-resort a.next:hover { background: url(../img/direita.png) no-repeat scroll center rgba(50, 50, 50, 0.60); padding: 60px 20px 60px 10px;}
 
 figure#ico01 a:hover div.box-shadow, figure#ico02 a:hover div.box-shadow,
 figure#ico03 a:hover div.box-shadow, figure#ico04 a:hover div.box-shadow,

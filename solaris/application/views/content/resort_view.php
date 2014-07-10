@@ -9,6 +9,86 @@
         52 baías e um projeto com conceito inédito de lazer na região.
         <br/>Viva momentos únicos de diversão.</p>
 
+        	<div id="slider-resort">
+        		<a class="previous" href="" title="anterior"></a>
+        		<div>
+        			<ul class="slider-lista">
+        				<li>
+        					<a class="gallery" href="<?php echo base_url('assets/img/piscina-slider3.jpg'); ?>" title="Um complexo com piscinas e inúmeras atividades para adultos e crianças.">
+        						<img src="<?php echo base_url('assets');?>/img/piscina-slider3.jpg">
+        						<span><p>Um complexo com piscinas e inúmeras atividades para adultos e crianças.</p></span>
+        					</a>
+        				</li>
+        				<li>
+        					<a class="gallery" href="<?php echo base_url('assets/img/academia-g.jpg'); ?>" title="Academia">
+        						<img src="<?php echo base_url('assets');?>/img/academia-g.jpg">
+        						<span><p>Academia totalmente equipada para você cuidar do seu corpo e saúde.</p></span>
+        					</a>
+        				</li>
+        				<li>
+        					<a class="gallery" href="<?php echo base_url('assets/img/haras-slider.jpg'); ?>" title="Deixe seu cavalo em baias espaçosas e confortáveis.">
+        						<img src="<?php echo base_url('assets');?>/img/haras-slider.jpg">
+        						<span><p>Deixe seu cavalo em baias espaçosas e confortáveis. </p></span>
+        					</a>
+        				</li>
+        				<li>
+        					<a class="gallery" href="<?php echo base_url('assets/img/piscina-slider4.jpg'); ?>" title="Um complexo com piscinas e inúmeras atividades para adultos e crianças.">
+        						<img src="<?php echo base_url('assets');?>/img/piscina-slider4.jpg">
+        						<span><p>Um complexo com piscinas e inúmeras atividades para adultos e crianças.</p></span>
+        					</a>
+        				</li>
+        				<li>
+        					<a class="gallery" href="<?php echo base_url('assets/img/haras2-slider.jpg'); ?>" title="Deixe seu cavalo em baias espaçosas e confortáveis.">
+        						<img src="<?php echo base_url('assets');?>/img/haras2-slider.jpg">
+        						<span><p>Deixe seu cavalo em baias espaçosas e confortáveis.</p></span>
+        					</a>
+        				</li>
+        				<li>
+        					<a class="gallery" href="<?php echo base_url('assets/img/piscina-slider2.jpg'); ?>" title="Um complexo com piscinas e inúmeras atividades para adultos e crianças.">
+        						<img src="<?php echo base_url('assets');?>/img/piscina-slider2.jpg">
+        						<span><p>Um complexo com piscinas e inúmeras atividades para adultos e crianças.</p></span>
+        					</a>
+        				</li>
+        				<li>
+        					<a class="gallery" href="<?php echo base_url('assets/img/trilhas-slider.jpg'); ?>" title="Trilha">
+        						<img src="<?php echo base_url('assets');?>/img/trilhas-slider.jpg">
+        						<span><p>Contemple a natureza de perto com estas belas trilhas.</p></span>
+        					</a>
+        				</li>
+        				<li>
+        					<a class="gallery" href="<?php echo base_url('assets/img/trilhas2-slider.jpg'); ?>" title="Trilha">
+        						<img src="<?php echo base_url('assets');?>/img/trilhas2-slider.jpg">
+        						<span><p>Contemple a natureza de perto com estas belas trilhas.</p></span>
+        					</a>
+        				</li>
+        				<li>
+        					<a class="gallery" href="<?php echo base_url('assets/img/salao_jogos_festas-slider.jpg'); ?>" title="Salão de Jogos e Festas">
+        						<img src="<?php echo base_url('assets');?>/img/salao_jogos_festas-slider.jpg">
+        						<span><p>O lazer que você precisa para deixar seus dias mais felizes.</p></span>
+        					</a>
+        				</li>
+        				<li>
+        					<a class="gallery" href="<?php echo base_url('assets/img/academia-slider.jpg'); ?>" title="Academia">
+        						<img src="<?php echo base_url('assets');?>/img/academia-slider.jpg">
+        						<span><p>Academia totalmente equipada para você cuidar do seu corpo e saúde.</p></span>
+        					</a>
+        				</li>
+        				<li>
+        					<a class="gallery" href="<?php echo base_url('assets/img/piscina-slider.jpg'); ?>" title="Um complexo com piscinas e inúmeras atividades para adultos e crianças.">
+        						<img src="<?php echo base_url('assets');?>/img/piscina-slider.jpg">
+        						<span><p>Um complexo com piscinas e inúmeras atividades para adultos e crianças.</p></span>
+        					</a>
+        				</li>
+        				<li>
+        					<a class="gallery" href="<?php echo base_url('assets/img/quadra-tenis-slider.jpg'); ?>" title="Quadras e professores para quem quer começar ou já sabe jogar">
+        						<img src="<?php echo base_url('assets');?>/img/quadra-tenis-slider.jpg">
+        						<span><p>Quadras e professores para quem quer começar ou já sabe jogar.</p></span>
+        					</a>
+        				</li>
+        			</ul>
+        		</div>
+        		<a class="next" title="próximo" href=""></a>
+        	</div>
 
 		<figure>
 			<img src="<?php echo base_url('assets');?>/img/icon_resort.png">
@@ -28,7 +108,7 @@
 		    <span id="icones_resort">
 
 		        <figure id="ico01">
-			      <a class="gallery" href="<?php echo base_url('assets/img/minifazenda1-g.jpg'); ?>" title="Mini fazenda tudo para seus filhos interagirem com uma comunidade rural e experimentarem a verdadeira vida no campo.">
+			      <a class="gallery" href="<?php echo base_url('assets/img/minifazenda1-g.jpg'); ?>" title="Tudo para seus filhos interagirem com uma comunidade rural e experimentarem a verdadeira vida no campo.">
 			      	<div class="box-shadow ico01">
 			    		<img class="imagem_resort" src="<?php echo base_url('assets');?>/img/minifazenda1.jpg">
 			    		<img src="<?php echo base_url('assets');?>/img/sobra_box_resort.png">
@@ -41,7 +121,7 @@
 		        </figure>
 
 		        <figure id="ico02">
-			      <a class="gallery" href="<?php echo base_url('assets/img/minifazenda2-g.jpg'); ?>" title="Mini fazenda tudo para seus filhos interagirem com uma comunidade rural e experimentarem a verdadeira vida no campo.">
+			      <a class="gallery" href="<?php echo base_url('assets/img/minifazenda2-g.jpg'); ?>" title="Tudo para seus filhos interagirem com uma comunidade rural e experimentarem a verdadeira vida no campo.">
 			      	<div class="box-shadow ico02">
 			    		<img class="imagem_resort" src="<?php echo base_url('assets');?>/img/minifazenda2.jpg">
 			    		<img src="<?php echo base_url('assets');?>/img/sobra_box_resort.png">
@@ -67,12 +147,12 @@
 		        </figure>
 
 		        <figure id="ico04">
-			      <a class="gallery" href="<?php echo base_url('assets/img/lago-g.jpg'); ?>" title="Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica.">
+			      <a class="gallery" href="<?php echo base_url('assets/img/lago-g.jpg'); ?>" title="Que tal uma caminhada na areia, mergulho no lago ou apreciar as belezas naturais?">
 			      	<div class="box-shadow ico04">
 			    		<img class="imagem_resort" src="<?php echo base_url('assets');?>/img/lago.jpg">
 			    		<img src="<?php echo base_url('assets');?>/img/sobra_box_resort.png">
 			    		<p class="tt_box-shadow">lago com praia</p>
-			    		<p class="txt_box-shadow">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica.</p>
+			    		<p class="txt_box-shadow">Que tal uma caminhada na areia, mergulho no lago ou apreciar as belezas naturais?</p>
 	                    <img class="dt_box" src="<?php echo base_url('assets');?>/img/detalhe_sobra_box_resort.png">
 		    	    </div>
 			      	<img src="<?php echo base_url('assets');?>/img/icon_resort.png">
@@ -80,12 +160,12 @@
 		        </figure>
 
 		        <figure id="ico05">
-			      <a class="gallery" href="<?php echo base_url('assets/img/haras-g.jpg'); ?>" title="Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica.">
+			      <a class="gallery" href="<?php echo base_url('assets/img/haras-g.jpg'); ?>" title="Um belo campo para você andar a cavalo. Experimente uma verdadeira vida no campo.">
 			      	<div class="box-shadow ico05">
 			    		<img class="imagem_resort" src="<?php echo base_url('assets');?>/img/haras.jpg">
 			    		<img src="<?php echo base_url('assets');?>/img/sobra_box_resort.png">
 			    		<p class="tt_box-shadow">haras</p>
-			    		<p class="txt_box-shadow">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica.</p>
+			    		<p class="txt_box-shadow">Um belo campo para você andar a cavalo. Experimente uma verdadeira vida no campo.</p>
 	                    <img class="dt_box" src="<?php echo base_url('assets');?>/img/detalhe_sobra_box_resort.png">
 		    	    </div>
 			      	<img src="<?php echo base_url('assets');?>/img/icon_resort.png">
@@ -93,12 +173,12 @@
 		        </figure>
 
 		         <figure id="ico06">
-			       <a class="gallery" href="<?php echo base_url('assets/img/trilhas-g.jpg'); ?>" title="Um complexo com piscinas e inúmeras atividades para adultos e crianças.">
+			       <a class="gallery" href="<?php echo base_url('assets/img/trilhas-g.jpg'); ?>" title="Contemple a natureza de perto com estas belas trilhas.">
                   	<div class="box-shadow ico06">
 			    		<img class="imagem_resort" src="<?php echo base_url('assets');?>/img/trilhas.jpg">
 			    		<img src="<?php echo base_url('assets');?>/img/sobra_box_resort.png">
 			    		<p class="tt_box-shadow">trilhas</p>
-			    		<p class="txt_box-shadow">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica.</p>
+			    		<p class="txt_box-shadow">Contemple a natureza de perto com estas belas trilhas.</p>
 	                    <img class="dt_box" src="<?php echo base_url('assets');?>/img/detalhe_sobra_box_resort.png">
 		    	    </div>
 			      	<img src="<?php echo base_url('assets');?>/img/icon_resort.png">
@@ -158,9 +238,9 @@
 		        </figure>
 
 		        <figure id="ico11">
-			      <a href="" alt="" title="">
+			      <a class="gallery" href="<?php echo base_url('assets/img/quadra-tenis-g.jpg'); ?>" title="Quadras e professores para quem quer começar ou já sabe jogar">
 			      	<div class="box-shadow ico11">
-			    		<img class="imagem_resort" src="<?php echo base_url('assets');?>/img/semimagem.jpg">
+			    		<img class="imagem_resort" src="<?php echo base_url('assets');?>/img/quadra-tenis.jpg">
 			    		<img src="<?php echo base_url('assets');?>/img/sobra_box_resort.png">
 			    		<p class="tt_box-shadow">quadras de tênis</p>
 			    		<p class="txt_box-shadow">Quadras e professores para quem quer começar ou já sabe jogar</p>
@@ -171,12 +251,12 @@
 		        </figure>
 
 		        <figure id="ico12">
-			      <a href="" alt="" title="">
+			      <a class="gallery" href="<?php echo base_url('assets/img/campo-g.jpg');?>" title="Os apaixonados por futebol vão amar um campo de futebol como esse.">
 			      	<div class="box-shadow ico12">
-			    		<img class="imagem_resort" src="<?php echo base_url('assets');?>/img/semimagem.jpg">
+			    		<img class="imagem_resort" src="<?php echo base_url('assets');?>/img/campo.jpg">
 			    		<img src="<?php echo base_url('assets');?>/img/sobra_box_resort.png">
 			    		<p class="tt_box-shadow">campo de futebol com gramado</p>
-			    		<p class="txt_box-shadow">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica.</p>
+			    		<p class="txt_box-shadow">Os apaixonados por futebol vão amar um campo de futebol como esse.</p>
 	                    <img class="dt_box" src="<?php echo base_url('assets');?>/img/detalhe_sobra_box_resort.png">
 		    	    </div>
 			      	<img src="<?php echo base_url('assets');?>/img/icon_resort.png">
@@ -184,12 +264,12 @@
 		        </figure>
 
 		        <figure id="ico13">
-			      <a href="" alt="" title="">
+			      <a class="gallery" href="<?php echo base_url('assets/img/academia-g.jpg');?>" title="Academia totalmente equipada para você cuidar do seu corpo e saúde.">
 			      	<div class="box-shadow ico13">
-			    		<img class="imagem_resort" src="<?php echo base_url('assets');?>/img/semimagem.jpg">
+			    		<img class="imagem_resort" src="<?php echo base_url('assets');?>/img/academia.jpg">
 			    		<img src="<?php echo base_url('assets');?>/img/sobra_box_resort.png">
-			    		<p class="tt_box-shadow">academia</p>
-			    		<p class="txt_box-shadow">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica.</p>
+			    		<p class="tt_box-shadow">Academia</p>
+			    		<p class="txt_box-shadow">Academia totalmente equipada para você cuidar do seu corpo e saúde.</p>
 	                    <img class="dt_box" src="<?php echo base_url('assets');?>/img/detalhe_sobra_box_resort.png">
 		    	    </div>
 			      	<img src="<?php echo base_url('assets');?>/img/icon_resort.png">
@@ -210,12 +290,12 @@
 		        </figure>
 
 		        <figure id="ico15">
-			      <a href="" alt="" title="">
+			      	<a class="gallery" href="<?php echo base_url('assets/img/churrasqueira.jpg'); ?>" title="Chame sua família e amigos para um delicioso churrasco aqui.">
 			      	<div class="box-shadow ico15">
-			    		<img class="imagem_resort" src="<?php echo base_url('assets');?>/img/semimagem.jpg">
+			    		<img class="imagem_resort" src="<?php echo base_url('assets');?>/img/churras.jpg">
 			    		<img src="<?php echo base_url('assets');?>/img/sobra_box_resort.png">
 			    		<p class="tt_box-shadow">Churrasqueiras</p>
-			    		<p class="txt_box-shadow">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica.</p>
+			    		<p class="txt_box-shadow">Chame sua família e amigos para um delicioso churrasco aqui.</p>
 	                    <img class="dt_box" src="<?php echo base_url('assets');?>/img/detalhe_sobra_box_resort.png">
 		    	    </div>
 			      	<img src="<?php echo base_url('assets');?>/img/icon_resort.png">
@@ -235,7 +315,7 @@
 			      </a>
 		        </figure>-->
 
-		        <figure id="ico17">
+		        <!--<figure id="ico17">
 			      <a href="" alt="" title="">
 			      	<div class="box-shadow ico17">
 			    		<img class="imagem_resort" src="<?php echo base_url('assets');?>/img/semimagem.jpg">
@@ -246,15 +326,15 @@
 		    	    </div>
 			      	<img src="<?php echo base_url('assets');?>/img/icon_resort.png">
 			      </a>
-		        </figure>
+		        </figure>-->
 		        
 		        <figure id="ico18">
-			      <a href="" alt="" title="">
+			      	<a class="gallery" href="<?php echo base_url('assets/img/salao_jogos_festas-g.jpg'); ?>" title="O lazer que você precisa para deixar seus dias mais felizes.">
 			      	<div class="box-shadow ico18">
 			    		<img class="imagem_resort" src="<?php echo base_url('assets');?>/img/salao_jogos_festas.jpg">
 			    		<img src="<?php echo base_url('assets');?>/img/sobra_box_resort.png">
 			    		<p class="tt_box-shadow">Salão de jogos e festas</p>
-			    		<p class="txt_box-shadow">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica.</p>
+			    		<p class="txt_box-shadow">O lazer que você precisa para deixar seus dias mais felizes.</p>
 	                    <img class="dt_box" src="<?php echo base_url('assets');?>/img/detalhe_sobra_box_resort.png">
 		    	    </div>
 			      	<img src="<?php echo base_url('assets');?>/img/icon_resort.png">
@@ -262,7 +342,7 @@
 		        </figure>
 
 		        <figure id="ico19">
-			      <a href="" alt="" title="">
+			      	<a class="gallery" href="<?php echo base_url('assets/img/pousada-popup.jpg'); ?>" title="Antes e depois de aproveitar seus dias, nada melhor do que descansar em casa.">
 			      	<div class="box-shadow ico19">
 			    		<img class="imagem_resort" src="<?php echo base_url('assets');?>/img/pousada.jpg">
 			    		<img src="<?php echo base_url('assets');?>/img/sobra_box_resort.png">

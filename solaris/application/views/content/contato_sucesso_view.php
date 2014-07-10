@@ -27,7 +27,7 @@
 $(function(){
 	contador(5);
 });
-</script>
+</script> -->
 
 
 

@@ -199,10 +199,27 @@ $(function() {
 		});
 		return false;
 	});
-	
-	
-	
-	
+
+	var estado = 1
+	var total = $(".slider-lista li").size()
+	$(".next").on("click", function(){
+		if(estado < total)
+		{
+		$(".slider-lista").css("left","-=800px")
+		estado++
+	    }
+		return false;
+	})
+
+	$(".previous").on("click", function(){
+		if(estado > 1)
+		{
+		$(".slider-lista").css("left","+=800px")
+		estado--	
+		}
+		return false;
+	})
+
 	/*$("#setaD").on("click",function(){		
 		$("#container-galeria section ul").animate({left:"+=447"}, 1200);
 		return false;

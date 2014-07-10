@@ -29,7 +29,7 @@
 $(function(){
 	contador(15);
 });
-</script>
+</script>-->
 
 
 
