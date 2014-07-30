@@ -9,7 +9,7 @@
 
 	<article>
 		<div id="residencial_box" class="box01">
-			<a class="gallery" href="<?php echo base_url('assets/img/img_01_g.jpg'); ?>" title="Casas já contruidas no local.">
+			<a class="gallery" href="<?php echo base_url('assets/img/img_01_g.jpg'); ?>" title="Casas já construídas no local.">
 		    	<div class="top_box">
 		    		<p class="tt_top_box">Fotos do Local</p>
 		    	</div>
@@ -17,7 +17,7 @@
 		</div>
 		
 		<div id="residencial_box" class="box02">
-			<a class="gallery" href="<?php echo base_url('assets/img/img_02_g.jpg'); ?>" title="Casas já contruidas no local.">
+			<a class="gallery" href="<?php echo base_url('assets/img/img_02_g.jpg'); ?>" title="Casas já construídas no local.">
 		    	<div class="top_box">
 		    		<p class="tt_top_box">Fotos do Local</p>
 		    	</div>
@@ -25,7 +25,7 @@
 		</div>
 
 		<div id="residencial_box" class="box03">
-			<a class="gallery" href="<?php echo base_url('assets/img/img_03_g.jpg'); ?>" title="Casas já contruidas no local.">
+			<a class="gallery" href="<?php echo base_url('assets/img/img_03_g.jpg'); ?>" title="Casas já construídas no local.">
 		    	<div class="top_box">
 		    		<p class="tt_top_box">Fotos do Local</p>
 		    	</div>
@@ -59,16 +59,16 @@ A sua casa em um lugar perfeito!
 					</li>
 
 					<li class="casa02">
-						<a class="gallery" href="<?php echo base_url('assets/img/nova-galeria02-popup.jpg'); ?>" title="Ambiente descontraído para receber momentos deliciosos.">
+						<a class="gallery" href="<?php echo base_url('assets/img/nova-galeria02-popup.jpg'); ?>" title="Ambiente descontraído para viver momentos deliciosos.">
 						  <div class="top_lista">
 						    <h6>Espaço gourmet.</h6>
-				            <p>Ambiente descontraído para receber momentos deliciosos.</p>
+				            <p>Ambiente descontraído para viver momentos deliciosos.</p>
 						  </div>
 						</a>
 					</li>
 
 					<li class="casa03">
-						<a class="gallery" href="<?php echo base_url('assets/img/nova-galeria03-popup.jpg'); ?>" title="Bem-estar e diversão integrados com a natureza. Harmonia completa para você.">
+						<a class="gallery" href="<?php echo base_url('assets/img/nova-galeria03-popup.jpg'); ?>" title="Bem-estar e diversão integrados à natureza. Harmonia completa para você.">
 						  <div class="top_lista">
 						    <h6>Áreas de convívio e lazer</h6>
 				            <p>Bem-estar e diversão integrados com a natureza. Harmonia completa para você.</p>

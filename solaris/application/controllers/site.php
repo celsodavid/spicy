@@ -84,19 +84,11 @@ class Site extends CI_Controller {
 			
 			$this->load->library('email');
 			$this->email->from($this->input->post('email'),$this->input->post('nome'));
+			$this->email->to('solarisresidencial@hotmail.com'); //paulobaronista@gmail.com
 			#$this->email->to('kaubatalha@abacusconsultoria.com.br'); // São Paulo
 			#$this->email->cc('');
 			#$this->email->bcc('wasposato@bol.com.br','solaris@solarisboituva.com.br'); // Boituva
-			
 			#$this->email->to('solaris@solarisboituva.com.br');
-			#$this->email->cc('celunico43@gmail.com');
-			
-			#$this->email->cc('tarsila@spicycomm.com.br');
-
-			$this->email->to('paulobaronista@gmail.com');
-			$this->email->cc('paulobaronista@gmail.com');
-
-			
 			$this->email->subject('Contato via site ['.base_url().']');
 			$this->email->message($mensagem);
 			if($this->email->send()) {

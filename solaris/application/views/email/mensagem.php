@@ -3,7 +3,7 @@
 	<head>
 		<meta content="pt-br" http-equiv="Content-Language" />
 		<meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
-		<title>Mensagem de TESTE encaminhada pelo website</title>
+		<title>Mensagem encaminhada pelo website</title>
 		<style type="text/css">
 			div { width: 700px; float: left; border-bottom: solid 20px #000; padding-bottom: 20px;}
 			div p { margin-left: 100px;}
@@ -12,9 +12,9 @@
 	
 	<body>
 		<div>
-		  <img src="<?php echo base_url('assets/img/email.jpg');?>" alt="Solaris Resort Apartamentos em Boituva" />
+		  <!-- <img src="<?php echo base_url('assets/img/email.jpg');?>" alt="Solaris Resort Apartamentos em Boituva" /> -->
 		  <p><strong>Nome:</strong> <?php echo $nome;?></p>
-		  <p><strong>E-mail:</strong> <?php $email;?></p>
+		  <p><strong>E-mail:</strong> <?php echo $email;?></p>
 		  <p><strong>Telefone:</strong> <?php echo $telefone;?></p>
 		  <p><strong>Estado civil:</strong> <?php echo $estado_civil;?></p>
 		  <p><strong>Idade:</strong> <?php echo $idade;?></p>

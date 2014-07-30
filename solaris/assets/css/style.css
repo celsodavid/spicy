@@ -10,8 +10,8 @@
 }
 
 body { font-family: 'champagne__limousinesregular'; font-size: 10px;}
-header { width: 100%; min-width: 1345px; background: #000; float: left;}
-header section { width: 1345px; float: left; position: relative; left: 50%; margin-left: -672.5px;}
+header { width: 100%; min-width: 1200px; max-width: 1920px; background: #000; float: left;}
+header section { width: 1200px; float: left; position: relative; left: 50%; margin-left: -600px;}
 header section h1 a { width: 140px; height: 135px; position: absolute; left: 10px; top: 0; z-index: 100; text-indent: -9999px; background: url(../img/logo_solaris.png) no-repeat;}
 header section nav { width: 500px; height: 62px; float: right; margin-top: -13px;}
 header section nav ul { list-style: none; font-size: 1.6em; letter-spacing: 1px;}
@@ -21,19 +21,36 @@ header section nav ul li a:hover { color: #f7941d;}
 header section nav ul li a.active { color: #f7941d;}
 
 /*BASES*/
-section#localizacao, section#resort, section#index, section#residencial, footer, section#contato, section#ContatoSucesso { width: 100%; min-width: 1345px; float: left;} 
+section#index { width: 100%; max-width: 1920px;  float: left;} 
 
-section#localizacao aside, section#resort aside, section#residencial aside, footer article, section#contato aside, section#ContatoSucesso aside { width: 1345px; float: left; position: relative; left: 50%; margin-left: -672.5px; text-transform: uppercase;}
+section#residencial { width: 100%; max-width: 1920px; min-width: 1200px; float: left;} 
+section#residencial aside { width: 1200px; float: left; position: relative; left: 50%; margin-left: -600px; text-transform: uppercase;}
+section#residencial article { width: 100%; min-width: 1200px; float: left;}
+section#residencial h2 { width: 1175px; font-size: 5.0em; letter-spacing: 2px; margin: 70px 0 0 25px; float: left; font-weight: 100; color: #f7941d;}
 
-section#localizacao aside h2, section#resort aside h2, section#residencial h2, section#contato h2, section#ContatoSucesso h2 { width: 1320px; font-size: 5.0em; letter-spacing: 2px; margin: 70px 0 0 25px; float: left; font-weight: 100; color: #f7941d;}
+section#resort { width: 100%; min-width: 1200px; max-width: 1920px; float: left;} 
+section#resort aside { width: 1200px; float: left; position: relative; left: 50%; margin-left: -600px; text-transform: uppercase;}
+section#resort aside h2 { width: 1175px; font-size: 5.0em; letter-spacing: 2px; margin: 70px 0 0 25px; float: left; font-weight: 100; color: #f7941d;}
+section#resort article { width: 100%; min-width: 1200px; max-width: 1920px; float: left;}
 
-section#localizacao aside p.tt_medio, section#localizacao aside p.tt_pequeno, section#resort aside p.tt_medio, section#residencial p.tt_medio, section#residencial p.tt_pequeno, section#contato p.tt_pequeno, section#ContatoSucesso p.tt_pequeno { color: #000000; letter-spacing: 1px; float: left;}
-
-section#localizacao aside p.tt_medio, section#resort aside p.tt_medio, section#residencial p.tt_medio { font-size: 3.5em; margin: 30px 0 0 25px;}
-
-section#localizacao article, section#resort article, section#residencial article { width: 100%; min-width: 1345px; float: left;}
-
+section#localizacao { width: 100%; min-width: 1200px; float: left;} 
+section#localizacao aside { width: 1200px; float: left; position: relative; left: 50%; margin-left: -600px; text-transform: uppercase;}
+section#localizacao aside h2 { width: 1175px; font-size: 5.0em; letter-spacing: 2px; margin: 70px 0 0 25px; float: left; font-weight: 100; color: #f7941d;}
+section#localizacao article { width: 100%; min-width: 1200px; float: left;}
 section#localizacao aside p.tt_medio-laranja {color:#f7941d;}
+
+section#contato { width: 100%; min-width: 1200px; float: left;} 
+section#contato aside { width: 1200px; float: left; position: relative; left: 50%; margin-left: -600px; text-transform: uppercase;}
+section#contato h2 { width: 1200px; font-size: 5.0em; letter-spacing: 2px; margin: 70px 0 0 25px; float: left; font-weight: 100; color: #f7941d;}
+
+footer { width: 100%;  max-width: 1920px; min-width: 1200px; float: left;}
+footer article { width: 1200px; float: left; position: relative; left: 50%; margin-left: -600px; text-transform: uppercase;}
+
+section#ContatoSucesso { width: 100%; min-width: 1200px; float: left;} 
+section#ContatoSucesso aside { width: 1200px; float: left; position: relative; left: 50%; margin-left: -600px; text-transform: uppercase;}
+section#ContatoSucesso h2 { width: 1175px; font-size: 5.0em; letter-spacing: 2px; margin: 70px 0 0 25px; float: left; font-weight: 100; color: #f7941d;}
+section#localizacao aside p.tt_medio, section#localizacao aside p.tt_pequeno, section#resort aside p.tt_medio, section#residencial p.tt_medio, section#residencial p.tt_pequeno, section#contato p.tt_pequeno, section#ContatoSucesso p.tt_pequeno { color: #000000; letter-spacing: 1px; float: left;}
+section#localizacao aside p.tt_medio, section#resort aside p.tt_medio, section#residencial p.tt_medio { font-size: 3.5em; margin: 30px 0 0 25px;}
 
 /*INDEX*/
 section#index article figure img { max-width: 100%;}
@@ -65,16 +82,16 @@ div#residencial_box a:hover div.top_box { height: 60px; background: rgba(255,255
 .box02 { background: url(../img/img_02.jpg) no-repeat;}
 .box03 { background: url(../img/img_03.jpg) no-repeat;}
 
-article#galeria { width: 100%; min-width: 1345px; float: left; position: relative;}
-div#container-galeria { width: 1345px; float: left; position: relative; left: 50%; margin-left: -672.5px;}
-div#container-galeria section { width: 1339px; overflow: hidden; position: relative;}
+article#galeria { width: 100%; min-width: 1200px; float: left; position: relative;}
+div#container-galeria { width: 1200px; float: left; position: relative; left: 50%; margin-left: -600px;}
+div#container-galeria section { width: 1200px; overflow: hidden; position: relative;}
 
 /* ul tinha width:2680px; */
 div#container-galeria section ul { height: 324px; padding: 0; margin: 0; float: left; position: relative; list-style: none;}
 div#container-galeria section ul li { text-decoration: none; display: inline-block; padding: 0; margin-right: -2px}
 div#container-galeria section ul li a { text-decoration: none;}
 
-div#container-galeria section ul li { width: 448.3px; height: 100%; float: left; position: relative; background-size:100% 100%; -webkit-background-size: 100% 100%; -o-background-size: 100% 100%; -khtml-background-size: 100% 100%; -moz-background-size: 100% 100%;}
+div#container-galeria section ul li { width: 400px; height: 100%; float: left; position: relative; background-size:100% 100%; -webkit-background-size: 100% 100%; -o-background-size: 100% 100%; -khtml-background-size: 100% 100%; -moz-background-size: 100% 100%;}
 div#container-galeria section ul li a { width: 100%; height: 324px; float: left; display: block; background: rgba(0,0,0,0.6); -webkit-transition: 0.7s ease-out; transition: 0.7s ease-out;}
 div#container-galeria section ul li a:hover { background: transparent;}
 
@@ -84,7 +101,7 @@ div#container-galeria section ul li a:hover div.top_lista { width: 100%; backgro
 div#container-galeria section ul li.active a { background: transparent;}
 div#container-galeria section ul li.active a div.top_lista { width: 100%; background: rgba(255,255,255,0.7); color: #000; -webkit-transition: 0.7s ease-in; transition: 0.7s ease-in;}
 
-div.top_lista h6, div.top_lista h6 + p { width: 443px; padding: 0; margin: 0;}
+div.top_lista h6, div.top_lista h6 + p { width: 400px; padding: 0; margin: 0;}
 div.top_lista h6 { font-size: 2.0em; letter-spacing: 1px; padding: 10px 0 0 5px;}
 div.top_lista h6 + p { font-size: 1.4em; letter-spacing: 1px; padding: 5px 0 0 5px; line-height: 2;}
 
@@ -116,7 +133,8 @@ section#resort aside figure { width: 1000px; float: left; margin-top: 40px;}
 section#resort aside figure img { margin-left: 25px; float: left;}
 section#resort aside figcaption { margin: 12px 0 0 15px; letter-spacing: 1px; font-size: 2.0em; color: #f26522; float: left;}
 section#resort article  { width: 100%; float: left; position: relative;}
-div#planta_resort { width: 100%; min-width: 1345px; max-width: 1903px; max-height: 1360px; margin-top: 55px;}
+
+div#planta_resort { width: 100%; max-width: 1903px; max-height: 1360px; margin-top: 55px;}
 div#planta_resort img { max-width: 100%;}
 span#icones_resort { width: 100%; position: absolute; z-index: 100; top: 0; left: 0;}
 div.box-shadow { width: 296px; display: none; background: #FFF; position: absolute; z-index: 200; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; -webkit-box-shadow: 0px 0px 2px 2px rgba(50, 50, 50, 0.40); -moz-box-shadow: 0px 0px 2px 2px rgba(50, 50, 50, 0.40); box-shadow: 0px 0px 2px 2px rgba(50, 50, 50, 0.40);}
@@ -155,16 +173,16 @@ figure#ico02 { position: absolute; margin: 25% 0 0 47%;}
 div.ico02 { position: absolute; margin: -835% 0 0 -289%;}
 
 figure#ico03 { position: absolute; margin: 51% 0 0 80%;}
-div.ico03 { position: absolute; margin: -790% 0 0 -289%;}
+div.ico03 { position: absolute; margin: -830% 0 0 -289%;}
 
 figure#ico04 { position: absolute; margin: 18% 0 0 55%;}
-div.ico04 { position: absolute; margin: -830% 0 0 -289%;}
+div.ico04 { position: absolute; margin: -780% 0 0 -289%;}
 
 figure#ico05 { position: absolute; margin: 30% 0 0 58%;}
 div.ico05 { position: absolute; margin: -830% 0 0 -289%;}
 
 figure#ico06 { position: absolute; margin: 17% 0 0 77%;}
-div.ico06 { position: absolute; margin: -830% 0 0 -289%;}
+div.ico06 { position: absolute; margin: -780% 0 0 -289%;}
 
 figure#ico07 { position: absolute; margin: 23% 0 0 60%;}
 div.ico07 { position: absolute; margin: -830% 0 0 -289%;}
@@ -182,16 +200,16 @@ figure#ico11 { position: absolute; margin: 31% 0 0 47%;}
 div.ico11 { position: absolute; margin: -785% 0 0 -289%;}
 
 figure#ico12 { position: absolute; margin: 39% 0 0 26%;}
-div.ico12 { position: absolute; margin: -825% 0 0 -289%;}
+div.ico12 { position: absolute; margin: -780% 0 0 -289%;}
 
 figure#ico13 { position: absolute; margin: 36% 0 0 53%;}
-div.ico13 { position: absolute; margin: -825% 0 0 -289%;}
+div.ico13 { position: absolute; margin: -780% 0 0 -289%;}
 
 figure#ico14 { position: absolute; margin: 39% 0 0 58%;}
-div.ico14 { position: absolute; margin: -825% 0 0 -289%;}
+div.ico14 { position: absolute; margin: -780% 0 0 -289%;}
 
 figure#ico15 { position: absolute; margin: 45% 0 0 62%;}
-div.ico15 { position: absolute; margin: -825% 0 0 -289%;}
+div.ico15 { position: absolute; margin: -780% 0 0 -289%;}
 
 figure#ico16 { position: absolute; margin: 51% 0 0 37%;}
 div.ico16 { position: absolute; margin: -825% 0 0 -289%;}
@@ -200,10 +218,10 @@ figure#ico17 { position: absolute; margin: 60% 0 0 54%;}
 div.ico17 { position: absolute; margin: -825% 0 0 -289%;}
 
 figure#ico18 { position: absolute; margin: 62% 0 0 74%;}
-div.ico18 { position: absolute; margin: -825% 0 0 -289%;}
+div.ico18 { position: absolute; margin: -780% 0 0 -289%;}
 
 figure#ico19 { position: absolute; margin: 54% 0 0 85%;}
-div.ico19 { position: absolute; margin: -785% 0 0 -289%;}
+div.ico19 { position: absolute; margin: -830% 0 0 -289%;}
 
 /*CONTATO*/
 section#contato article { width: 1052px; margin: 30px 0 0 25px; float: left; position: relative;}
